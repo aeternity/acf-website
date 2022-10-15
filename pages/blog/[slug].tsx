@@ -25,11 +25,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 const PostLayout = ({ post }: { post: BlogPost }) => {
   return (
-    <>
+    <div className="p-4">
       <Head>
         <title>{post.title}</title>
       </Head>
-      <article className="mx-auto max-w-2xl py-16">
+      <article className="mx-auto max-w-2xl py-16 prose prose-xl">
         <div className="mb-6 text-center">
           <Link href="/">
             <a className="text-center text-sm font-bold uppercase text-blue-700">
@@ -49,7 +49,7 @@ const PostLayout = ({ post }: { post: BlogPost }) => {
           dangerouslySetInnerHTML={{ __html: post.body.html }}
         />
       </article>
-    </>
+    </div>
   );
 };
 
