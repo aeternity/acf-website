@@ -13,15 +13,29 @@ export type BlogPost = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'BlogPost'
-  /** The title of the post */
   title: string
-  /** The date of the post */
   date: IsoDateTimeString
-  /** Author of the post */
   author?: string | undefined
   /** Markdown file body */
   body: Markdown
   url: string
+}
+
+export type Person = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Person'
+  /** Sorting index */
+  index: number
+  name: string
+  /** Role in ACF */
+  position: string
+  /** Portrait */
+  imageSrc: string
+  /** Markdown file body */
+  body: Markdown
+
 }  
 
 /** Nested types */
@@ -32,8 +46,8 @@ export type BlogPost = {
 export type AllTypes = DocumentTypes | NestedTypes
 export type AllTypeNames = DocumentTypeNames | NestedTypeNames
 
-export type DocumentTypes = BlogPost
-export type DocumentTypeNames = 'BlogPost'
+export type DocumentTypes = BlogPost | Person
+export type DocumentTypeNames = 'BlogPost' | 'Person'
 
 export type NestedTypes = never
 export type NestedTypeNames = never
@@ -55,6 +69,7 @@ declare global {
 
 export type DocumentTypeMap = {
   BlogPost: BlogPost
+  Person: Person
 }
 
 export type NestedTypeMap = {

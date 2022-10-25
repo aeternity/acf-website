@@ -1,0 +1,19 @@
+{
+  "index": 2,
+  "name": "Yanislav Malahov",
+  "position": "Advisor",
+  "imageSrc": "/portraits/Yanislav_Malahov.jpeg",
+  "body": {
+    "raw": "\nHaving exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is a true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on blockchains. Now, with\næternity, a new version of his vision is becoming reality once more.\n",
+    "html": "<p>Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is a true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on blockchains. Now, with\næternity, a new version of his vision is becoming reality once more.</p>"
+  },
+  "_id": "persons/Yanislav_Malahov.md",
+  "_raw": {
+    "sourceFilePath": "persons/Yanislav_Malahov.md",
+    "sourceFileName": "Yanislav_Malahov.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/Yanislav_Malahov"
+  },
+  "type": "Person"
+}

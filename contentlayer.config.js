@@ -2,33 +2,32 @@ import { defineDocumentType, makeSource } from "contentlayer/source-files";
 
 export const BlogPost = defineDocumentType(() => ({
   name: "BlogPost",
-  filePathPattern: `**/*.md`,
+  filePathPattern: `blog/**/*.md`,
   fields: {
-    title: {
-      type: "string",
-      description: "The title of the post",
-      required: true,
-    },
-    date: {
-      type: "date",
-      description: "The date of the post",
-      required: true,
-    },
-    author: {
-      type: "string",
-      description: "Author of the post",
-      required: false,
-    },
+    title: { type: "string", required: true },
+    date: { type: "date", required: true },
+    author: { type: "string", required: false },
   },
   computedFields: {
     url: {
       type: "string",
-      resolve: (post) => `/blog/${post._raw.flattenedPath}`,
+      resolve: (post) => `${post._raw.flattenedPath}`,
     },
   },
 }));
 
+export const Person = defineDocumentType(() => ({
+  name: "Person",
+  filePathPattern: `persons/*.md`,
+  fields: {
+    index: { type: "number", required: true, description: "Sorting index" },
+    name: { type: "string", required: true },
+    position: { type: "string", description: "Role in ACF", required: true },
+    imageSrc: { type: "string", description: "Portrait", required: true },
+  },
+}));
+
 export default makeSource({
-  contentDirPath: "blog_posts",
-  documentTypes: [BlogPost],
+  contentDirPath: "content",
+  documentTypes: [BlogPost, Person],
 });
