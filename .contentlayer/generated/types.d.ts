@@ -32,7 +32,7 @@ export type Person = {
   /** Role in ACF */
   position: string
   /** Portrait */
-  imageSrc: string
+  imageSrc?: string | undefined
   /** Markdown file body */
   body: Markdown
 

@@ -11,20 +11,23 @@ export async function getStaticProps() {
   return { props: { persons } };
 }
 
-function PostCard(person: Person) {
+function PersonCard(person: Person) {
   return (
-    <div className="mb-6 p-4 prose card shadow-xl">
-      <figure>
-        <Image
-          src={person.imageSrc}
-          alt={`${person.name} portrait`}
-          width={200}
-          height={200}
-        />
-      </figure>
-      <div className="card-body flex space-x-2">
+    <div className="card card-compact shadow-sm border border-primary/5 max-w-[420px]">
+      {person.imageSrc ? (
+        <figure className="block bg-blend-darken">
+          <Image
+            src={person.imageSrc}
+            alt={`${person.name} portrait`}
+            width={420}
+            height={420}
+            layout="intrinsic"
+          />
+        </figure>
+      ) : null}
+      <div className="card-body prose p-1">
         <div>
-          <h2 className={"card-title"}>{person.name}</h2>
+          <h2 className="card-title mt-1">{person.name}</h2>
           <h4>{person.position}</h4>
         </div>
         <div
@@ -38,15 +41,15 @@ function PostCard(person: Person) {
 
 export default function Home({ persons }: { persons: Person[] }) {
   return (
-    <div className="pt-4">
+    <div className="">
       <Head>
         <title>ACF - Who We Are</title>
       </Head>
       <h1 className="mb-8 text-3xl font-bold">Who We Are</h1>
 
-      <div className="flex space-x-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
         {persons.map((person, idx) => (
-          <PostCard key={idx} {...person} />
+          <PersonCard key={idx} {...person} />
         ))}
       </div>
     </div>

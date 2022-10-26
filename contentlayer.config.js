@@ -23,7 +23,7 @@ export const Person = defineDocumentType(() => ({
     index: { type: "number", required: true, description: "Sorting index" },
     name: { type: "string", required: true },
     position: { type: "string", description: "Role in ACF", required: true },
-    imageSrc: { type: "string", description: "Portrait", required: true },
+    imageSrc: { type: "string", description: "Portrait", required: false },
   },
 }));
 
