@@ -106,7 +106,7 @@ export default function Layout({ children }: { children: ReactElement }) {
       />
       <div className="drawer-content">
         <div className=" lg:mx-8 2xl:mx-12 max-w-screen-2xl ">
-          <div className="navbar w-full bg-base-100 border-b-2 border-b-primary fixed top-0 ">
+          <div className="navbar w-full bg-base-100 border-b-2 border-b-primary fixed top-0 z-50">
             <div className="navbar-start">
               <label
                 className="btn btn-ghost drawer-button md:hidden text-2xl"
