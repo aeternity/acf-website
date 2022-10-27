@@ -1,53 +1,55 @@
 import Head from "next/head";
-import Link from "next/link";
-import { compareDesc, format, parseISO } from "date-fns";
 import { allPeople, Person } from "contentlayer/generated";
-import Image from "next/image";
+import { PersonCard } from "../components/PersonCard";
 
 export async function getStaticProps() {
   const persons = allPeople.sort((a, b) => {
-    return compareDesc(new Date(a.name), new Date(b.name));
+    return a.index - b.index;
   });
   return { props: { persons } };
-}
-
-function PersonCard(person: Person) {
-  return (
-    <div className="card card-compact shadow-sm border border-primary/5 max-w-[420px]">
-      {person.imageSrc ? (
-        <figure className="block bg-blend-darken">
-          <Image
-            src={person.imageSrc}
-            alt={`${person.name} portrait`}
-            width={420}
-            height={420}
-            layout="intrinsic"
-          />
-        </figure>
-      ) : null}
-      <div className="card-body prose p-1">
-        <div>
-          <h2 className="card-title mt-1">{person.name}</h2>
-          <h4>{person.position}</h4>
-        </div>
-        <div
-          className="cl-post-body"
-          dangerouslySetInnerHTML={{ __html: person.body.html }}
-        />
-      </div>
-    </div>
-  );
 }
 
 export default function Home({ persons }: { persons: Person[] }) {
   return (
     <div className="">
-      <Head>
-        <title>ACF - Who We Are</title>
-      </Head>
-      <h1 className="mb-8 text-3xl font-bold">Who We Are</h1>
+      <div className={"prose"}>
+        <Head>
+          <title>ACF - Who We Are</title>
+        </Head>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+        <h1 className="mb-8 text-3xl font-bold">Who We Are</h1>
+        <div className="">
+          <p>
+            The æternity Crypto Foundation is a non-profit organization
+            established in the Principality of Liechtenstein. The Foundation
+            brings together all the necessary resources and infrastructure to
+            ensure a stable environment and thriving open source ecosystem
+            around the æternity blockchain.
+          </p>
+          <p>
+            The organization is committed to promoting technical excellence and
+            user-friendly applications as well as supporting projects built on
+            the æternity blockchain.
+          </p>
+          <div>
+            Core and Essentials Development Domains The 7 domains below are
+            current areas of focus for the core open source development effort,
+            listed in order of approximate funding priority. The order may be
+            adjusted as development progresses and priorities evolve.
+            <ul className="space-y-1">
+              <li>Protocol Maintenance</li>
+              <li>Protocol Development</li>
+              <li>SDKs</li>
+              <li>Wallets and Interfaces</li>
+              <li>æpps and Integrations</li>
+              <li>Middleware Backend API</li>
+              <li>Dev-Tools</li>
+            </ul>
+          </div>
+        </div>
+        <h2>People</h2>
+      </div>
+      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
         {persons.map((person, idx) => (
           <PersonCard key={idx} {...person} />
         ))}

@@ -1,12 +1,10 @@
 import Head from "next/head";
-import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { GetStaticProps } from "next";
 
 export async function getStaticPaths() {
   const paths = allBlogPosts.map((post) => `/${post.url}`);
-  console.log("paths", paths);
   return {
     paths,
     fallback: false,
@@ -15,8 +13,6 @@ export async function getStaticPaths() {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const post = allBlogPosts.find((post) => {
-    console.log("slug", params?.slug);
-    console.log("raw flattened path", post._raw.flattenedPath);
     return post._raw.flattenedPath === `blog/${params?.slug}`;
   });
   return {

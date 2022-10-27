@@ -2,7 +2,7 @@
 
 import persons__lydia_atanassovaMd from './persons__Lydia_Atanassova.md.json' assert { type: 'json' }
 import persons__test_personMd from './persons__Test_Person.md.json' assert { type: 'json' }
-import persons__yanislav_malahovMd from './persons__Yanislav_Malahov.md.json' assert { type: 'json' }
 import persons__test_person2Md from './persons__Test_Person2.md.json' assert { type: 'json' }
+import persons__yanislav_malahovMd from './persons__Yanislav_Malahov.md.json' assert { type: 'json' }
 
-export const allPeople = [persons__lydia_atanassovaMd, persons__test_personMd, persons__yanislav_malahovMd, persons__test_person2Md]
+export const allPeople = [persons__lydia_atanassovaMd, persons__test_personMd, persons__test_person2Md, persons__yanislav_malahovMd]
