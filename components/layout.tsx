@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement, useState } from "react";
 import Link from "next/link";
 import { NavBarLink, NavBarLinks } from "./NavBarLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -94,42 +94,61 @@ function Footer() {
   );
 }
 
-export const NavBar = () => {
+export default function Layout({ children }: { children: ReactElement }) {
+  const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="navbar bg-base-100 shadow-md rounded-md">
-      <div className="navbar-start">
-        <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost md:hidden text-2xl ">
-            <FontAwesomeIcon icon={faBars} />
-          </label>
-          <ul
-            tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <NavBarLinks textSize={"text-xl"} />
-          </ul>
+    <div className="drawer">
+      <input
+        type="checkbox"
+        className="drawer-toggle"
+        checked={drawerOpen}
+        onChange={() => setDrawerOpen(true)}
+      />
+      <div className="drawer-content">
+        <div className=" lg:mx-8 2xl:mx-12 max-w-screen-2xl ">
+          <div className="navbar w-full bg-base-100 border-b-2 border-b-primary fixed top-0 ">
+            <div className="navbar-start">
+              <label
+                className="btn btn-ghost drawer-button md:hidden text-2xl"
+                onClick={() => setDrawerOpen(true)}
+              >
+                <FontAwesomeIcon icon={faBars} />
+              </label>
+              <Link href={"/"}>
+                <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
+                  Home
+                </a>
+              </Link>
+            </div>
+            <div className="hidden md:flex">
+              <ul className="menu menu-horizontal space-x-1 p-0 bg-base-100">
+                <NavBarLinks textSize={"text-md"} />
+              </ul>
+            </div>
+          </div>
+          <main className="min-h-[66vh] mt-24 px-2 sm:px-4">{children}</main>
+          <Footer />
         </div>
-        <Link href={"/"}>
-          <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
-            Home
-          </a>
-        </Link>
       </div>
-      <div className="hidden md:flex">
-        <ul className="menu menu-horizontal space-x-1 p-0 bg-base-100">
-          <NavBarLinks textSize={"text-md"} />
+      <div className="drawer-side" onClick={() => setDrawerOpen(false)}>
+        <label
+          className="drawer-overlay"
+          onClick={() => setDrawerOpen(false)}
+        />
+        <ul
+          tabIndex={0}
+          className="menu menu-compact dropdown-content p-2 bg-base-100 w-52"
+        >
+          <ul>
+            <Link href={"/"}>
+              <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
+                Home
+              </a>
+            </Link>
+          </ul>
+          <NavBarLinks textSize={"text-xl"} />
         </ul>
       </div>
-    </div>
-  );
-};
-
-export default function Layout({ children }: { children: ReactElement }) {
-  return (
-    <div className="md:mx-2 lg:mx-8 2xl:mx-12 max-w-screen-2xl ">
-      <NavBar />
-      <main className="min-h-[70vh] mt-4 px-1 sm:px-2">{children}</main>
-      <Footer />
     </div>
   );
 }

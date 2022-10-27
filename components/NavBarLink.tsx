@@ -15,40 +15,25 @@ export const NavBarLink = ({
     </Link>
   );
 };
+
+export const NAVBAR_LINKS_DATA = [
+  { href: "/about", text: "Who we are" },
+  { href: "/blog", text: "Blog" },
+  { href: "/philosophy", text: "Our Philosophy" },
+  { href: "/grants", text: "Ecosystem Grant Program" },
+  { href: "/supported-projects", text: "Supported Projects" },
+];
+
 export const NavBarLinks = ({
   textSize,
 }: {
   textSize: "text-md" | "text-lg" | "text-xl";
-}) => {
-  return (
-    <>
-      <li className="px-1">
-        <NavBarLink textSize={textSize} href={"/about"} text={"Who we are"} />
+}) => (
+  <>
+    {NAVBAR_LINKS_DATA.map((l) => (
+      <li key={l.href}>
+        <NavBarLink textSize={textSize} href={l.href} text={l.text} />
       </li>
-      <li>
-        <NavBarLink textSize={textSize} href={"/blog"} text={"Blog"} />
-      </li>
-      <li>
-        <NavBarLink
-          textSize={textSize}
-          href={"/philosophy"}
-          text={"Our Philosophy"}
-        />
-      </li>
-      <li>
-        <NavBarLink
-          textSize={textSize}
-          href={"/grants"}
-          text={"Ecosystem Grant Program"}
-        />
-      </li>
-      <li>
-        <NavBarLink
-          textSize={textSize}
-          href={"/supported-projects"}
-          text={"Supported Projects"}
-        />
-      </li>
-    </>
-  );
-};
+    ))}
+  </>
+);
