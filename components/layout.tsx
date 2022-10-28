@@ -30,20 +30,22 @@ function Footer() {
   return (
     <div
       id="footer"
-      className="px-1 text-center my-2 lg:mt-4 rounded-md border-top box-border"
+      className="px-1 text-center my-2 lg:mt-4 rounded-md border-top box-border text-sm font-light"
     >
       <div className="grid space-y-1 grid-cols-1 md:grid-cols-3">
         <div className={"grid grid-cols-1 xl:grid-cols-2"}>
-          <NavBarLink
-            href={"https://aeternity.com"}
-            text={"æternity Blockchain"}
-          />
-          <NavBarLink
+          <a href={"https://aeternity.com"} target="_blank" rel="noreferrer">
+            æternity Blockchain
+          </a>
+          <a
             href={
               "https://forum.aeternity.com/t/howto-apply-for-a-grant-from-the-aeternity-crypto-foundation-liechtenstein/6880"
             }
-            text={"Submit a Grant Proposal"}
-          />
+            target="_blank"
+            rel="noreferrer"
+          >
+            Submit a Grant Proposal
+          </a>
           <NavBarLink href={"/media-kit"} text={"Media Kit"} />
           <NavBarLink
             href={"mailto:hello@aeternity-foundation.org"}
@@ -97,7 +99,7 @@ function Footer() {
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="drawer">
+    <div className="">
       <input
         type="checkbox"
         className="drawer-toggle"
@@ -105,30 +107,30 @@ export default function Layout({ children }: { children: ReactElement }) {
         onChange={() => setDrawerOpen(true)}
       />
       <div className="drawer-content">
-        <div className=" lg:mx-8 2xl:mx-12 max-w-screen-2xl ">
-          <div className="navbar w-full bg-base-100 border-b-2 border-b-primary fixed top-0 z-50">
-            <div className="navbar-start">
-              <label
-                className="btn btn-ghost drawer-button md:hidden text-2xl"
-                onClick={() => setDrawerOpen(true)}
-              >
-                <FontAwesomeIcon icon={faBars} />
-              </label>
-              <Link href={"/"}>
-                <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
-                  Home
-                </a>
-              </Link>
-            </div>
-            <div className="hidden md:flex">
-              <ul className="menu menu-horizontal space-x-1 p-0 bg-base-100">
-                <NavBarLinks textSize={"text-md"} />
-              </ul>
-            </div>
+        <div className="navbar bg-base-100 border-b-2 border-b-primary fixed top-0 z-50">
+          <div className="navbar-start">
+            <label
+              className="btn btn-ghost drawer-button md:hidden text-2xl"
+              onClick={() => setDrawerOpen(true)}
+            >
+              <FontAwesomeIcon icon={faBars} />
+            </label>
+            <Link href={"/"}>
+              <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
+                Home
+              </a>
+            </Link>
           </div>
-          <main className="min-h-[66vh] mt-24 px-2 sm:px-4">{children}</main>
-          <Footer />
+          <div className="hidden md:flex">
+            <ul className="menu menu-horizontal space-x-1 p-0 bg-base-100">
+              <NavBarLinks textSize={"text-md"} />
+            </ul>
+          </div>
         </div>
+        <main className="min-h-[66vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12">
+          {children}
+        </main>
+        <Footer />
       </div>
       <div className="drawer-side" onClick={() => setDrawerOpen(false)}>
         <label
