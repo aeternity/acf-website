@@ -99,7 +99,7 @@ function Footer() {
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="">
+    <div className="drawer">
       <input
         type="checkbox"
         className="drawer-toggle"
