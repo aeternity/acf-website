@@ -12,12 +12,11 @@ export async function getStaticProps() {
 export default function Home({ persons }: { persons: Person[] }) {
   return (
     <div className="">
-      <div className={"prose"}>
-        <Head>
-          <title>ACF - Who We Are</title>
-        </Head>
-
-        <h1 className="mb-8 text-3xl font-bold">Who We Are</h1>
+      <Head>
+        <title>ACF - Who We Are</title>
+      </Head>
+      <div className={"prose font-serif"}>
+        <h1 className="">Who We Are</h1>
         <div className="">
           <p>
             The æternity Crypto Foundation is a non-profit organization
@@ -31,21 +30,6 @@ export default function Home({ persons }: { persons: Person[] }) {
             user-friendly applications as well as supporting projects built on
             the æternity blockchain.
           </p>
-          <div>
-            Core and Essentials Development Domains The 7 domains below are
-            current areas of focus for the core open source development effort,
-            listed in order of approximate funding priority. The order may be
-            adjusted as development progresses and priorities evolve.
-            <ul className="space-y-1">
-              <li>Protocol Maintenance</li>
-              <li>Protocol Development</li>
-              <li>SDKs</li>
-              <li>Wallets and Interfaces</li>
-              <li>æpps and Integrations</li>
-              <li>Middleware Backend API</li>
-              <li>Dev-Tools</li>
-            </ul>
-          </div>
         </div>
         <h2>People</h2>
       </div>

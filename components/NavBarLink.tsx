@@ -1,38 +1,31 @@
 import Link from "next/link";
 
-export const NavBarLink = ({
-  href,
-  text,
-  textSize,
-}: {
-  href: string;
-  text: string;
-  textSize?: "text-md" | "text-lg" | "text-xl";
-}) => {
+export const NavBarLink = ({ href, text }: { href: string; text: string }) => {
   return (
     <Link href={href}>
-      <a className={`px-2 ${textSize || ""}`}>{text}</a>
+      <a
+        className={`px-1 btn btn-ghost text-md font-normal capitalize justify-start
+                    hover:bg-base-300 focus:bg-base-300 focus:text-secondary `}
+      >
+        {text}
+      </a>
     </Link>
   );
 };
 
 export const NAVBAR_LINKS_DATA = [
   { href: "/about", text: "Who we are" },
-  { href: "/blog", text: "Blog" },
   { href: "/philosophy", text: "Our Philosophy" },
-  { href: "/grants", text: "Ecosystem Grant Program" },
-  { href: "/supported-projects", text: "Supported Projects" },
+  { href: "/grants", text: "Grant Program" },
+  { href: "/donate", text: "Donate" },
+  { href: "/blog", text: "Blog" },
 ];
 
-export const NavBarLinks = ({
-  textSize,
-}: {
-  textSize: "text-md" | "text-lg" | "text-xl";
-}) => (
+export const NavBarLinks = () => (
   <>
     {NAVBAR_LINKS_DATA.map((l) => (
       <li key={l.href}>
-        <NavBarLink textSize={textSize} href={l.href} text={l.text} />
+        <NavBarLink href={l.href} text={l.text} />
       </li>
     ))}
   </>

@@ -11,6 +11,7 @@ import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faDiscourse } from "@fortawesome/free-brands-svg-icons/faDiscourse";
 import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
+import Image from "next/image";
 
 function SocialMediaLink({
   href,
@@ -20,8 +21,8 @@ function SocialMediaLink({
   icon: IconDefinition;
 }) {
   return (
-    <a target="_blank" rel="noreferrer" href={href}>
-      <FontAwesomeIcon icon={icon} />
+    <a target="_blank" rel="noreferrer" href={href} className="text-primary">
+      <FontAwesomeIcon icon={icon} height={16} />
     </a>
   );
 }
@@ -34,7 +35,12 @@ function Footer() {
     >
       <div className="grid space-y-1 grid-cols-1 md:grid-cols-3">
         <div className={"grid grid-cols-1 xl:grid-cols-2"}>
-          <a href={"https://aeternity.com"} target="_blank" rel="noreferrer">
+          <a
+            href={"https://aeternity.com"}
+            target="_blank"
+            rel="noreferrer"
+            className="link link-secondary"
+          >
             æternity Blockchain
           </a>
           <a
@@ -43,18 +49,22 @@ function Footer() {
             }
             target="_blank"
             rel="noreferrer"
+            className="link link-secondary"
           >
             Submit a Grant Proposal
           </a>
-          <NavBarLink href={"/media-kit"} text={"Media Kit"} />
-          <NavBarLink
+          <a
             href={"mailto:hello@aeternity-foundation.org"}
-            text={"Contact Us"}
-          />
+            target="_blank"
+            rel="noreferrer"
+            className="link link-secondary"
+          >
+            Contact Us
+          </a>
         </div>
         <div>
           <div>Get in Touch!</div>
-          <div className="space-x-2">
+          <div className="space-x-2 inline-flex content-center">
             <SocialMediaLink
               href={"https://github.com/aeternity"}
               icon={faGithub}
@@ -87,7 +97,7 @@ function Footer() {
             />
           </div>
         </div>
-        <div>
+        <div className="font-light text-2xs">
           <div>{`©  2019 - ${new Date().getFullYear()} Æternity Crypto Foundation`}</div>
           <div>{"Made with <3 in Liechtenstein"}</div>
         </div>
@@ -99,7 +109,7 @@ function Footer() {
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="drawer">
+    <div className="drawer ">
       <input
         type="checkbox"
         className="drawer-toggle"
@@ -107,34 +117,40 @@ export default function Layout({ children }: { children: ReactElement }) {
         onChange={() => setDrawerOpen(true)}
       />
       <div className="drawer-content">
-        <div className="navbar bg-base-100 border-b-2 border-b-primary fixed top-0 z-50">
+        <div className="navbar bg-base-300 shadow border-b border-secondary/20 fixed top-0 z-50 ">
           <div className="navbar-start">
             <label
               className="btn btn-ghost drawer-button md:hidden text-2xl"
               onClick={() => setDrawerOpen(true)}
             >
-              <FontAwesomeIcon icon={faBars} />
+              <FontAwesomeIcon icon={faBars} width={32} height={32} />
             </label>
             <Link href={"/"}>
-              <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
-                Home
+              <a className="btn btn-ghost p-0 bg-base-300 hover:bg-base-300">
+                <Image
+                  src={"/ACF-logo.svg"}
+                  height={48}
+                  width={150}
+                  alt={"Aeternity Crypto Foundation Logo"}
+                  priority={true}
+                />
               </a>
             </Link>
           </div>
-          <div className="hidden md:flex">
-            <ul className="menu menu-horizontal space-x-1 p-0 bg-base-100">
-              <NavBarLinks textSize={"text-md"} />
+          <div className="hidden md:inline-flex">
+            <ul className="menu menu-horizontal space-x-1 p-0">
+              <NavBarLinks />
             </ul>
           </div>
         </div>
-        <main className="min-h-[66vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12">
+        <main className="min-h-[66vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12 ">
           {children}
         </main>
         <Footer />
       </div>
       <div className="drawer-side" onClick={() => setDrawerOpen(false)}>
         <label
-          className="drawer-overlay"
+          className="drawer-overlay bg-secondary-content"
           onClick={() => setDrawerOpen(false)}
         />
         <ul
@@ -148,7 +164,9 @@ export default function Layout({ children }: { children: ReactElement }) {
               </a>
             </Link>
           </ul>
-          <NavBarLinks textSize={"text-xl"} />
+          <div className={`text-left align-left`}>
+            <NavBarLinks />
+          </div>
         </ul>
       </div>
     </div>

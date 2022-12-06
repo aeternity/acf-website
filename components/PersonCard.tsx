@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function PersonCard(person: Person) {
   return (
-    <div className="card card-compact shadow-sm border border-primary/5 max-w-[420px]">
+    <div className="card card-compact shadow-md border border-primary max-w-[420px] bg-base-200">
       {person.imageSrc ? (
         <figure className="block bg-blend-darken">
           <Image
