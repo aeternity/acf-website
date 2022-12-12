@@ -19,6 +19,8 @@ const nextConfig = {
   swcMinify: true,
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: { unoptimized: true },
+  basePath: "/acf-website",
+  assetPrefix: "/acf-website/",
 };
 
 module.exports = withContentlayer(withMDX(nextConfig));
