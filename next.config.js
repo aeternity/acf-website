@@ -1,4 +1,7 @@
 /** @type {import("next").NextConfig} */
+
+const isProd = process.env.NODE_ENV === "production";
+
 var withContentlayer = require("next-contentlayer").withContentlayer;
 
 const withMDX = require("@next/mdx")({
@@ -19,8 +22,8 @@ const nextConfig = {
   swcMinify: true,
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: { unoptimized: true },
-  basePath: "/acf-website",
-  assetPrefix: "/acf-website/",
+  basePath: isProd ? "/acf-website" : "",
+  assetPrefix: isProd ? "/acf-website/" : "",
 };
 
 module.exports = withContentlayer(withMDX(nextConfig));
