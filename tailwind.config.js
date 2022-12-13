@@ -20,7 +20,18 @@ module.exports = {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
           primary: "#272361",
           secondary: "#C41B7B",
-          accent: "#FDB71A",
+          //pink
+          // accent: "#F1E2E6",
+          accent: "#ede1f5",
+          // yellow
+          // accent: "#F9DA40",
+          // accent: "#F8E600",
+          // blue
+          // accent: "#b3e2ff",
+          accent: "#d2eefd",
+          // accent: "#E6F1F8",
+          // grey
+          // accent: "#A7C0CC",
         },
       },
       // {

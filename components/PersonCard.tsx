@@ -4,7 +4,7 @@ import { assetUrl } from "../lib";
 
 export function PersonCard(person: Person) {
   return (
-    <div className="card card-compact shadow-md border border-primary max-w-[420px] bg-base-200">
+    <div className="card card-compact shadow-md border border-primary max-w-[420px] bg-accent/20">
       {person.imageSrc ? (
         <figure className="block bg-blend-darken">
           <Image

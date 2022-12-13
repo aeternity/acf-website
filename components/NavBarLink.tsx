@@ -5,7 +5,7 @@ export const NavBarLink = ({ href, text }: { href: string; text: string }) => {
     <Link href={href}>
       <a
         className={`px-1 btn btn-ghost text-md font-normal capitalize justify-start
-                    hover:bg-base-300 focus:bg-base-300 focus:text-secondary `}
+                    hover:bg-accent focus:bg-accent focus:text-secondary `}
       >
         {text}
       </a>
@@ -14,8 +14,8 @@ export const NavBarLink = ({ href, text }: { href: string; text: string }) => {
 };
 
 export const NAVBAR_LINKS_DATA = [
-  { href: "/about", text: "Who we are" },
   { href: "/philosophy", text: "Our Philosophy" },
+  { href: "/about", text: "Who we are" },
   { href: "/grants", text: "Grant Program" },
   { href: "/donate", text: "Donate" },
   { href: "/blog", text: "Blog" },

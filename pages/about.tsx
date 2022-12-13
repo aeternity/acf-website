@@ -33,7 +33,7 @@ export default function Home({ persons }: { persons: Person[] }) {
         </div>
         <h2>People</h2>
       </div>
-      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {persons.map((person, idx) => (
           <PersonCard key={idx} {...person} />
         ))}

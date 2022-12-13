@@ -118,7 +118,7 @@ export default function Layout({ children }: { children: ReactElement }) {
         onChange={() => setDrawerOpen(true)}
       />
       <div className="drawer-content">
-        <div className="navbar bg-base-300 shadow border-b border-secondary/20 fixed top-0 z-50 ">
+        <div className="navbar bg-accent shadow shadow-sm border-b border-secondary/20 fixed top-0 z-50 w-full ">
           <div className="navbar-start">
             <label
               className="btn btn-ghost drawer-button md:hidden text-2xl"
@@ -127,7 +127,7 @@ export default function Layout({ children }: { children: ReactElement }) {
               <FontAwesomeIcon icon={faBars} width={32} height={32} />
             </label>
             <Link href={"/"}>
-              <a className="btn btn-ghost p-0 bg-base-300 hover:bg-base-300">
+              <a className="btn btn-ghost p-0 bg-accent hover:bg-accent">
                 <Image
                   src={assetUrl("/ACF-logo-white.svg")}
                   height={48}
@@ -138,7 +138,7 @@ export default function Layout({ children }: { children: ReactElement }) {
               </a>
             </Link>
           </div>
-          <div className="hidden md:inline-flex">
+          <div className="hidden md:inline-flex ">
             <ul className="menu menu-horizontal space-x-1 p-0">
               <NavBarLinks />
             </ul>
