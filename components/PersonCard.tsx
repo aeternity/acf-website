@@ -1,5 +1,6 @@
 import { Person } from "contentlayer/generated";
 import Image from "next/image";
+import { assetUrl } from "../lib";
 
 export function PersonCard(person: Person) {
   return (
@@ -7,7 +8,7 @@ export function PersonCard(person: Person) {
       {person.imageSrc ? (
         <figure className="block bg-blend-darken">
           <Image
-            src={person.imageSrc}
+            src={assetUrl(person.imageSrc)}
             alt={`${person.name} portrait`}
             width={420}
             height={420}
