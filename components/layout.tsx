@@ -12,6 +12,7 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faDiscourse } from "@fortawesome/free-brands-svg-icons/faDiscourse";
 import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
 import Image from "next/image";
+import { assetUrl } from "../lib";
 
 function SocialMediaLink({
   href,
@@ -128,7 +129,7 @@ export default function Layout({ children }: { children: ReactElement }) {
             <Link href={"/"}>
               <a className="btn btn-ghost p-0 bg-base-300 hover:bg-base-300">
                 <Image
-                  src={"/ACF-logo.svg"}
+                  src={assetUrl("/ACF-logo-white.svg")}
                   height={48}
                   width={150}
                   alt={"Aeternity Crypto Foundation Logo"}

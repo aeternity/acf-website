@@ -17,13 +17,16 @@ const withMDX = require("@next/mdx")({
   },
 });
 
+const assetPrefix = isProd ? "/acf-website/" : "";
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: { unoptimized: true },
   basePath: isProd ? "/acf-website" : "",
-  assetPrefix: isProd ? "/acf-website/" : "",
+  assetPrefix,
+  publicRuntimeConfig: { assetPrefix },
 };
 
 module.exports = withContentlayer(withMDX(nextConfig));
