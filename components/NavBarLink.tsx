@@ -14,8 +14,8 @@ export const NavBarLink = ({ href, text }: { href: string; text: string }) => {
 };
 
 export const NAVBAR_LINKS_DATA = [
-  { href: "/philosophy", text: "Our Philosophy" },
   { href: "/about", text: "Who we are" },
+  { href: "/philosophy", text: "Our Philosophy" },
   { href: "/grants", text: "Grant Program" },
   { href: "/donate", text: "Donate" },
   { href: "/blog", text: "Blog" },

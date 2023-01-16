@@ -7,6 +7,8 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faDiscourse } from "@fortawesome/free-brands-svg-icons/faDiscourse";
 import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { assetUrl } from "../lib";
+import Image from "next/image";
 
 function SocialMediaLink({
   href,
@@ -24,7 +26,7 @@ function SocialMediaLink({
 
 export function Footer() {
   return (
-    <div id="footer" className="footer p-12">
+    <div id="footer" className="footer p-12 pb-3 pt-1">
       <div>
         <div className="columns-1 xl:columns-2">
           <div>
@@ -47,6 +49,13 @@ export function Footer() {
               rel="noreferrer"
               className="link link-secondary link-hover"
             >
+              <Image
+                src={assetUrl("/logo/aeternity-logo-small.svg")}
+                height={10}
+                width={20}
+                alt={"Aeternity blockchain"}
+                priority={true}
+              />{" "}
               æternity Blockchain
             </a>
           </div>
@@ -63,12 +72,7 @@ export function Footer() {
             </a>
           </div>
           <div>
-            <a
-              href={"mailto:hello@aeternity-foundation.org"}
-              target="_blank"
-              rel="noreferrer"
-              className="link link-secondary  link-hover"
-            >
+            <a href={"/contact"} className="link link-secondary  link-hover">
               Contact Us
             </a>
           </div>

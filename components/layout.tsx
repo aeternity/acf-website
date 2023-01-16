@@ -45,7 +45,7 @@ export default function Layout({ children }: { children: ReactElement }) {
           </div>
         </div>
 
-        <main className="min-h-[66vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12 ">
+        <main className="min-h-[60vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12 ">
           {children}
         </main>
         <Footer />
