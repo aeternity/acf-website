@@ -27,7 +27,7 @@ export default function Layout({ children }: { children: ReactElement }) {
               <FontAwesomeIcon icon={faBars} width={32} height={32} />
             </label>
             <Link href={"/"}>
-              <a className="btn btn-ghost p-0 bg-accent hover:bg-accent">
+              <a className="btn btn-ghost p-0 pl-10 bg-accent hover:bg-accent">
                 <Image
                   src={assetUrl("/ACF-logo-white.svg")}
                   height={48}
@@ -50,6 +50,7 @@ export default function Layout({ children }: { children: ReactElement }) {
         </main>
         <Footer />
       </div>
+
       <div className="drawer-side" onClick={() => setDrawerOpen(false)}>
         <label
           className="drawer-overlay bg-secondary-content"
