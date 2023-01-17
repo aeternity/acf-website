@@ -1,6 +1,5 @@
-import Head from "next/head";
 import { BlogPost } from "contentlayer/generated";
-import { NAVBAR_LINKS_DATA, NavBarLinks } from "../components/NavBarLink";
+import { NAVBAR_LINKS_DATA } from "../components/NavBarLink";
 import Link from "next/link";
 import Image from "next/image";
 import { assetUrl } from "../lib";
@@ -8,10 +7,6 @@ import { assetUrl } from "../lib";
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <>
-      <Head>
-        <title>Aeternity Crypto Foundation</title>
-        <link rel="icon" href="/favicon.png" />
-      </Head>
       <div
         className="card mx-auto
          max-w-4xl

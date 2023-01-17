@@ -1,7 +1,7 @@
-import Head from "next/head";
 import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
+import { updateTitleTag } from "../_app";
 
 export async function getStaticProps() {
   const posts = allBlogPosts.sort((a, b) => {
@@ -28,11 +28,11 @@ function PostCard(post: BlogPost) {
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <div className="mx-auto max-w-2xl py-16 text-center">
-      <Head>
-        <title>Aeternity Crypto Foundation Blog</title>
-      </Head>
+      {updateTitleTag("Blog")}
 
-      <h1 className="mb-8 text-3xl font-bold">ACF Blog</h1>
+      <h1 className="mb-8 text-3xl font-bold">
+        æternity crypto foundation Blog
+      </h1>
 
       {posts.map((post, idx) => (
         <PostCard key={idx} {...post} />

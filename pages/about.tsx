@@ -1,6 +1,6 @@
-import Head from "next/head";
 import { allPeople, Person } from "contentlayer/generated";
 import { PersonCard } from "../components/PersonCard";
+import { updateTitleTag } from "./_app";
 
 export async function getStaticProps() {
   const persons = allPeople.sort((a, b) => {
@@ -12,9 +12,7 @@ export async function getStaticProps() {
 export default function Home({ persons }: { persons: Person[] }) {
   return (
     <div className="">
-      <Head>
-        <title>ACF - Who We Are</title>
-      </Head>
+      {updateTitleTag("Who We Are")}
       <div className={"prose font-serif"}>
         <h1 className="">Who We Are</h1>
         <div className="">

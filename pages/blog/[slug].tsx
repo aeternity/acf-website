@@ -1,7 +1,7 @@
-import Head from "next/head";
 import { format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { GetStaticProps } from "next";
+import { updateTitleTag } from "../_app";
 
 export async function getStaticPaths() {
   const paths = allBlogPosts.map((post) => `/${post.url}`);
@@ -25,9 +25,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 const PostLayout = ({ post }: { post: BlogPost }) => {
   return (
     <div className="p-4">
-      <Head>
-        <title>{post.title}</title>
-      </Head>
+      {updateTitleTag(`${post.title} - Blog`)}
+
       <article className="mx-auto max-w-2xl py-16 prose prose-xl">
         <div className="mb-6 text-center">
           <h1 className="mb-1 text-3xl font-bold">{post.title}</h1>
