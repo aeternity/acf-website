@@ -1,17 +1,15 @@
 import Link from "next/link";
 
-export const NavBarLink = ({ href, text }: { href: string; text: string }) => {
-  return (
-    <Link href={href}>
-      <a
-        className={`px-1 btn btn-ghost text-md font-normal capitalize justify-start
+export const NavBarLink = ({ href, text }: { href: string; text: string }) => (
+  <Link href={href}>
+    <a
+      className={`px-1 btn btn-ghost text-md font-normal capitalize justify-start
                     hover:bg-accent focus:bg-accent focus:text-secondary `}
-      >
-        {text}
-      </a>
-    </Link>
-  );
-};
+    >
+      {text}
+    </a>
+  </Link>
+);
 
 export const NAVBAR_LINKS_DATA = [
   { href: "/about", text: "Who we are" },

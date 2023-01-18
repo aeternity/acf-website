@@ -3,9 +3,7 @@ import { PersonCard } from "../components/PersonCard";
 import { updateTitleTag } from "./_app";
 
 export async function getStaticProps() {
-  const persons = allPeople.sort((a, b) => {
-    return a.index - b.index;
-  });
+  const persons = allPeople.sort((a, b) => a.index - b.index);
   return { props: { persons } };
 }
 

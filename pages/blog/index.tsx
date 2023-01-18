@@ -4,9 +4,9 @@ import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { updateTitleTag } from "../_app";
 
 export async function getStaticProps() {
-  const posts = allBlogPosts.sort((a, b) => {
-    return compareDesc(new Date(a.date), new Date(b.date));
-  });
+  const posts = allBlogPosts.sort((a, b) =>
+    compareDesc(new Date(a.date), new Date(b.date))
+  );
   return { props: { posts } };
 }
 

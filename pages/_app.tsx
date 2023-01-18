@@ -5,9 +5,7 @@ import Head from "next/head";
 import { assetUrl } from "../lib";
 
 const siteName = "æternity crypto foundation";
-const getPageTitle = (pageName: string) => {
-  return `${pageName} - ${siteName}`;
-};
+const getPageTitle = (pageName: string) => `${pageName} - ${siteName}`;
 
 export const updateTitleTag = (pageName: string) => (
   <Head>

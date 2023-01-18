@@ -1,4 +1,5 @@
 import { updateTitleTag } from "./_app";
+import Link from "next/link";
 
 export default function FourOhFour() {
   return (
@@ -10,7 +11,9 @@ export default function FourOhFour() {
         <p>¯\_(ツ)_/¯</p>
         <p>
           Check that you typed the address correctly or go back to the{" "}
-          <a href="/">home page</a>.
+          <Link href={"/"} className="">
+            home page
+          </Link>
         </p>
       </div>
     </>

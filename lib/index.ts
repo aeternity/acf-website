@@ -1,6 +1,4 @@
 import getConfig from "next/config";
 
 const assetPrefix = getConfig().publicRuntimeConfig.assetPrefix;
-export const assetUrl = (url: string) => {
-  return `${assetPrefix}${url}`;
-};
+export const assetUrl = (url: string) => `${assetPrefix}${url}`;
