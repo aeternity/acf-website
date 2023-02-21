@@ -14,7 +14,7 @@ export const Constellation = () => {
 
   return (
     <Particles
-      id="tsparticles"
+      id="ts-particles"
       init={particlesInit}
       options={{
         particles: {
@@ -77,20 +77,6 @@ export const Constellation = () => {
               enable: false,
               rotateX: 600,
               rotateY: 1200,
-            },
-          },
-          twinkle: {
-            particles: {
-              enable: true,
-              color: "#ffff00",
-              frequency: 0.003,
-              opacity: 1,
-            },
-            lines: {
-              enable: true,
-              color: "#ff0000",
-              frequency: 0.0004,
-              opacity: 1,
             },
           },
         },

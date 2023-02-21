@@ -11,8 +11,7 @@ import { Constellation } from "./constellation";
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="drawer ">
-      <Constellation />
+    <div className="drawer">
       <input
         type="checkbox"
         className="drawer-toggle"
@@ -46,8 +45,8 @@ export default function Layout({ children }: { children: ReactElement }) {
             </ul>
           </div>
         </div>
-
-        <main className="min-h-[60vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12 ">
+        <Constellation />
+        <main className="min-h-[60vh] my-24 px-2 sm:px-4 lg:mx-8 2xl:mx-12">
           {children}
         </main>
         <Footer />

@@ -7,22 +7,16 @@ import { assetUrl } from "../lib";
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <>
-      <div
-        className="card mx-auto
-         max-w-4xl
-         text-center rounded-3xl
-         p-4 py-6
-         md:shadow shadow-primary/66 bg-white"
-      >
+      <div className="card mx-auto max-w-4xl p-4 py-6 md:shadow shadow-primary/66 bg-gradient-to-r from-[#F0F0FC] to-[#D8E8E8]">
         <div className="card-title"></div>
-        <div className="card-body text-xl font-light xl:text-2xl">
+        <div className="card-body text-xl font-light">
           <Image
             src={assetUrl("/ACF-logo.svg")}
             width="400"
             height="200"
             alt={"Aeternity Crypto Foundation logo"}
           />
-          <div className="text-center space-y-6">
+          <div className="text-left space-y-6">
             <p>
               The Æternity Crypto Foundation brings together all the necessary
               resources, expertise and infrastructure to ensure a stable
