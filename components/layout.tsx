@@ -6,11 +6,13 @@ import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
 import Image from "next/image";
 import { assetUrl } from "../lib";
 import { Footer } from "./footer";
+import { Constellation } from "./constellation";
 
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
     <div className="drawer ">
+      <Constellation />
       <input
         type="checkbox"
         className="drawer-toggle"

@@ -12,7 +12,7 @@ export default function Home({ posts }: { posts: BlogPost[] }) {
          max-w-4xl
          text-center rounded-3xl
          p-4 py-6
-         md:shadow shadow-primary/66 "
+         md:shadow shadow-primary/66 bg-white"
       >
         <div className="card-title"></div>
         <div className="card-body text-xl font-light xl:text-2xl">
