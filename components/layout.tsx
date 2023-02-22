@@ -84,7 +84,9 @@ export default function Layout({ children }: { children: ReactElement }) {
     <div className="bg-white flex flex-col min-h-[100vh]">
       <Constellation />
       <Nav />
-      <main className="flex-1 z-10 my-24 px-2 mx-auto">{children}</main>
+      <main className="flex-1 z-10 p-6 my-24 px-2 mx-auto bg-white">
+        {children}
+      </main>
       <Footer />
     </div>
   );
