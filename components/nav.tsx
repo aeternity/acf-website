@@ -7,7 +7,7 @@ import { NAVBAR_LINKS_DATA } from "./NavBarLink";
 export const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="top-0 z-30 h-16 pt-6 sticky bg-white">
+    <div className="fixed w-full top-0 z-30 h-16 pt-6 bg-white">
       <div className="sm:px-8 top-[20,theme(spacing.6))] w-full">
         <div className="mx-auto max-w-7xl lg:px-8">
           <div className="relative px-4 sm:px-8 lg:px-12">
