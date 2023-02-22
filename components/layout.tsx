@@ -7,11 +7,12 @@ import Image from "next/image";
 import { assetUrl } from "../lib";
 import { Footer } from "./footer";
 import { Constellation } from "./constellation";
+import { Nav } from "./nav";
 
-export default function Layout({ children }: { children: ReactElement }) {
+/*export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="drawer">
+    <div className="bg-white">
       <input
         type="checkbox"
         className="drawer-toggle"
@@ -73,6 +74,18 @@ export default function Layout({ children }: { children: ReactElement }) {
           </div>
         </ul>
       </div>
+    </div>
+  );
+}
+*/
+export default function Layout({ children }: { children: ReactElement }) {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  return (
+    <div className="bg-white flex flex-col min-h-[100vh]">
+      <Constellation />
+      <Nav />
+      <main className="flex-1 z-10 my-24 px-2 mx-auto">{children}</main>
+      <Footer />
     </div>
   );
 }

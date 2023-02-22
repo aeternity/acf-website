@@ -7,7 +7,7 @@ import { assetUrl } from "../lib";
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <>
-      <div className="card mx-auto max-w-4xl p-4 py-6 md:shadow shadow-primary/66 bg-gradient-to-r from-[#F0F0FC] to-[#D8E8E8]">
+      <div className="card mx-auto max-w-4xl p-4 py-6 shadow-card bg-[#f9f9f9]">
         <div className="card-title"></div>
         <div className="card-body text-xl font-light">
           <Image

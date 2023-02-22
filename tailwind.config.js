@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         sans: ["Chivo", ...defaultTheme.fontFamily.sans],
       },
+      boxShadow: {
+        card: "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   daisyui: {
