@@ -50,3 +50,73 @@
   object-fit: cover;
   object-position: center;
 }
+
+.bg-img {
+  background: url("https://i.imgur.com/kKRUzEi.jpeg") no-repeat;
+  background-size: cover;
+}
+.bg-primary {
+  background-color: #100524;
+}
+.color-rimary {
+  color: #37c4d5;
+}
+.bg-secondary {
+  background-color: #831843;
+}
+.img-rotate {
+  transform: rotate(10deg);
+}
+.team-title h3 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #2b2b2b;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.team-member-img:hover {
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.team-member-wrap {
+  padding-top: 12px;
+  text-align: left;
+}
+.team-member-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.team-member-info {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  color: #4e4e4e;
+}
+.team-member-social {
+  margin: 8px 8px 8px 0;
+  color: #545454;
+  font-size: 12px;
+}
+
+.left-text {
+  animation-duration: 2s;
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}

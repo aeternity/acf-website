@@ -7,9 +7,9 @@ import { Constellation } from "../components/constellation";
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
-    <div className="main-bg-img relative">
-      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 h-screen">
-        <div className="flex justify-center items-center h-screen">
+    <div className="main-bg-img relative h-full">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 h-full">
+        <div className="flex justify-center items-center h-full">
           <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="md:flex md:items-center md:justify-between">
               <div className="md:w-3/5 home-left-container z-10 relative">
@@ -36,7 +36,8 @@ export default function Home({ posts }: { posts: BlogPost[] }) {
                 </p>
                 <a
                   href="https://forum.aeternity.com/c/li-foundation/grant/81"
-                  className="bg-secondary hover:opacity-80 text-white font-bold py-2 px-4 rounded mb-6"
+                  className="btn-outline btn-ghost
+                   rounded-full hover:opacity-80  text-[#37C4D5] font-bold py-3  px-6 mb-6"
                   target="_blank"
                 >
                   See More

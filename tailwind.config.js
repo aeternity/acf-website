@@ -11,6 +11,12 @@ module.exports = {
       fontFamily: {
         sans: ["Chivo", ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        "2xl": "1.563rem",
+        "3xl": "1.953rem",
+        "4xl": "2.441rem",
+        "5xl": "3.052rem",
+      },
       boxShadow: {
         card: "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
       },
