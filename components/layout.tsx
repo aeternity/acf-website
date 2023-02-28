@@ -81,10 +81,9 @@ import { Nav } from "./nav";
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="bg-white flex flex-col min-h-[100vh]">
-      <Constellation />
+    <div className="flex flex-col min-h-[100vh]">
       <Nav />
-      <main className="flex-1 z-10 my-24 px-2 mx-auto">{children}</main>
+      <main className="flex-1">{children}</main>
       <Footer />
     </div>
   );

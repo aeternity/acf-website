@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-bg-img {
+  background: url("https://i.imgur.com/kKRUzEi.jpeg") no-repeat;
+  background-size: cover;
+}
+.home-left-container {
+  animation-duration: 2s;
+  animation-name: fadeInLeft;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .footer svg:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.text1 {
+  font-family: "Heebo", sans-serif;
+
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: screen;
+  justify-content: center;
+  background: white;
+  cursor: default;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }

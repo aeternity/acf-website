@@ -15,6 +15,7 @@ export const Constellation = () => {
   return (
     <Particles
       id="ts-particles"
+      className="video"
       init={particlesInit}
       options={{
         particles: {
@@ -26,7 +27,7 @@ export const Constellation = () => {
             },
           },
           color: {
-            value: ["#F93ADD", "#F7296E", "#831843", "#36C5F0", "#10b981"],
+            value: ["#F93ADD", "#F7296E", "#831843", "#36C5F0", "#37C4D5"],
           },
           shape: {
             type: "circle",
@@ -39,7 +40,7 @@ export const Constellation = () => {
             },
           },
           opacity: {
-            value: 0.8,
+            value: 0.3,
             random: false,
             anim: {
               enable: false,
@@ -61,8 +62,8 @@ export const Constellation = () => {
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#808080",
-            opacity: 0.4,
+            color: "#37C4D5",
+            opacity: 0.2,
             width: 1,
           },
           move: {
