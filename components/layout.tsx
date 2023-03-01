@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: ReactElement }) {
   return (
     <div className="flex flex-col h-[100vh]">
       <Nav />
-      <main className="flex-1 mt-[75px]">{children}</main>
+      <main className="flex-1 mt-[65px]">{children}</main>
       <Footer />
     </div>
   );

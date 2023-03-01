@@ -185,7 +185,7 @@ export function PersonCard(person: Person) {
             </div>
           </div>
           <div
-            className="text-gray-600 text-sm"
+            className="text-gray-600 text-lg"
             dangerouslySetInnerHTML={{ __html: person.body.html }}
           />
         </div>

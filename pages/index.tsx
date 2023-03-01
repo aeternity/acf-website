@@ -15,7 +15,7 @@ export default function Home({ posts }: { posts: BlogPost[] }) {
               <div className="md:w-3/5 home-left-container z-10 relative">
                 <h2 className="text-4xl text-[#37C4D5] font-bold mb-5">
                   Æternity
-                  <div className="font-normal">Crypto Foundation</div>
+                  <div className="font-normal leading-8">Crypto Foundation</div>
                 </h2>
                 <p className="text-white mb-2 text-lg">
                   The Æternity Crypto Foundation brings together all the
