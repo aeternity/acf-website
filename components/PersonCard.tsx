@@ -181,7 +181,7 @@ export function PersonCard(person: Person) {
   const [showClass, setClass] = useState<"active" | undefined>(undefined);
 
   return (
-    <div className="relative">
+    <div className="relative flex justify-self-center">
       <div
         className={`profileCard  overflow-hidden h-[450px] w-[280px] rounded-sm  bg-[#f7f9fa] ${showClass}`}
       >
