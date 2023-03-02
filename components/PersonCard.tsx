@@ -178,44 +178,51 @@ export function PersonCard(person: Person) {
     ? assetUrl(person.imageSrc)
     : "https://via.placeholder.com/280x450";
 
-  const [showInfo, setShowInfo] = useState(false);
+  const [showClass, setClass] = useState<"active" | undefined>(undefined);
 
   return (
-    <div className={`profileCard  ${showInfo ? "active" : undefined}`}>
-      <div className="profileImage">
+    <div className="relative">
+      <div
+        className={`profileCard  overflow-hidden h-[450px] w-[280px] rounded-sm  bg-[#f7f9fa] ${showClass}`}
+      >
         <div
-          className={`overflow-hidden w-[280px] h-[450px] bg-no-repeat bg-cover bg-center`}
-          style={{
-            backgroundImage: "url('" + src + "');",
-          }}
-        ></div>
-        <div className="info">
-          <div className="viewMore">
-            <span className="name">{person.name}</span>
+          className="profileImage cursor-pointer"
+          onClick={() => setClass("active")}
+        >
+          <div
+            className={`Image overflow-hidden w-[280px] h-[450px] bg-no-repeat bg-cover bg-center`}
+            style={{
+              backgroundImage: "url('" + src + "');",
+            }}
+          ></div>
+          <div className="info">
+            <div className="viewMore">
+              <span className="name">{person.name}</span>
+            </div>
+            <span className="designation">{person.position}</span>
           </div>
-          <span className="designation">{person.position}</span>
+          <button
+            className="absolute bottom-2 right-2 btn btn-circle btn-primary btn-sm z-10 viewMoreBtn"
+            onClick={() => setClass("active")}
+          >
+            <FontAwesomeIcon icon={faArrowRight} height={16} />
+          </button>
         </div>
-        <button
-          className="absolute bottom-2 right-2 btn btn-circle btn-secondary btn-sm z-10 viewMoreBtn"
-          onClick={() => setShowInfo(true)}
-        >
-          <FontAwesomeIcon icon={faArrowRight} height={16} />
-        </button>
-      </div>
-      <div className="profileInfo">
-        <div className="name">{person.name}</div>
-        <div className="designation">{person.position}</div>
-        <div
-          className="description"
-          dangerouslySetInnerHTML={{ __html: person.body.html }}
-        ></div>
-        <div className="follow">{exampleIcons}</div>
-        <button
-          className="btn btn-primary btn-sm image-full"
-          onClick={() => setShowInfo(false)}
-        >
-          Back
-        </button>
+        <div className="profileInfo">
+          <div className="name">{person.name}</div>
+          <div className="designation">{person.position}</div>
+          <div
+            className="description"
+            dangerouslySetInnerHTML={{ __html: person.body.html }}
+          ></div>
+          <div className="follow">{exampleIcons}</div>
+          <button
+            className="btn btn-primary btn-sm image-full"
+            onClick={() => setClass(undefined)}
+          >
+            Back
+          </button>
+        </div>
       </div>
     </div>
   );

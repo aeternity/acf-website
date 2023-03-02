@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 .main-bg-img {
   background: url("https://i.imgur.com/kKRUzEi.jpeg") no-repeat;
@@ -72,16 +73,9 @@
     opacity: 1;
   }
 }
-.profileCard {
-  height: 450px;
-  width: 280px;
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  background-color: #f7f9fa;
-}
+
 /*profileImage*/
-.profileCard .profileImage {
+.profileImage {
   position: absolute;
   max-height: 100%;
   transform: translate(0, 0);
@@ -91,7 +85,7 @@
   align-items: center;
   transition: all ease-in-out 0.5s;
 }
-.profileCard .profileImage::after {
+.profileImage::after {
   content: "";
   position: absolute;
   top: 0;
@@ -103,12 +97,19 @@
   z-index: 1;
   transition: all ease-in-out 0.5s;
 }
-.profileCard .profileImage img {
+.profileCard:not(.active) .profileImage:hover .Image {
+  transform: scale(1.1);
+  @applay bg-primany;
+  opacity: 0.9;
+  transition: opacity 400ms ease-out, transform 400ms ease-out,
+    filter 400ms ease-out;
+}
+.profileImage .Image {
   max-width: 100%;
   transition: all ease 0.5s;
   border-radius: 4px;
 }
-.profileCard .profileImage .info {
+.profileImage .info {
   position: absolute;
   bottom: 40px;
   left: 1rem;
@@ -118,26 +119,26 @@
   display: flex;
   flex-direction: column;
 }
-.profileCard .profileImage .info .viewMore {
+.profileImage .info .viewMore {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.profileCard .profileImage .viewMoreBtn svg {
+.profileImage .viewMoreBtn svg {
   transition: all ease-in-out 0.5s;
 }
-.profileCard .profileImage .viewMoreBtn:hover {
+.profileImage .viewMoreBtn:hover {
   cursor: pointer;
 }
-.profileCard .profileImage .viewMoreBtn:hover svg {
+.profileImage .viewMoreBtn:hover svg {
   margin-left: 0.4rem;
 }
-.profileCard .profileImage .info .designation {
+.profileImage .info .designation {
   font-size: 0.8rem;
 }
 /*ProfileCard Info*/
-.profileCard .profileInfo {
+.profileInfo {
   position: relative;
   z-index: 20;
   display: flex;
@@ -146,13 +147,13 @@
   transform: translateY(150%);
   transition: all ease-in-out 0.5s;
 }
-.profileCard .profileInfo .name {
+.profileInfo .name {
   font-size: 1.2rem;
 }
-.profileCard .profileInfo .designation {
+.profileInfo .designation {
   font-size: 1rem;
 }
-.profileCard .profileInfo .description {
+.profileInfo .description {
   font-size: 0.7rem;
   justify-content: center;
   display: flex;
@@ -160,18 +161,18 @@
   height: 220px;
   overflow-x: auto;
 }
-.profileCard .profileInfo hr {
+.profileInfo hr {
   width: 100%;
   margin: 0.2rem auto;
 }
-.profileCard .profileInfo .follow {
+.profileInfo .follow {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 1.2rem;
   margin-bottom: 0.6rem;
 }
-.profileCard .profileInfo .backBtn {
+.profileInfo .backBtn {
   padding: 0.5rem 2rem;
   background-color: black;
   border: none;
@@ -181,23 +182,23 @@
   outline: 0;
   font-size: 1rem;
 }
-.profileCard .profileInfo .backBtn:hover {
+.profileInfo .backBtn:hover {
   cursor: pointer;
   background-color: #3b3b3b;
 }
-.profileCard:hover .profileImage::after {
+:hover .profileImage::after {
   background-color: rgba(241, 241, 241, 0.1);
 }
 /*active states*/
-.profileCard.active .profileImage {
+.active .profileImage {
   transform: translate(-32%, -37%) scale(0.2);
 }
-.profileCard.active .profileImage::after,
-.profileCard.active .profileImage .info,
-.profileCard.active .profileImage .viewMoreBtn {
+.active .profileImage::after,
+.active .profileImage .info,
+.active .profileImage .viewMoreBtn {
   visibility: hidden;
 }
-.profileCard.active .profileInfo {
+.active .profileInfo {
   margin-top: 6rem;
   transform: translateY(0);
 }
