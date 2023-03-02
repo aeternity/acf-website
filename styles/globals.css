@@ -26,7 +26,6 @@
 
 .text1 {
   font-family: "Heebo", sans-serif;
-
   font-size: 24px;
   text-align: center;
   color: black;
@@ -58,53 +57,6 @@
 .bg-primary {
   background-color: #100524;
 }
-.color-rimary {
-  color: #37c4d5;
-}
-.bg-secondary {
-  background-color: #831843;
-}
-.img-rotate {
-  transform: rotate(10deg);
-}
-.team-title h3 {
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: #2b2b2b;
-  display: inline-block;
-  text-transform: uppercase;
-}
-
-.team-member-img:hover {
-  background-color: #000;
-  opacity: 0.5;
-}
-
-.team-member-wrap {
-  padding-top: 12px;
-  text-align: left;
-}
-.team-member-title {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-}
-
-.team-member-info {
-  font-size: 15px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0px;
-  color: #4e4e4e;
-}
-.team-member-social {
-  margin: 8px 8px 8px 0;
-  color: #545454;
-  font-size: 12px;
-}
 
 .left-text {
   animation-duration: 2s;
@@ -119,4 +71,133 @@
   100% {
     opacity: 1;
   }
+}
+.profileCard {
+  height: 450px;
+  width: 280px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f7f9fa;
+}
+/*profileImage*/
+.profileCard .profileImage {
+  position: absolute;
+  max-height: 100%;
+  transform: translate(0, 0);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.5s;
+}
+.profileCard .profileImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(33, 33, 33, 0.2);
+  z-index: 1;
+  transition: all ease-in-out 0.5s;
+}
+.profileCard .profileImage img {
+  max-width: 100%;
+  transition: all ease 0.5s;
+  border-radius: 4px;
+}
+.profileCard .profileImage .info {
+  position: absolute;
+  bottom: 40px;
+  left: 1rem;
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.profileCard .profileImage .info .viewMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard .profileImage .viewMoreBtn svg {
+  transition: all ease-in-out 0.5s;
+}
+.profileCard .profileImage .viewMoreBtn:hover {
+  cursor: pointer;
+}
+.profileCard .profileImage .viewMoreBtn:hover svg {
+  margin-left: 0.4rem;
+}
+.profileCard .profileImage .info .designation {
+  font-size: 0.8rem;
+}
+/*ProfileCard Info*/
+.profileCard .profileInfo {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.2rem;
+  transform: translateY(150%);
+  transition: all ease-in-out 0.5s;
+}
+.profileCard .profileInfo .name {
+  font-size: 1.2rem;
+}
+.profileCard .profileInfo .designation {
+  font-size: 1rem;
+}
+.profileCard .profileInfo .description {
+  font-size: 0.7rem;
+  justify-content: center;
+  display: flex;
+  text-align: justify;
+  height: 220px;
+  overflow-x: auto;
+}
+.profileCard .profileInfo hr {
+  width: 100%;
+  margin: 0.2rem auto;
+}
+.profileCard .profileInfo .follow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.profileCard .profileInfo .backBtn {
+  padding: 0.5rem 2rem;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: #f1f1f1;
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  font-size: 1rem;
+}
+.profileCard .profileInfo .backBtn:hover {
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+.profileCard:hover .profileImage::after {
+  background-color: rgba(241, 241, 241, 0.1);
+}
+/*active states*/
+.profileCard.active .profileImage {
+  transform: translate(-32%, -37%) scale(0.2);
+}
+.profileCard.active .profileImage::after,
+.profileCard.active .profileImage .info,
+.profileCard.active .profileImage .viewMoreBtn {
+  visibility: hidden;
+}
+.profileCard.active .profileInfo {
+  margin-top: 6rem;
+  transform: translateY(0);
 }

@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../lib";
 import Image from "next/image";
 
-function SocialMediaLink({
+export function SocialMediaLink({
   href,
   icon,
 }: {

@@ -11,7 +11,7 @@ export async function getStaticProps() {
 export default function Home({ persons }: { persons: Person[] }) {
   return (
     <div className="mt-5">
-      <div className="flex justify-center items-center  p-10 relative  z-10">
+      <div className="flex justify-center items-center p-10 relative  z-10">
         <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
           <div className="clear-both">
             {updateTitleTag("Who We Are")}
@@ -37,7 +37,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 <h3 className="text-2xl">People</h3>
               </div>
             </div>
-            <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-2">
               {persons.map((person, idx) => (
                 <PersonCard key={idx} {...person} />
               ))}
