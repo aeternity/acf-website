@@ -166,62 +166,62 @@ span {
 
 .philosophy-container span:nth-child(7) {
   animation: fade-in 2s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 3.5s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(8) {
   animation: fade-in 2.2s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(9) {
   animation: fade-in 2.4s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 4.5s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(10) {
   animation: fade-in 2.6s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(11) {
   animation: fade-in 2.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 5.5s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(12) {
   animation: fade-in 3s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 6s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(13) {
   animation: fade-in 3.2s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 6.6s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(14) {
   animation: fade-in 3.4s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 7s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(15) {
   animation: fade-in 3.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 7.5s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(16) {
   animation: fade-in 4s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 8s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(17) {
   animation: fade-in 4.2s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 8.5s;
+  animation-delay: 3s;
 }
 
 .philosophy-container span:nth-child(18) {
   animation: fade-in 4.4s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 9s;
+  animation-delay: 3s;
 }
 
 @keyframes fade-in {

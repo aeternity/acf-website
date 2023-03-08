@@ -53,6 +53,7 @@ export default function Home() {
       {updateTitleTag("Our Philosophy")}
       <div className="app" onWheel={parallaxScroll}>
         <section className={addClass(0)}>
+          {slideIdx === 0 && <Constellation />}
           <div className="parallax-wrapper">
             <div className="max-w-7xl mx-auto flex items-center z-10">
               <div className="md:flex md:items-center md:justify-between">
@@ -91,6 +92,7 @@ export default function Home() {
           </div>
         </section>
         <section className={addClass(1)}>
+          {slideIdx === 1 && <Constellation />}
           <div className="parallax-wrapper">
             <div className="max-w-7xl mx-auto flex items-center z-10">
               <div className="md:flex md:items-center md:justify-between">
@@ -144,6 +146,7 @@ export default function Home() {
           </div>
         </section>
         <section className={addClass(2)}>
+          {slideIdx === 2 && <Constellation />}
           <div className="parallax-wrapper">
             <div className="max-w-7xl mx-auto flex items-center z-10">
               <div className="md:flex md:items-center md:justify-between">
@@ -166,11 +169,9 @@ export default function Home() {
                   <span>
                     Core and Essentials Development Domains The 7 domains below
                     are current areas of focus for the core open source
+                    development effort,
                   </span>
-                  <span>
-                    development effort, listed in order of approximate funding
-                    priority.
-                  </span>
+                  <span>listed in order of approximate funding priority.</span>
                   <span className="block">
                     The order may be adjusted as development progresses and
                     priorities evolve.

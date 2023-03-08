@@ -15,7 +15,7 @@ export const Constellation = () => {
   return (
     <Particles
       id="ts-particles"
-      className="video"
+      className="video pointer-events-none"
       init={particlesInit}
       options={{
         particles: {
