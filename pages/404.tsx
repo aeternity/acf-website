@@ -1,10 +1,11 @@
 import { updateTitleTag } from "./_app";
 import Link from "next/link";
+import { Constellation } from "../components/constellation";
 
 export default function FourOhFour() {
   return (
     <>
-      {updateTitleTag("Contact us")}
+      {updateTitleTag("Page not found")}
 
       <div className="text-center pt-12 text-2xl">
         <h2>404 - Page Not Found</h2>
@@ -14,6 +15,7 @@ export default function FourOhFour() {
           <Link href="/">home page</Link>
         </p>
       </div>
+      <Constellation />
     </>
   );
 }
