@@ -36,9 +36,11 @@ export default function Home() {
     }
   });
 
-  const scrollDown = (): void => setSlideIdx((prevIdx) => prevIdx + 1);
+  const scrollDown = (): void =>
+    setSlideIdx((prevIdx) => Math.min(totalSlideNumber - 1, prevIdx + 1));
 
-  const scrollUp = (): void => setSlideIdx((prevIdx) => prevIdx - 1);
+  const scrollUp = (): void =>
+    setSlideIdx((prevIdx) => Math.max(0, prevIdx - 1));
   const addClass = (i: number) =>
     [
       "section",
@@ -77,8 +79,9 @@ export default function Home() {
                     </span>{" "}
                     <span>continuous development, </span>{" "}
                     <span>technology advancement, </span>{" "}
-                    <span>and empowerment of its ecosystem. </span>
-                    <br />
+                    <span>
+                      and empowerment of its ecosystem. <br />
+                    </span>
                     <span className="font-bold">
                       We are one of many organizations that cares deeply about
                       æternity technology —
@@ -159,9 +162,9 @@ export default function Home() {
                   <span className="font-bold">
                     a decentralized and fair internet where users control their
                     own data, identity and destiny.
+                    <br />
+                    <br />
                   </span>
-                  <br />
-                  <br />
 
                   <span>
                     Potential partners and grantees are welcome to contact the{" "}

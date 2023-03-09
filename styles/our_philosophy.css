@@ -41,9 +41,7 @@
   background-size: cover;
 }
 .section:last-child {
-  background: #000
-    url(https://www.shutterstock.com/shutterstock/photos/2179826663/display_1500/stock-vector-hand-and-puzzle-low-poly-mesh-wireframe-business-strategy-success-solution-jigsaw-games-symbol-2179826663.jpg)
-    no-repeat;
+  background: #000 url(https://www.shutterstock.com/shutterstock/photos/2179826663/display_1500/stock-vector-hand-and-puzzle-low-poly-mesh-wireframe-business-strategy-success-solution-jigsaw-games-symbol-2179826663.jpg) no-repeat;
   background-size: cover;
 }
 .section:nth-child(1) {
@@ -135,94 +133,98 @@ span {
   filter: blur(6px);
 }
 
+.philosophy-container {
+  --anim-delay: 0.2s;
+}
+
 .philosophy-container span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 0.5s;
+  animation-delay: var(--anim-delay);
 }
 
 .philosophy-container span:nth-child(2) {
   animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 1s;
+  animation-delay: calc(var(--anim-delay) * 2);
 }
 
 .philosophy-container span:nth-child(3) {
   animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 1.5s;
+  animation-delay: calc(var(--anim-delay) * 3);
 }
 
 .philosophy-container span:nth-child(4) {
   animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 2s;
+  animation-delay: calc(var(--anim-delay) * 4);
 }
 
 .philosophy-container span:nth-child(5) {
   animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 2.5s;
+  animation-delay: calc(var(--anim-delay) * 5);
 }
 
 .philosophy-container span:nth-child(6) {
   animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 3s;
+  animation-delay: calc(var(--anim-delay) * 6);
 }
 
 .philosophy-container span:nth-child(7) {
   animation: fade-in 2s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 3.5s;
+  animation-delay: calc(var(--anim-delay) * 7);
 }
 
 .philosophy-container span:nth-child(8) {
   animation: fade-in 2.2s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 4s;
+  animation-delay: calc(var(--anim-delay) * 8);
 }
 
 .philosophy-container span:nth-child(9) {
   animation: fade-in 2.4s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 4.5s;
+  animation-delay: calc(var(--anim-delay) * 9);
 }
 
 .philosophy-container span:nth-child(10) {
   animation: fade-in 2.6s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 5s;
+  animation-delay: calc(var(--anim-delay) * 10);
 }
 
 .philosophy-container span:nth-child(11) {
   animation: fade-in 2.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 5.5s;
+  animation-delay: calc(var(--anim-delay) * 11);
 }
 
 .philosophy-container span:nth-child(12) {
   animation: fade-in 3s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 6s;
+  animation-delay: calc(var(--anim-delay) * 12);
 }
 
 .philosophy-container span:nth-child(13) {
   animation: fade-in 3.2s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 6.6s;
+  animation-delay: calc(var(--anim-delay) * 13);
 }
 
 .philosophy-container span:nth-child(14) {
   animation: fade-in 3.4s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 7s;
+  animation-delay: calc(var(--anim-delay) * 14);
 }
 
 .philosophy-container span:nth-child(15) {
   animation: fade-in 3.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 7.5s;
+  animation-delay: calc(var(--anim-delay) * 15);
 }
 
 .philosophy-container span:nth-child(16) {
   animation: fade-in 4s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 8s;
+  animation-delay: calc(var(--anim-delay) * 16);
 }
 
 .philosophy-container span:nth-child(17) {
   animation: fade-in 4.2s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 8.5s;
+  animation-delay: calc(var(--anim-delay) * 17);
 }
 
 .philosophy-container span:nth-child(18) {
   animation: fade-in 4.4s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  animation-delay: 9s;
+  animation-delay: calc(var(--anim-delay) * 18);
 }
 
 @keyframes fade-in {
