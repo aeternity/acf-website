@@ -28,7 +28,7 @@ export function Footer() {
   return (
     <div
       id="footer"
-      className="bg-white  z-20 border-t border-accent-content/10"
+      className="bg-white z-20 border-t border-accent-content/10"
     >
       <div id="footer" className="footer mx-auto max-w-7xl lg:px-8 z-10 p-8 ">
         <div>
