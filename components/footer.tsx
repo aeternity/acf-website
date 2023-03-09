@@ -9,6 +9,7 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../lib";
 import Image from "next/image";
+import Link from "next/link";
 
 export function SocialMediaLink({
   href,
@@ -37,17 +38,16 @@ export function Footer() {
         <div>
           <div className="columns-1 xl:columns-2">
             <div>
-              <a
-                href="/terms-conditions"
-                className="link link-secondary link-hover"
-              >
-                Terms & Conditions
-              </a>
+              <Link href="/terms-conditions">
+                <a className="link link-secondary link-hover">
+                  Terms & Conditions
+                </a>
+              </Link>
             </div>
             <div>
-              <a href="/privacy" className="link link-secondary link-hover">
-                Privacy policy
-              </a>
+              <Link href="/privacy">
+                <a className="link link-secondary link-hover">Privacy policy</a>
+              </Link>
             </div>
             <div>
               <a
@@ -77,9 +77,9 @@ export function Footer() {
               </a>
             </div>
             <div>
-              <a href="/contact" className="link link-secondary  link-hover">
-                Contact Us
-              </a>
+              <Link href="/contact">
+                <a className="link link-secondary  link-hover">Contact Us</a>
+              </Link>
             </div>
           </div>
         </div>

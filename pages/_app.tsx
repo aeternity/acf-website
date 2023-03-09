@@ -15,7 +15,7 @@ export const updateTitleTag = (pageName: string) => (
 );
 
 function MyApp({ Component, pageProps }: AppProps) {
-  console.log(pageProps, Component);
+  // console.log(pageProps, Component);
   return (
     <>
       <Head>

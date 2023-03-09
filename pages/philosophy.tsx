@@ -18,7 +18,7 @@ export default function Home() {
 
   const parallaxScroll = throttle((e: React.WheelEvent<HTMLDivElement>) => {
     const isWheelingDown = -e.deltaY <= 0;
-    console.log(isWheelingDown);
+    // console.log(isWheelingDown);
     if (isWheelingDown && !isBusy) {
       setIsBusy(true);
       if (slideIdx !== totalSlideNumber - 1) {

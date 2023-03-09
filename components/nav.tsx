@@ -11,7 +11,7 @@ export const Nav = () => {
       <header className="fixed top-0 right-0 left-0 z-20 pt-2 px-2 bg-white">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/">
-            <a href="#">
+            <a>
               <Image
                 src={assetUrl("/ACF-logo-white.svg")}
                 height={50}
@@ -75,9 +75,9 @@ export const Nav = () => {
                   <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800">
                     {NAVBAR_LINKS_DATA.map((link) => (
                       <li key={link.href}>
-                        <a className="block py-2" href={link.href}>
-                          {link.text}
-                        </a>
+                        <Link href={link.href}>
+                          <a className="block py-2">{link.text}</a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -87,13 +87,11 @@ export const Nav = () => {
           )}
           <nav className="hidden lg:flex">
             {NAVBAR_LINKS_DATA.map((link) => (
-              <a
-                key={link.href}
-                className="text-gray hover:text-secondary px-3 py-2 rounded"
-                href={link.href}
-              >
-                {link.text}
-              </a>
+              <Link href={link.href} key={link.href}>
+                <a className="text-gray hover:text-secondary px-3 py-2 rounded">
+                  {link.text}
+                </a>
+              </Link>
             ))}
           </nav>
         </div>

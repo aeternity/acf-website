@@ -4,7 +4,7 @@ import { loadFull } from "tsparticles";
 
 export const Constellation = () => {
   const particlesInit = useCallback(async (engine: any) => {
-    console.log(engine);
+    // console.log(engine);
     await loadFull(engine);
   }, []);
 
