@@ -3,6 +3,7 @@ import { PersonCard } from "../components/PersonCard";
 import { updateTitleTag } from "./_app";
 import { Constellation } from "../components/constellation";
 import { SimpleContainer } from "../components/SimpleContainer";
+import Link from "next/link";
 
 export async function getStaticProps() {
   const persons = allPeople.sort((a, b) => a.index - b.index);
@@ -29,6 +30,17 @@ export default function Home({ persons }: { persons: Person[] }) {
                 The organization is committed to promoting technical excellence
                 and user-friendly applications as well as supporting projects
                 built on the æternity blockchain.
+              </p>
+              <p className="pt-3">
+                Read more about{" "}
+                <Link href="/philosophy">
+                  <a className="link">our philosophy</a>
+                </Link>{" "}
+                and the{" "}
+                <Link href="/grants">
+                  <a className="link">grants program</a>
+                </Link>
+                .
               </p>
             </div>
           </div>
