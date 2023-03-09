@@ -11,9 +11,7 @@ export default function FourOhFour() {
         <p>¯\_(ツ)_/¯</p>
         <p>
           Check that you typed the address correctly or go back to the{" "}
-          <Link href={"/"} className="">
-            home page
-          </Link>
+          <Link href="/">home page</Link>
         </p>
       </div>
     </>

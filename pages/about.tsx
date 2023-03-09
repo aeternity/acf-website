@@ -15,7 +15,7 @@ export default function Home({ persons }: { persons: Person[] }) {
       {updateTitleTag("Who We Are")}
       <SimpleContainer>
         <>
-          <div className={"font-serif"}>
+          <div className="font-serif">
             <h1 className="text-3xl text-center mt-8 mb-4">Who We Are</h1>
             <div className="text-xl">
               <p>

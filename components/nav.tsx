@@ -16,7 +16,7 @@ export const Nav = () => {
                 src={assetUrl("/ACF-logo-white.svg")}
                 height={50}
                 width={150}
-                alt={"Aeternity Crypto Foundation Logo"}
+                alt="Aeternity Crypto Foundation Logo"
                 priority={true}
               />
             </a>
@@ -39,7 +39,7 @@ export const Nav = () => {
                 className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm 0"
                 aria-hidden="true"
                 onClick={() => setOpen(false)}
-              ></div>
+              />
               <div
                 className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 opacity-100 scale-100"
                 tabIndex={-1}
@@ -64,7 +64,7 @@ export const Nav = () => {
                         strokeWidth="1.5"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                      ></path>
+                      />
                     </svg>
                   </button>
                   <h2 className="text-sm font-medium text-zinc-600">

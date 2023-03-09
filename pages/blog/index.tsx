@@ -3,7 +3,6 @@ import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { updateTitleTag } from "../_app";
-import { assetUrl } from "../../lib";
 import { SimpleContainer } from "../../components/SimpleContainer";
 
 export async function getStaticProps() {

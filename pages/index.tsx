@@ -1,8 +1,7 @@
-import { BlogPost } from "contentlayer/generated";
 import Link from "next/link";
 import { Constellation } from "../components/constellation";
 
-export default function Home({ posts }: { posts: BlogPost[] }) {
+export default function Home() {
   return (
     <>
       <div className="absolute w-[100%] h-[100%] main-bg-img" />

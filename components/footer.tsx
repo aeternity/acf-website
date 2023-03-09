@@ -38,20 +38,20 @@ export function Footer() {
           <div className="columns-1 xl:columns-2">
             <div>
               <a
-                href={"/terms-conditions"}
+                href="/terms-conditions"
                 className="link link-secondary link-hover"
               >
                 Terms & Conditions
               </a>
             </div>
             <div>
-              <a href={"/privacy"} className="link link-secondary link-hover">
+              <a href="/privacy" className="link link-secondary link-hover">
                 Privacy policy
               </a>
             </div>
             <div>
               <a
-                href={"https://aeternity.com"}
+                href="https://aeternity.com"
                 target="_blank"
                 rel="noreferrer"
                 className="link link-secondary link-hover"
@@ -60,7 +60,7 @@ export function Footer() {
                   src={assetUrl("/logo/aeternity-logo-small.svg")}
                   height={10}
                   width={20}
-                  alt={"Aeternity blockchain"}
+                  alt="Aeternity blockchain"
                   priority={true}
                 />{" "}
                 æternity Blockchain
@@ -68,9 +68,7 @@ export function Footer() {
             </div>
             <div>
               <a
-                href={
-                  "https://forum.aeternity.com/t/howto-apply-for-a-grant-from-the-aeternity-crypto-foundation-liechtenstein/6880"
-                }
+                href="https://forum.aeternity.com/t/howto-apply-for-a-grant-from-the-aeternity-crypto-foundation-liechtenstein/6880"
                 target="_blank"
                 rel="noreferrer"
                 className="link link-secondary  link-hover"
@@ -79,7 +77,7 @@ export function Footer() {
               </a>
             </div>
             <div>
-              <a href={"/contact"} className="link link-secondary  link-hover">
+              <a href="/contact" className="link link-secondary  link-hover">
                 Contact Us
               </a>
             </div>
@@ -90,33 +88,31 @@ export function Footer() {
           <div className="footer-title">Get in Touch!</div>
           <div className="space-x-2 inline-flex content-center">
             <SocialMediaLink
-              href={"https://github.com/aeternity"}
+              href="https://github.com/aeternity"
               icon={faGithub}
             />
             <SocialMediaLink
-              href={"https://twitter.com/aeternityCF"}
+              href="https://twitter.com/aeternityCF"
               icon={faTwitter}
             />
             <SocialMediaLink
-              href={
-                "https://www.linkedin.com/company/æternity-crypto-foundation/"
-              }
+              href="https://www.linkedin.com/company/æternity-crypto-foundation/"
               icon={faLinkedin}
             />
             <SocialMediaLink
-              href={"https://www.facebook.com/aefoundationbg/"}
+              href="https://www.facebook.com/aefoundationbg/"
               icon={faFacebook}
             />
             <SocialMediaLink
-              href={"https://telegram.me/aeternity"}
+              href="https://telegram.me/aeternity"
               icon={faTelegram}
             />
             <SocialMediaLink
-              href={"https://www.youtube.com/channel/UCNm_8-3T8fU17YjD9Z57IcQ"}
+              href="https://www.youtube.com/channel/UCNm_8-3T8fU17YjD9Z57IcQ"
               icon={faYoutube}
             />
             <SocialMediaLink
-              href={"https://forum.aeternity.com/c/li-foundation/31"}
+              href="https://forum.aeternity.com/c/li-foundation/31"
               icon={faDiscourse}
             />
           </div>

@@ -1,10 +1,9 @@
 import { updateTitleTag } from "./_app";
 import { Constellation } from "../components/constellation";
-import { Person } from "contentlayer/generated";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { throttle } from "lodash";
 
-const transitionDuration: number = 600;
+const transitionDuration = 600;
 
 export default function Home() {
   const [isBusy, setIsBusy] = useState(false);

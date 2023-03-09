@@ -8,9 +8,9 @@ export const Constellation = () => {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container: object) => {
-    await console.log(container);
-  }, []);
+  // const particlesLoaded = useCallback(async (container: object) => {
+  //   await console.log(container);
+  // }, []);
 
   return (
     <Particles
