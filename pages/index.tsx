@@ -8,7 +8,6 @@ import { Constellation } from "../components/constellation";
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <>
-      {" "}
       <div className="absolute w-[100%] h-[100%] main-bg-img" />
       <div className="relative h-[100vh] sm:h-[70vh]">
         <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 h-full">

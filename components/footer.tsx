@@ -30,7 +30,10 @@ export function Footer() {
       id="footer"
       className="bg-white z-20 border-t border-accent-content/10"
     >
-      <div id="footer" className="footer mx-auto max-w-7xl lg:px-8 z-10 p-8 ">
+      <div
+        id="footer"
+        className="footer mx-auto max-w-7xl px-4 lg:px-8 z-10 p-4 sm:p-8 "
+      >
         <div>
           <div className="columns-1 xl:columns-2">
             <div>

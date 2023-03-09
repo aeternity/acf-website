@@ -1,33 +1,33 @@
-import { updateTitleTag } from "./_app"; import {Constellation} from "../components/constellation";
+import {updateTitleTag} from "./_app"; import {Constellation} from "../components/constellation"; import {
+    SimpleContainer
+} from "../components/SimpleContainer";
 
 <>
-  {updateTitleTag("Donations")}
-    <div className="mt-5">
-        <div className="flex justify-center items-center p-2 sm:p-5 relative z-10">
-            <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
-                <div className="clear-both">
-  <div className={"prose font-serif"}>
+    {updateTitleTag("Donations")}
+    <SimpleContainer>
+        <div className={"prose font-serif"}>
 
-    # Donations
+            # Donations
 
-    Thank you for considering making a donation to the foundation.
-    We greatly appreciate your support and generosity.
+            Thank you for considering making a donation to the foundation.
+            We greatly appreciate your support and generosity.
 
-    Unfortunately, due to the laws of the Principality of Liechtenstein, we are unable to accept anonymous donations.
-    In order to comply with local regulations, we require all donors to provide their name and contact information.
+            Unfortunately, due to the laws of the Principality of Liechtenstein, we are unable to accept anonymous
+            donations.
+            In order to comply with local regulations, we require all donors to provide their name and contact
+            information.
 
-    We apologize for any inconvenience this may cause. Thank you for your understanding and support. Your donation will
-    make a real difference and will help us to continue our work.
-    Your information will be kept confidential and will only be used for the purposes of processing your donation and
-    issuing a tax receipt, if applicable.
+            We apologize for any inconvenience this may cause. Thank you for your understanding and support. Your
+            donation will
+            make a real difference and will help us to continue our work.
+            Your information will be kept confidential and will only be used for the purposes of processing your
+            donation and
+            issuing a tax receipt, if applicable.
 
-    We accept donations from organizations or individuals. If you wish to donate, please email us at:
-    <a href="mailto:hello@aeternity-foundation.org">hello@aeternity-foundation.org</a>
+            We accept donations from organizations or individuals. If you wish to donate, please email us at:
+            <a href="mailto:hello@aeternity-foundation.org">hello@aeternity-foundation.org</a>
 
-  </div>
-  </div>
-  </div>
-  </div>
-        <Constellation />
-  </div>
+            <Constellation/>
+        </div>
+    </SimpleContainer>
 </>

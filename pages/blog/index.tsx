@@ -1,8 +1,10 @@
+import React from "react";
 import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { updateTitleTag } from "../_app";
 import { assetUrl } from "../../lib";
+import { SimpleContainer } from "../../components/SimpleContainer";
 
 export async function getStaticProps() {
   const posts = allBlogPosts.sort((a, b) =>
@@ -36,20 +38,16 @@ export default function Home({ posts }: { posts: BlogPost[] }) {
           background: "url('/netDotBg.png')",
         }}
       />
-      <div className="mt-5">
-        <div className="flex justify-center items-center p-2 sm:p-5 relative z-10">
-          <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
-            <div className="clear-both">
-              <h1 className="mb-8 text-3xl font-bold">
-                Æternity crypto foundation Blog
-              </h1>
-              {posts.map((post, idx) => (
-                <PostCard key={idx} {...post} />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+      <SimpleContainer>
+        <>
+          <h1 className="mb-8 text-3xl font-bold">
+            Æternity crypto foundation Blog
+          </h1>
+          {posts.map((post, idx) => (
+            <PostCard key={idx} {...post} />
+          ))}
+        </>
+      </SimpleContainer>
     </>
   );
 }
