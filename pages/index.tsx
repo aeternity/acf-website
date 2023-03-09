@@ -1,8 +1,5 @@
 import { BlogPost } from "contentlayer/generated";
-import { NAVBAR_LINKS_DATA } from "../components/NavBarLink";
 import Link from "next/link";
-import Image from "next/image";
-import { assetUrl } from "../lib";
 import { Constellation } from "../components/constellation";
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
@@ -30,23 +27,20 @@ export default function Home({ posts }: { posts: BlogPost[] }) {
                   <p className="text-white text-lg mb-2">
                     Æternity is a scalable, decentralized platform that enables
                     efficient and secure communication and value transfer
-                    between participants. We believe that æternity has the
-                    potential to revolutionize the way we interact and do
-                    business.
+                    between participants.
                   </p>
                   <p className="text-white text-lg mb-6">
-                    Æternity is a scalable, decentralized platform that enables
-                    The Æternity Crypto Foundation is a non-profit organization,
-                    established in the <br /> Principality of Liechtenstein.
+                    We believe that æternity has the potential to revolutionize
+                    the way we interact and do business.
                   </p>
-                  <a
-                    href="https://forum.aeternity.com/c/li-foundation/grant/81"
-                    className="btn-outline btn-ghost
-                   rounded-full hover:opacity-80  text-[#37C4D5] font-bold py-3  px-6 mb-6"
-                    target="_blank"
-                  >
-                    See More
-                  </a>
+                  <Link href="/about">
+                    <span
+                      className="link btn-outline btn-ghost rounded-full
+                    hover:opacity-80 text-[#37C4D5] font-bold py-3 px-6 mb-6"
+                    >
+                      See More
+                    </span>
+                  </Link>
                 </div>
                 <div className="md:w-2/5 ml-10 flex justify-center" />
               </div>
