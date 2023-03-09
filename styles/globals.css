@@ -1,7 +1,205 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
+
+.main-bg-img {
+  background: url("https://i.imgur.com/kKRUzEi.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.home-left-container {
+  animation-duration: 2s;
+  animation-name: fadeInLeft;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .footer svg:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.text1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: screen;
+  justify-content: center;
+  background: white;
+  cursor: default;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bg-img {
+  background: url("https://i.imgur.com/kKRUzEi.jpeg") no-repeat;
+  background-size: cover;
+}
+.bg-primary {
+  background-color: #100524;
+}
+
+.left-text {
+  animation-duration: 2s;
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*profileImage*/
+.profileImage {
+  position: absolute;
+  max-height: 100%;
+  transform: translate(0, 0);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.5s;
+}
+.profileImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(33, 33, 33, 0.2);
+  z-index: 1;
+  transition: all ease-in-out 0.5s;
+}
+.profileCard:not(.active) .profileImage:hover .Image {
+  transform: scale(1.1);
+  @applay bg-primany;
+  opacity: 0.9;
+  transition: opacity 400ms ease-out, transform 400ms ease-out,
+    filter 400ms ease-out;
+}
+.profileImage .Image {
+  max-width: 100%;
+  transition: all ease 0.5s;
+  border-radius: 4px;
+}
+.profileImage .info {
+  position: absolute;
+  bottom: 40px;
+  left: 1rem;
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.profileImage .info .viewMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage .viewMoreBtn svg {
+  transition: all ease-in-out 0.5s;
+}
+.profileImage .viewMoreBtn:hover {
+  cursor: pointer;
+}
+.profileImage .viewMoreBtn:hover svg {
+  margin-left: 0.4rem;
+}
+.profileImage .info .designation {
+  font-size: 0.8rem;
+}
+/*ProfileCard Info*/
+.profileInfo {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.2rem;
+  transform: translateY(150%);
+  transition: all ease-in-out 0.5s;
+}
+.profileInfo .name {
+  font-size: 1.2rem;
+}
+.profileInfo .designation {
+  font-size: 1rem;
+}
+.profileInfo .description {
+  font-size: 0.7rem;
+  justify-content: center;
+  display: flex;
+  text-align: justify;
+  height: 220px;
+  overflow-x: auto;
+}
+.profileInfo hr {
+  width: 100%;
+  margin: 0.2rem auto;
+}
+.profileInfo .follow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.profileInfo .backBtn {
+  padding: 0.5rem 2rem;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: #f1f1f1;
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  font-size: 1rem;
+}
+.profileInfo .backBtn:hover {
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+:hover .profileImage::after {
+  background-color: rgba(241, 241, 241, 0.1);
+}
+/*active states*/
+.active .profileImage {
+  transform: translate(-32%, -37%) scale(0.2);
+}
+.active .profileImage::after,
+.active .profileImage .info,
+.active .profileImage .viewMoreBtn {
+  visibility: hidden;
+}
+.active .profileInfo {
+  margin-top: 6rem;
+  transform: translateY(0);
 }

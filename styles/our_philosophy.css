@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+.app {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.section {
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1) !important;
+  will-change: transform;
+  transform: translateY(30vh);
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.section::before {
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.section:first-child {
+  background: #000 url(https://i.imgur.com/VMvaOck.png) no-repeat;
+  background-size: cover;
+}
+.section:first-child .parallax-wrapper {
+  transform: translateY(15vh);
+}
+.section:nth-child(2) {
+  background: #000118 url(https://i.imgur.com/qCrHDNs.png) no-repeat;
+  background-size: cover;
+}
+.section:last-child {
+  background: #000
+    url(https://www.shutterstock.com/shutterstock/photos/2179826663/display_1500/stock-vector-hand-and-puzzle-low-poly-mesh-wireframe-business-strategy-success-solution-jigsaw-games-symbol-2179826663.jpg)
+    no-repeat;
+  background-size: cover;
+}
+.section:nth-child(1) {
+  z-index: 3;
+}
+.section:nth-child(2) {
+  z-index: 2;
+}
+.section:nth-child(3) {
+  z-index: 1;
+}
+.parallax-wrapper {
+  @apply h-[70vh];
+  @apply px-3;
+  @apply my-1;
+  @apply xl:px-0;
+  @apply xl:my-0;
+  @apply overflow-auto;
+  transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1) !important;
+  backface-visibility: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: relative;
+  transform: translateY(40vh);
+  will-change: transform;
+}
+.section.up-scroll {
+  transform: translate3d(0, -15vh, 0);
+  top: 15vh;
+}
+.section.up-scroll .parallax-wrapper {
+  transform: translateY(15vh);
+}
+.section.up-scroll + .section {
+  transform: translate3d(0, 30vh, 0);
+}
+.section.up-scroll + .section .parallax-wrapper {
+  transform: translateY(30vh);
+}
+.section.down-scroll {
+  transform: translate3d(0, -130vh, 0);
+}
+.section.down-scroll .parallax-wrapper {
+  transform: translateY(40vh);
+}
+.section.down-scroll + .section:not(.down-scroll) {
+  transform: translate3d(0, -15vh, 0);
+  top: 15vh;
+}
+.section.down-scroll + .section:not(.down-scroll) .parallax-wrapper {
+  transform: translateY(15vh);
+}
+
+.our-philosophy-img {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.philosophy-container {
+  transform: scale(0.88);
+  animation: scale 4s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.philosophy-container h2 {
+  @apply text-4xl;
+  @apply text-[#37C4D5];
+  @apply font-bold;
+  @apply mb-5;
+}
+span {
+  @apply text-white;
+}
+.philosophy-container span {
+  @apply text-lg;
+  @apply mb-2;
+  opacity: 0;
+  filter: blur(6px);
+}
+
+.philosophy-container span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 0.5s;
+}
+
+.philosophy-container span:nth-child(2) {
+  animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 1s;
+}
+
+.philosophy-container span:nth-child(3) {
+  animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 1.5s;
+}
+
+.philosophy-container span:nth-child(4) {
+  animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 2s;
+}
+
+.philosophy-container span:nth-child(5) {
+  animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 2.5s;
+}
+
+.philosophy-container span:nth-child(6) {
+  animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 3s;
+}
+
+.philosophy-container span:nth-child(7) {
+  animation: fade-in 2s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 3.5s;
+}
+
+.philosophy-container span:nth-child(8) {
+  animation: fade-in 2.2s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 4s;
+}
+
+.philosophy-container span:nth-child(9) {
+  animation: fade-in 2.4s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 4.5s;
+}
+
+.philosophy-container span:nth-child(10) {
+  animation: fade-in 2.6s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 5s;
+}
+
+.philosophy-container span:nth-child(11) {
+  animation: fade-in 2.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 5.5s;
+}
+
+.philosophy-container span:nth-child(12) {
+  animation: fade-in 3s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 6s;
+}
+
+.philosophy-container span:nth-child(13) {
+  animation: fade-in 3.2s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 6.6s;
+}
+
+.philosophy-container span:nth-child(14) {
+  animation: fade-in 3.4s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 7s;
+}
+
+.philosophy-container span:nth-child(15) {
+  animation: fade-in 3.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 7.5s;
+}
+
+.philosophy-container span:nth-child(16) {
+  animation: fade-in 4s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 8s;
+}
+
+.philosophy-container span:nth-child(17) {
+  animation: fade-in 4.2s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 8.5s;
+}
+
+.philosophy-container span:nth-child(18) {
+  animation: fade-in 4.4s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  animation-delay: 9s;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

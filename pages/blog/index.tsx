@@ -1,7 +1,10 @@
+import React from "react";
 import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { updateTitleTag } from "../_app";
+import { assetUrl } from "../../lib";
+import { SimpleContainer } from "../../components/SimpleContainer";
 
 export async function getStaticProps() {
   const posts = allBlogPosts.sort((a, b) =>
@@ -27,16 +30,24 @@ function PostCard(post: BlogPost) {
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
-    <div className="mx-auto max-w-2xl py-16 text-center">
+    <>
       {updateTitleTag("Blog")}
-
-      <h1 className="mb-8 text-3xl font-bold">
-        æternity crypto foundation Blog
-      </h1>
-
-      {posts.map((post, idx) => (
-        <PostCard key={idx} {...post} />
-      ))}
-    </div>
+      <div
+        className="absolute w-[100%] h-[100%]"
+        style={{
+          background: "url('/netDotBg.png')",
+        }}
+      />
+      <SimpleContainer>
+        <>
+          <h1 className="mb-8 text-3xl font-bold">
+            Æternity crypto foundation Blog
+          </h1>
+          {posts.map((post, idx) => (
+            <PostCard key={idx} {...post} />
+          ))}
+        </>
+      </SimpleContainer>
+    </>
   );
 }
