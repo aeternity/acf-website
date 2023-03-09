@@ -127,8 +127,7 @@ export default function Home() {
                     </span>
                     <span className="block">
                       * Foster the development and adoption of cross-industry
-                      platforms powered by distributed ledgers * Educate the
-                      public
+                      platforms powered by distributed ledgers
                     </span>
                     <span className="block">* Educate the public</span>
                     <span className="block">
