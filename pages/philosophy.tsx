@@ -102,19 +102,16 @@ export default function Home() {
                   }`}
                 >
                   <div>
-                    <span className="text-blue-600">Research, </span>{" "}
+                    <span className="text-blue-600">Research,</span>{" "}
                     <span className="text-pink-500">development,</span>{" "}
-                    <span className="text-[#37C4D5]">innovations, </span>{" "}
-                    <span className="text-blue-300 block">
+                    <span className="text-[#37C4D5]">innovations,</span>{" "}
+                    <span className="text-red-500 block">
                       community learning & building opportunities,
                     </span>{" "}
                     <span className="text-indigo-400 block">
-                      Ambassador Programs and Grant
+                      Ambassador Programs and Grant Opportunities
                     </span>
-                    <span className="block">
-                      Opportunities - it is not just what we do but how we do
-                      it.
-                    </span>
+                    <span>- it is not just what we do but how we do it.</span>
                     <span className="block">
                       However, we are a foundation, and thus we continue to fund
                       development of many significant components of the æternity

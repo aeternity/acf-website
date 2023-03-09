@@ -1,8 +1,11 @@
-import { updateTitleTag } from "./_app";
+import { updateTitleTag } from "./_app"; import {Constellation} from "../components/constellation";
 
 <>
   {updateTitleTag("Donations")}
-
+    <div className="mt-5">
+        <div className="flex justify-center items-center p-2 sm:p-5 relative z-10">
+            <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
+                <div className="clear-both">
   <div className={"prose font-serif"}>
 
     # Donations
@@ -21,5 +24,10 @@ import { updateTitleTag } from "./_app";
     We accept donations from organizations or individuals. If you wish to donate, please email us at:
     <a href="mailto:hello@aeternity-foundation.org">hello@aeternity-foundation.org</a>
 
+  </div>
+  </div>
+  </div>
+  </div>
+        <Constellation />
   </div>
 </>

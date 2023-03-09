@@ -27,16 +27,22 @@ function PostCard(post: BlogPost) {
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
-    <div className="mx-auto max-w-2xl py-16 text-center">
-      {updateTitleTag("Blog")}
-
-      <h1 className="mb-8 text-3xl font-bold">
-        æternity crypto foundation Blog
-      </h1>
-
-      {posts.map((post, idx) => (
-        <PostCard key={idx} {...post} />
-      ))}
-    </div>
+    <>
+      {updateTitleTag("Blog")}{" "}
+      <div className="mt-5">
+        <div className="flex justify-center items-center p-2 sm:p-5 relative z-10">
+          <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
+            <div className="clear-both">
+              <h1 className="mb-8 text-3xl font-bold">
+                Æternity crypto foundation Blog
+              </h1>
+              {posts.map((post, idx) => (
+                <PostCard key={idx} {...post} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

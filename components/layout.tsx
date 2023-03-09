@@ -12,7 +12,7 @@ import { Nav } from "./nav";
 export default function Layout({ children }: { children: ReactElement }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   return (
-    <div className="flex flex-col h-[100vh] bg-[#f7f9fa]">
+    <div className="flex flex-col min-h-[100vh] bg-[#f7f9fa]">
       <Nav />
       <main className="flex-1 mt-[65px]">{children}</main>
       <Footer />
