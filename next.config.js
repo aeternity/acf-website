@@ -17,14 +17,15 @@ const withMDX = require("@next/mdx")({
   },
 });
 
-const assetPrefix = isProd ? "/acf-website/" : "";
+const basePath = isProd ? "/acf-website" : "";
+const assetPrefix = basePath ? `${basePath}/` : "";
 
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: { unoptimized: true },
-  basePath: isProd ? "/acf-website" : "",
+  basePath,
   assetPrefix,
   publicRuntimeConfig: { assetPrefix },
 };
