@@ -191,7 +191,7 @@ export function PersonCard(person: Person) {
           <div
             className="Image overflow-hidden w-[280px] h-[450px] bg-no-repeat bg-cover bg-center"
             style={{
-              backgroundImage: "url('" + src + "');",
+              backgroundImage: "url('" + src + "')",
             }}
           />
           <div className="info">
