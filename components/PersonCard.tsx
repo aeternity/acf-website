@@ -202,7 +202,7 @@ export function PersonCard(person: Person) {
             <span className="designation">{person.position}</span>
           </div>
           <button
-            className="absolute bottom-2 right-2 btn btn-circle btn-primary btn-sm z-10 viewMoreBtn"
+            className="absolute bottom-2 right-2 btn btn-circle btn-secondary btn-sm z-10 viewMoreBtn"
             onClick={() => setClass("active")}
           >
             <FontAwesomeIcon icon={faArrowRight} height={16} />

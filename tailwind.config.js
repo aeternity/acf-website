@@ -37,7 +37,7 @@ module.exports = {
           // accent: "#F8E600",
           // blue
           // accent: "#b3e2ff",
-          accent: "#d2eefd",
+          // accent: "#d2eefd",
           // accent: "#E6F1F8",
           // grey
           // accent: "#A7C0CC",

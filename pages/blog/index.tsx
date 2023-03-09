@@ -2,6 +2,7 @@ import Link from "next/link";
 import { compareDesc, format, parseISO } from "date-fns";
 import { allBlogPosts, BlogPost } from "contentlayer/generated";
 import { updateTitleTag } from "../_app";
+import { assetUrl } from "../../lib";
 
 export async function getStaticProps() {
   const posts = allBlogPosts.sort((a, b) =>
@@ -26,10 +27,17 @@ function PostCard(post: BlogPost) {
 }
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
+  const bg = "/net-dot-bg.png";
+  console.log(bg);
   return (
     <>
-      {updateTitleTag("Blog")}{" "}
-      <div className="mt-5">
+      {updateTitleTag("Blog")}
+      <div
+        className="mt-5 min-h-[100vh] main-bg-img "
+        style={{
+          backgroundImage: "url('/netDotBg.png')",
+        }}
+      >
         <div className="flex justify-center items-center p-2 sm:p-5 relative z-10">
           <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
             <div className="clear-both">
