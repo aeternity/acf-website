@@ -55,7 +55,7 @@ export default function Home() {
         <section className={addClass(0)}>
           {slideIdx === 0 && <Constellation />}
           <div className="parallax-wrapper">
-            <div className="max-w-7xl mx-auto flex items-center z-10">
+            <div className="max-w-7xl mx-auto flex items-center z-10 ">
               <div className="md:flex md:items-center md:justify-between">
                 <div className="md:w-3/5 philosophy-container">
                   <h2>Our Philosophy</h2>
