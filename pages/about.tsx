@@ -4,6 +4,7 @@ import { updateTitleTag } from "./_app";
 import { Constellation } from "../components/constellation";
 import { SimpleContainer } from "../components/SimpleContainer";
 import Link from "next/link";
+import React from "react";
 
 export async function getStaticProps() {
   const persons = allPeople.sort((a, b) => a.index - b.index);
@@ -31,17 +32,24 @@ export default function Home({ persons }: { persons: Person[] }) {
                 and user-friendly applications as well as supporting projects
                 built on the æternity blockchain.
               </p>
-              <p className="pt-3">
-                Read more about{" "}
-                <Link href="/philosophy">
-                  <a className="link">our philosophy</a>
-                </Link>{" "}
-                and the{" "}
-                <Link href="/grants">
-                  <a className="link">grants program</a>
-                </Link>
-                .
+              <h2 className="pt-3 text-2xl">
+                Core and Essentials Development Domains
+              </h2>
+              <p>
+                The 7 domains below are current areas of focus for the core open
+                source development effort, listed in order of approximate
+                funding priority. The order may be adjusted as development
+                progresses and priorities evolve.
               </p>
+              <ul className="list-disc list-inside">
+                <li> Protocol Maintenance</li>
+                <li> Protocol Development</li>
+                <li> SDKs</li>
+                <li> Wallets and Interfaces</li>
+                <li> æpps and Integrations</li>
+                <li> Middleware Backend API - Dev-Tools</li>
+                <li> Dev-Tools</li>
+              </ul>
             </div>
           </div>
           <div className="my-6 pb-3">
@@ -54,6 +62,17 @@ export default function Home({ persons }: { persons: Person[] }) {
               <PersonCard key={idx} {...person} />
             ))}
           </div>
+          <p className="pt-10 text-xl">
+            Read more about{" "}
+            <Link href="/philosophy">
+              <a className="link">our philosophy</a>
+            </Link>{" "}
+            and the{" "}
+            <Link href="/grants">
+              <a className="link">grants program</a>
+            </Link>
+            .
+          </p>
         </>
       </SimpleContainer>
       <Constellation />

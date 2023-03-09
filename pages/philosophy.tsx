@@ -64,7 +64,7 @@ export default function Home() {
                       businesses & open-source blockchain technology
                       advancement.
                     </span>
-                    <span className="block">
+                    <span className="block pt-3">
                       We are not æternity blockchain, nor its owners and
                       managers.{" "}
                     </span>
@@ -78,11 +78,14 @@ export default function Home() {
                     <span>continuous development, </span>{" "}
                     <span>technology advancement, </span>{" "}
                     <span>and empowerment of its ecosystem. </span>
-                    <span>
+                    <br />
+                    <span className="font-bold">
                       We are one of many organizations that cares deeply about
                       æternity technology —
                     </span>{" "}
-                    <span>its innovations, values & scalability.</span>
+                    <span className="font-bold">
+                      its innovations, values & scalability.
+                    </span>
                   </div>
                 </div>
                 <div className="md:w-2/5" />
@@ -150,37 +153,27 @@ export default function Home() {
                     slideIdx >= 2 ? "philosophy-container" : undefined
                   }`}
                 >
-                  <span>Foundation is dedicated to driving Web 3.0; </span>
-                  <span>
+                  <span className="font-bold">
+                    Foundation is dedicated to driving Web 3.0;{" "}
+                  </span>
+                  <span className="font-bold">
                     a decentralized and fair internet where users control their
                     own data, identity and destiny.
                   </span>
-                  <span className="block">
-                    Potential partners and grantees are welcome to contact the
+                  <br />
+                  <br />
+
+                  <span>
+                    Potential partners and grantees are welcome to contact the{" "}
+                    <br />
                   </span>
                   <span>
                     Foundation for proposals to take æternity leaps ahead.
                   </span>
-                  <span>
-                    Core and Essentials Development Domains The 7 domains below
-                    are current areas of focus for the core open source
-                    development effort,
+
+                  <span className="block pt-5">
+                    Let’s build æternity together!
                   </span>
-                  <span>listed in order of approximate funding priority.</span>
-                  <span className="block">
-                    The order may be adjusted as development progresses and
-                    priorities evolve.
-                  </span>
-                  <span className="block">- Protocol Maintenance</span>
-                  <span className="block">- Protocol Developmen</span>
-                  <span className="block">- SDKs</span>
-                  <span className="block">- Wallets and Interfaces</span>
-                  <span className="block">- æpps and Integrations</span>
-                  <span className="block">
-                    - Middleware Backend API - Dev-Tools
-                  </span>
-                  <span className="block">- Dev-Tools</span>{" "}
-                  <span>Let’s build æternity together!</span>
                 </div>
                 <div className="md:w-2/5" />
               </div>
