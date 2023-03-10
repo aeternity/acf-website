@@ -4,9 +4,18 @@ import {updateTitleTag} from "./_app"; import React from "react"; import {
 
 <>
     {updateTitleTag("Ecosystem Grant Program")}
+    <div
+        className="fixed w-[100%] h-[100%]"
+        style={{
+            background: "url('/hart.png') no-repeat",
+            backgroundSize: "cover"
+        }}
+    />
+    <Constellation/>
+    <div className="grants-container">
     <SimpleContainer>
-        <div className="prose font-serif">
-
+        <div className="prose font-serif text-xl ">
+        <div className="grants">
             # Ecosystem Grant Program
 
             To succeed long term, the æternity Foundation is dedicated to enable community-driven innovation
@@ -43,6 +52,8 @@ import {updateTitleTag} from "./_app"; import React from "react"; import {
             For any question - feel free to contact us on
             [hello@aeternity-foundation.org](mailto:hello@aeternity-foundation.org)
         </div>
+        </div>
     </SimpleContainer>
-    <Constellation/>
+    </div>
+
 </>

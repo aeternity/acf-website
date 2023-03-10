@@ -34,7 +34,7 @@ export default function Home() {
                   </p>
                   <Link href="/about">
                     <span
-                      className="link btn-outline btn-ghost rounded-full
+                      className="btn-outline btn-ghost rounded-full
                     hover:opacity-80 text-[#37C4D5] font-bold py-3 px-6 mb-6"
                     >
                       See More
