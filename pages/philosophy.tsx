@@ -2,6 +2,9 @@ import { updateTitleTag } from "./_app";
 import { Constellation } from "../components/constellation";
 import React, { useState } from "react";
 import { throttle } from "lodash";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const transitionDuration = 600;
 
@@ -184,6 +187,36 @@ export default function Home() {
           </div>
         </section>
       </div>
+      {slideIdx < 2 && (
+        <div className="fixed animate-bounce bottom-[150px] left-[50%] z-10">
+          <svg
+            className="w-10 h-10 text-[#37C4D5]"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </div>
+      )}
+      {slideIdx > 0 && (
+        <div className="fixed animate-bounce top-[100px] left-[50%] z-10 ">
+          <svg
+            className={"w-10 h-10 text-[#37C4D5] rotate-180"}
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </div>
+      )}
     </>
   );
 }
