@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Chivo", ...defaultTheme.fontFamily.sans],
+        sans: ["Montserrat"],
       },
     },
   },
@@ -18,20 +18,15 @@ module.exports = {
       {
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
-          primary: "#272361",
-          secondary: "#C41B7B",
-          //pink
-          // accent: "#F1E2E6",
-          accent: "#ede1f5",
-          // yellow
-          // accent: "#F9DA40",
-          // accent: "#F8E600",
-          // blue
-          // accent: "#b3e2ff",
-          accent: "#d2eefd",
-          // accent: "#E6F1F8",
-          // grey
-          // accent: "#A7C0CC",
+          primary: "#AA67AB",
+          secondary: "#E02ACE",
+          accent: "#57C8DF",
+          neutral: "#516B78",
+          "base-100": "#FFFFFF",
+          info: "#49BAEA",
+          success: "#34AD9D",
+          warning: "#FBBD23",
+          error: "#F87272",
         },
       },
       // {
