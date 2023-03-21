@@ -8,11 +8,11 @@ export const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="fixed top-0 right-0 left-0 z-20 pt-2 px-2">
-        <div className="max-w-7xl mx-auto flex items-center justify-between bg-white">
+      <header className="fixed top-0 right-0 left-0 z-10">
+        <div className="max-w-7xl mx-auto flex items-center justify-between bg-white pt-2">
           <Link href="/">
             <Image
-              src={assetUrl("/ACF-logo-white.svg")}
+              src={assetUrl("/logoAE.svg")}
               height={50}
               width={150}
               alt="Aeternity Crypto Foundation Logo"
@@ -89,7 +89,7 @@ export const Nav = () => {
           <nav className="hidden lg:flex">
             {NAVBAR_LINKS_DATA.map((link) => (
               <Link href={link.href} key={link.href}>
-                <a className="text-gray hover:text-secondary px-3 py-2 rounded">
+                <a className="text-gray hover:text-secondary px-3 py-2 rounded font-semibold">
                   {link.text}
                 </a>
               </Link>

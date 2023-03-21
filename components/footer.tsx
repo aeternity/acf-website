@@ -26,97 +26,103 @@ function SocialMediaLink({
 
 export function Footer() {
   return (
-    <div id="footer" className="footer p-12 pb-3 pt-1">
-      <div>
-        <div className="columns-1 xl:columns-2">
-          <div>
-            <a
-              href={"/terms-conditions"}
-              className="link link-secondary link-hover"
-            >
-              Terms & Conditions
-            </a>
-          </div>
-          <div>
-            <a href={"/privacy"} className="link link-secondary link-hover">
-              Privacy policy
-            </a>
-          </div>
-          <div>
-            <a
-              href={"https://aeternity.com"}
-              target="_blank"
-              rel="noreferrer"
-              className="link link-secondary link-hover"
-            >
-              <Image
-                src={assetUrl("/logo/aeternity-logo-small.svg")}
-                height={10}
-                width={20}
-                alt={"Aeternity blockchain"}
-                priority={true}
-              />{" "}
-              æternity Blockchain
-            </a>
-          </div>
-          <div>
-            <a
-              href={
-                "https://forum.aeternity.com/t/howto-apply-for-a-grant-from-the-aeternity-crypto-foundation-liechtenstein/6880"
-              }
-              target="_blank"
-              rel="noreferrer"
-              className="link link-secondary  link-hover"
-            >
-              Submit a Grant Proposal
-            </a>
-          </div>
-          <div>
-            <a href={"/contact"} className="link link-secondary  link-hover">
-              Contact Us
-            </a>
+    <div>
+      <hr />
+      <div
+        id="footer"
+        className="footer max-w-7xl mx-auto flex items-center justify-between z-10 p-12 pb-3 pt-4 bg-white"
+      >
+        <div>
+          <div className="columns-1 xl:columns-2">
+            <div>
+              <a
+                href={"/terms-conditions"}
+                className="link link-secondary link-hover"
+              >
+                Terms & Conditions
+              </a>
+            </div>
+            <div>
+              <a href={"/privacy"} className="link link-secondary link-hover">
+                Privacy policy
+              </a>
+            </div>
+            <div>
+              <a
+                href={"https://aeternity.com"}
+                target="_blank"
+                rel="noreferrer"
+                className="link link-secondary link-hover"
+              >
+                <Image
+                  src={assetUrl("/logo/aeternity-logo-small.svg")}
+                  height={10}
+                  width={20}
+                  alt={"Aeternity blockchain"}
+                  priority={true}
+                />{" "}
+                æternity Blockchain
+              </a>
+            </div>
+            <div>
+              <a
+                href={
+                  "https://forum.aeternity.com/t/howto-apply-for-a-grant-from-the-aeternity-crypto-foundation-liechtenstein/6880"
+                }
+                target="_blank"
+                rel="noreferrer"
+                className="link link-secondary  link-hover"
+              >
+                Submit a Grant Proposal
+              </a>
+            </div>
+            <div>
+              <a href={"/contact"} className="link link-secondary  link-hover">
+                Contact Us
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div>
-        <div className="footer-title">Get in Touch!</div>
-        <div className="space-x-2 inline-flex content-center">
-          <SocialMediaLink
-            href={"https://github.com/aeternity"}
-            icon={faGithub}
-          />
-          <SocialMediaLink
-            href={"https://twitter.com/aeternityCF"}
-            icon={faTwitter}
-          />
-          <SocialMediaLink
-            href={
-              "https://www.linkedin.com/company/æternity-crypto-foundation/"
-            }
-            icon={faLinkedin}
-          />
-          <SocialMediaLink
-            href={"https://www.facebook.com/aefoundationbg/"}
-            icon={faFacebook}
-          />
-          <SocialMediaLink
-            href={"https://telegram.me/aeternity"}
-            icon={faTelegram}
-          />
-          <SocialMediaLink
-            href={"https://www.youtube.com/channel/UCNm_8-3T8fU17YjD9Z57IcQ"}
-            icon={faYoutube}
-          />
-          <SocialMediaLink
-            href={"https://forum.aeternity.com/c/li-foundation/31"}
-            icon={faDiscourse}
-          />
+        <div>
+          <div className="footer-title">Get in Touch!</div>
+          <div className="space-x-2 inline-flex content-center">
+            <SocialMediaLink
+              href={"https://github.com/aeternity"}
+              icon={faGithub}
+            />
+            <SocialMediaLink
+              href={"https://twitter.com/aeternityCF"}
+              icon={faTwitter}
+            />
+            <SocialMediaLink
+              href={
+                "https://www.linkedin.com/company/æternity-crypto-foundation/"
+              }
+              icon={faLinkedin}
+            />
+            <SocialMediaLink
+              href={"https://www.facebook.com/aefoundationbg/"}
+              icon={faFacebook}
+            />
+            <SocialMediaLink
+              href={"https://telegram.me/aeternity"}
+              icon={faTelegram}
+            />
+            <SocialMediaLink
+              href={"https://www.youtube.com/channel/UCNm_8-3T8fU17YjD9Z57IcQ"}
+              icon={faYoutube}
+            />
+            <SocialMediaLink
+              href={"https://forum.aeternity.com/c/li-foundation/31"}
+              icon={faDiscourse}
+            />
+          </div>
         </div>
-      </div>
-      <div className="font-light text-2xs">
-        <div>{`©  2019 - ${new Date().getFullYear()} Æternity Crypto Foundation`}</div>
-        <div>{"Made with <3 in Liechtenstein"}</div>
+        <div className="font-light text-2xs">
+          <div>{`©  2019 - ${new Date().getFullYear()} Æternity Crypto Foundation`}</div>
+          <div>{"Made with <3 in Liechtenstein"}</div>
+        </div>
       </div>
     </div>
   );

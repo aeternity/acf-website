@@ -1,55 +1,65 @@
 import { BlogPost } from "contentlayer/generated";
-import { NAVBAR_LINKS_DATA } from "../components/NavBarLink";
-import Link from "next/link";
-import Image from "next/image";
 import { assetUrl } from "../lib";
+import Link from "next/link";
+
+const BGImg = () => (
+  <div
+    style={{
+      background: "url(" + assetUrl("/bg/dot-net.png") + ") no-repeat",
+      backgroundSize: "cover",
+    }}
+  >
+    <object
+      className="home-bg absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 backface bg-contain bg-right-top min-h-[60%] w-[35%]"
+      type="image/svg+xml"
+      data={assetUrl("/bg/hexagon.svg")}
+    ></object>
+  </div>
+);
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <>
-      <div
-        className="card mx-auto
-         max-w-4xl
-         text-center rounded-3xl
-         p-4 py-6
-         md:shadow shadow-primary/66 "
-      >
-        <div className="card-title"></div>
-        <div className="card-body text-xl font-light xl:text-2xl">
-          <Image
-            src={assetUrl("/ACF-logo.svg")}
-            width="400"
-            height="200"
-            alt={"Aeternity Crypto Foundation logo"}
-          />
-          <div className="text-center space-y-6">
-            <p>
-              The Æternity Crypto Foundation brings together all the necessary
-              resources, expertise and infrastructure to ensure a stable
-              environment and thriving open source ecosystem around the æternity
-              blockchain.
-            </p>
-            <p>
-              Æternity is a scalable, decentralized platform that enables
-              efficient and secure communication and value transfer between
-              participants. We believe that æternity has the potential to
-              revolutionize the way we interact and do business.
-            </p>
-            <p>
-              The Æternity Crypto Foundation is a non-profit organization,
-              established in the <br /> Principality of Liechtenstein.
-            </p>
+      <BGImg />
+      <div>
+        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+          <div className="flex justify-center items-center h-full">
+            <div className="max-w-7xl mt-[10%]">
+              <div className="md:flex md:items-center md:justify-between">
+                <div className="md:w-4/5 lg:w-3/5 p-8 z-10 relative bg-[rgba(255,255,255,0.9)]">
+                  <h2 className="text-5xl text-primary font-bold mb-5">
+                    Æternity
+                    <div className="font-normal text-xl sm:text-4xl leading-8">
+                      Crypto Foundation
+                    </div>
+                  </h2>
+                  <div className="font-[500] font-sans opacity-70 mb-6 text-xl">
+                    <p className="mb-2">
+                      The Æternity Crypto Foundation brings together all the
+                      necessary resources, expertise and infrastructure to
+                      ensure a stable environment and thriving open source
+                      ecosystem around the æternity blockchain.
+                    </p>
+                    <p className="mb-2">
+                      Æternity is a scalable, decentralized platform that
+                      enables efficient and secure communication and value
+                      transfer between participants.
+                    </p>
+                    <p>
+                      We believe that æternity has the potential to
+                      revolutionize the way we interact and do business.
+                    </p>
+                  </div>
+                  <Link href="/about">
+                    <span className="btn btn-primary rounded-full drop-shadow-[-2px_6px_8px_rgba(201,204,209,1)] hover:scale-105 font-bold py-3 px-6 mb-6">
+                      See More
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <ul className="mt-8 space-y-2 md:hidden">
-          {NAVBAR_LINKS_DATA.map((l) => (
-            <li key={l.href}>
-              <Link href={l.href} className="">
-                <a className={`btn btn-sm btn-ghost`}>{l.text}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
       </div>
     </>
   );
