@@ -9,6 +9,8 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../lib";
 import Image from "next/image";
+import React from "react";
+import Link from "next/link";
 
 function SocialMediaLink({
   href,
@@ -30,22 +32,23 @@ export function Footer() {
       <hr />
       <div
         id="footer"
-        className="footer max-w-7xl mx-auto flex items-center justify-between z-10 p-12 pb-3 pt-4 bg-white"
+        className="footer max-w-7xl mx-auto z-10 pb-4 pl-8 pt-4 bg-white"
       >
         <div>
           <div className="columns-1 xl:columns-2">
             <div>
-              <a
-                href={"/terms-conditions"}
-                className="link link-secondary link-hover"
-              >
-                Terms & Conditions
-              </a>
+              <Link href="/terms-conditions">
+                <span className="link link-secondary link-hover">
+                  Terms & Conditions
+                </span>
+              </Link>
             </div>
             <div>
-              <a href={"/privacy"} className="link link-secondary link-hover">
-                Privacy policy
-              </a>
+              <Link href="/privacy">
+                <span className="link link-secondary link-hover">
+                  Privacy policy
+                </span>
+              </Link>
             </div>
             <div>
               <a
@@ -58,10 +61,10 @@ export function Footer() {
                   src={assetUrl("/logo/aeternity-logo-small.svg")}
                   height={10}
                   width={20}
-                  alt={"Aeternity blockchain"}
+                  alt={"Æternity blockchain"}
                   priority={true}
                 />{" "}
-                æternity Blockchain
+                Æternity Blockchain
               </a>
             </div>
             <div>
@@ -71,15 +74,17 @@ export function Footer() {
                 }
                 target="_blank"
                 rel="noreferrer"
-                className="link link-secondary  link-hover"
+                className="link link-secondary link-hover"
               >
                 Submit a Grant Proposal
               </a>
             </div>
             <div>
-              <a href={"/contact"} className="link link-secondary  link-hover">
-                Contact Us
-              </a>
+              <Link href="/contact">
+                <span className="link link-secondary link-hover">
+                  Contact Us
+                </span>
+              </Link>
             </div>
           </div>
         </div>
