@@ -2,29 +2,29 @@ import { BlogPost } from "contentlayer/generated";
 import { assetUrl } from "../lib";
 import Link from "next/link";
 
-const BGImg = () => (
-  <div
-    style={{
-      background: "url(" + assetUrl("/bg/dot-net.png") + ") no-repeat",
-      backgroundSize: "cover",
-    }}
-  >
-    <object
-      className="home-bg absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 backface bg-contain bg-right-top min-h-[60%] w-[35%]"
-      type="image/svg+xml"
-      data={assetUrl("/bg/hexagon.svg")}
-    ></object>
+export const SVGAnimation = ({
+  data,
+  className,
+}: {
+  data: string;
+  className?: string;
+}) => (
+  <div>
+    <object className={className} type="image/svg+xml" data={data}></object>
   </div>
 );
 
 export default function Home({ posts }: { posts: BlogPost[] }) {
   return (
     <>
-      <BGImg />
+      <SVGAnimation
+        data={assetUrl("/bg/hexagon.svg")}
+        className="svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 backface bg-contain bg-right-top w-auto lg:w-[35%]"
+      />
       <div>
         <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center h-full">
-            <div className="max-w-7xl mt-[10%]">
+            <div className="max-w-7xl mt-[15%]">
               <div className="md:flex md:items-center md:justify-between">
                 <div className="md:w-4/5 lg:w-3/5 p-8 z-10 relative bg-[rgba(255,255,255,0.9)]">
                   <h2 className="text-5xl text-primary font-bold mb-5">

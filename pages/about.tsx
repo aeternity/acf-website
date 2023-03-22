@@ -24,7 +24,7 @@ export default function Home({ persons }: { persons: Person[] }) {
       <div className="who-we-are flex relative justify-center items-center p-2 sm:p-5">
         <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="clear-both">
-            <h1 className="text-7xl font-bold text-center text-primary mt-8 mb-8">
+            <h1 className="text-7xl  text-center text-primary mt-8 mb-8">
               Who We Are
             </h1>
             <div className="bg-[rgba(255,255,255,0.9)] p-4">
@@ -41,7 +41,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                   excellence and user-friendly applications as well as
                   supporting projects built on the æternity blockchain.
                 </p>
-                <h2 className="pt-4 pb-1 text-2xl">
+                <h2 className="pt-4 pb-1 text-3xl">
                   Core and Essentials Development Domains
                 </h2>
                 <p>
@@ -53,7 +53,6 @@ export default function Home({ persons }: { persons: Person[] }) {
                 <ul className="option-list list-disc list-inside mt-3">
                   <li className={listStyles.li}>
                     <Image
-                      className=""
                       src={assetUrl("icons/protocol-svgrepo-com.svg")}
                       width={40}
                       height={40}
@@ -64,7 +63,6 @@ export default function Home({ persons }: { persons: Person[] }) {
                   </li>
                   <li className={listStyles.li}>
                     <Image
-                      className="text-primary"
                       src={assetUrl(
                         "icons/maintenance-documents-svgrepo-com.svg"
                       )}
@@ -77,7 +75,6 @@ export default function Home({ persons }: { persons: Person[] }) {
                   </li>
                   <li className={listStyles.li}>
                     <Image
-                      className="text-primary"
                       src={assetUrl("icons/api-svgrepo-com.svg")}
                       width={40}
                       height={40}
@@ -86,19 +83,16 @@ export default function Home({ persons }: { persons: Person[] }) {
                   </li>
                   <li className={listStyles.li}>
                     <Image
-                      className="text-primary"
                       src={assetUrl("icons/wallet-svgrepo-com.svg")}
                       width={40}
                       height={40}
                     />
                     <span className={listStyles.text}>
-                      {" "}
                       Wallets and Interfaces
                     </span>
                   </li>
                   <li className={listStyles.li}>
                     <Image
-                      className="text-primary"
                       src={assetUrl("icons/app-update-svgrepo-com.svg")}
                       width={40}
                       height={40}
@@ -109,7 +103,6 @@ export default function Home({ persons }: { persons: Person[] }) {
                   </li>
                   <li className={listStyles.li}>
                     <Image
-                      className="text-primary"
                       src={assetUrl("icons/api-settings-svgrepo-com.svg")}
                       width={40}
                       height={40}
@@ -120,7 +113,6 @@ export default function Home({ persons }: { persons: Person[] }) {
                   </li>
                   <li className={listStyles.li}>
                     <Image
-                      className="text-primary"
                       src={assetUrl("icons/window-dev-tools-svgrepo-com.svg")}
                       width={40}
                       height={40}
@@ -145,7 +137,7 @@ export default function Home({ persons }: { persons: Person[] }) {
               <div className="about relative">
                 <div className="mt-10 m-0">
                   <div className="text-center">
-                    <h3 className="text-6xl font-bold text-primary">People</h3>
+                    <h3 className="text-6xl text-primary">People</h3>
                     <div className="container min-h-[50vh]">
                       {persons.map((person, idx) => (
                         <PersonCard

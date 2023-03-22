@@ -7,7 +7,7 @@
 .footer svg:hover {
   transform: scale(1.5);
 }
-.home-bg {
+.svg-animated-bg {
   backface-visibility: hidden;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ h3 {
 }
 
 .who-we-are .option-list img {
-  filter: invert(0.4) sepia(1) saturate(5) hue-rotate(175deg);
+  filter: invert(0.6);
 }
 
 .about > div {
@@ -69,6 +69,7 @@ h3 {
 
 .about .imageText h2 {
   @apply text-xl;
+  @apply text-base-100 !important;
 }
 .about .imageText .position {
   @apply text-sm;
