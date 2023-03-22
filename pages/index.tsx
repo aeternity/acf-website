@@ -9,7 +9,7 @@ export const SVGAnimation = ({
   data: string;
   className?: string;
 }) => (
-  <div>
+  <div className="relative">
     <object className={className} type="image/svg+xml" data={data}></object>
   </div>
 );

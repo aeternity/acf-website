@@ -10,7 +10,7 @@ export default function Home() {
       <SVGAnimation
         data={assetUrl("/bg/3shapes.svg")}
         className={
-          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[60%]"
+          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[40%] m-0 lg:mt-[8%]"
         }
       />
       <div className="flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">
