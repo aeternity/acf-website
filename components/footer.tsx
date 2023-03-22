@@ -1,3 +1,4 @@
+import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
@@ -9,7 +10,6 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../lib";
 import Image from "next/image";
-import React from "react";
 import Link from "next/link";
 
 function SocialMediaLink({

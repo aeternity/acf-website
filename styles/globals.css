@@ -43,13 +43,13 @@ h3 {
   z-index: 1;
 }
 .about .container {
-  @apply max-w-7xl;
+  max-width: 60rem;
   margin: 100px auto 0;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: 200px;
-  grid-gap: 30px;
-  height: 40vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 224px;
+  grid-gap: 10px;
+  height: 540px;
 }
 
 .about .imageText {
@@ -165,4 +165,13 @@ h3 {
 .about .hexagon:nth-child(12) {
   grid-row-start: 4;
   grid-column: 3 / span 2;
+}
+@media (max-width: 960px) {
+  .about .container {
+    display: block;
+    height: auto;
+  }
+  .about .hexagon {
+    margin-bottom: 16px;
+  }
 }
