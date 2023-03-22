@@ -8,7 +8,7 @@ export const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="fixed top-0 right-0 left-0 z-10">
+      <header className="fixed top-0 right-0 left-0 z-20">
         <div className="max-w-7xl mx-auto flex items-center justify-between bg-white p-2">
           <Link href="/">
             <Image
@@ -21,7 +21,7 @@ export const Nav = () => {
             />
           </Link>
           <button
-            className="text-gray hover:text-gray-200 focus:text-gray-200 lg:hidden"
+            className="text-gray hover:text-gray-200 focus:text-gray-200 lg:hidden pr-2"
             type="button"
             onClick={() => setOpen(true)}
           >
