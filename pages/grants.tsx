@@ -10,11 +10,11 @@ export default function Home() {
       <SVGAnimation
         data={assetUrl("/bg/3shapes.svg")}
         className={
-          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0  w-auto lg:w-[60%]"
+          "svg-animated-bg relative lg:absolute top-0 right-[8%] lg:right-0 overflow-hidden will-change-[transform, opacity, filter] z-0  w-auto lg:w-[60%]"
         }
       />
-      <div className="flex mt-[10%] max-w-7xl mx-auto items-center justify-between p-8 xl:p-0">
-        <div className="md:w-4/5 lg:w-3/5 z-0 pb-8">
+      <div className="flex mt-[10%] max-w-7xl mx-auto items-center justify-between px-8 ">
+        <div className="md:w-4/5 lg:w-3/5 z-0 pb-16">
           <div className="prose font-medium bg-[rgba(255,255,255,0.9)]">
             <h1>Ecosystem Grant Program</h1>
             <p>
