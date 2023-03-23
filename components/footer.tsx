@@ -51,6 +51,13 @@ export function Footer() {
               </Link>
             </div>
             <div>
+              <Link href="/contact">
+                <span className="link link-secondary link-hover">
+                  Contact Us
+                </span>
+              </Link>
+            </div>
+            <div>
               <a
                 href={"https://aeternity.com"}
                 target="_blank"
@@ -63,7 +70,7 @@ export function Footer() {
                   width={20}
                   alt={"Æternity blockchain"}
                   priority={true}
-                />{" "}
+                />
                 Æternity Blockchain
               </a>
             </div>
@@ -80,11 +87,12 @@ export function Footer() {
               </a>
             </div>
             <div>
-              <Link href="/contact">
-                <span className="link link-secondary link-hover">
-                  Contact Us
-                </span>
-              </Link>
+              <a
+                className="link link-secondary link-hover"
+                href="https://blog.aeternity.com/"
+              >
+                Blog
+              </a>
             </div>
           </div>
         </div>

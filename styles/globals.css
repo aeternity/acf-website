@@ -54,7 +54,7 @@ h3 {
 
 .about .imageText {
   position: absolute;
-  bottom: -2rem;
+  bottom: -3rem;
   left: 0;
   width: 100%;
   height: 100%;
@@ -78,18 +78,19 @@ h3 {
   transform: scale(1.5);
   z-index: 20;
 }
+.about .hexagon .imageText .info {
+  display: none;
+}
+
 .about .hexagon:hover .imageText {
-  position: absolute;
-  top: 20rem;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  z-index: 2;
-  background: rgb(0, 0, 0, 0.7);
-  transform: translateY(2rem);
-  transition: transform 250ms ease-in;
-  color: #ffffff;
+  bottom: -8rem;
+  background: rgb(0, 0, 0, 0.9);
+}
+.about .hexagon:hover .info {
+  display: block;
+  font-size: 11px !important;
+  @apply text-left;
+  @apply m-4;
 }
 
 .about .imageTextContent {
@@ -108,12 +109,16 @@ h3 {
   z-index: 0;
   display: flex;
   width: 250px;
-  height: 280px;
+  height: 300px;
   position: relative;
   @apply bg-primary;
   transition: transform 0.5s ease-out;
   transform: rotate(0deg) translateX(0px);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.about .hexagon:hover {
+  clip-path: none;
+  /*clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);*/
 }
 
 .about .hexagon:first-child {

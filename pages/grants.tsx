@@ -10,13 +10,13 @@ export default function Home() {
       <SVGAnimation
         data={assetUrl("/bg/3shapes.svg")}
         className={
-          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[40%] m-0 lg:mt-[8%]"
+          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] m-0 lg:mt-[8%] lg:mr-[4%]"
         }
       />
       <div className="flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">
         <div className="md:w-4/5 lg:w-3/5 z-0 pb-16">
-          <div className="prose font-medium bg-[rgba(255,255,255,0.9)]">
-            <h1>Ecosystem Grant Program</h1>
+          <div className="prose text-xl font-medium bg-[rgba(255,255,255,0.9)]">
+            <h1 className="text-5xl font-normal">Ecosystem Grant Program</h1>
             <p>
               To succeed long term, the æternity Foundation is dedicated to
               enable community-driven innovation to benefit people around the
@@ -29,7 +29,7 @@ export default function Home() {
                 projects to apply for a grant or donation.
               </strong>
             </p>
-            <h2>Funding Categories</h2>
+            <h2 className="text-3xl font-normal">Funding Categories</h2>
             <p>
               The main focus of support is{" "}
               <strong>technical advancement</strong> of the æternity open-source
@@ -44,7 +44,7 @@ export default function Home() {
               <li>Governance, DAO</li>
               <li>NFT</li>
             </ul>
-            <h2>Call for Proposals</h2>
+            <h2 className="text-3xl font-normal">Call for Proposals</h2>
             <h4>Who can apply?</h4>
             <p>Individuals, teams and non-commercial projects</p>
             <h4>When the call is open?</h4>
@@ -57,13 +57,19 @@ export default function Home() {
             <p>
               Please, prepare your submission according to these required
               application guidelines. Additional resources are available{" "}
-              <a href="https://forum.aeternity.com/c/li-foundation/grant/81">
+              <a
+                className="link text-primary"
+                href="https://forum.aeternity.com/c/li-foundation/grant/81"
+              >
                 HERE
               </a>
             </p>
             <p>
               For any question - feel free to contact us on{" "}
-              <a href="mailto:hello@aeternity-foundation.org">
+              <a
+                className="link text-primary"
+                href="mailto:hello@aeternity-foundation.org"
+              >
                 hello@aeternity-foundation.org
               </a>
             </p>

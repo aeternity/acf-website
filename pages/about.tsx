@@ -24,7 +24,7 @@ export default function Home({ persons }: { persons: Person[] }) {
       <div className="who-we-are flex relative justify-center items-center p-2 sm:p-5">
         <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="clear-both">
-            <h1 className="text-7xl  text-center text-primary mt-8 mb-8">
+            <h1 className="text-5xl text-center text-primary mt-8 mb-8">
               Who We Are
             </h1>
             <div className="bg-[rgba(255,255,255,0.9)] p-4">
@@ -41,7 +41,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                   excellence and user-friendly applications as well as
                   supporting projects built on the æternity blockchain.
                 </p>
-                <h2 className="pt-4 pb-1 text-3xl">
+                <h2 className="pt-4 pb-1 text-3xl font-normal">
                   Core and Essentials Development Domains
                 </h2>
                 <p>
@@ -140,11 +140,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                     <h3 className="text-6xl text-primary">People</h3>
                     <div className="container min-h-[50vh]">
                       {persons.map((person, idx) => (
-                        <PersonCard
-                          key={idx}
-                          person={person}
-                          onClick={(info) => setInfo(info)}
-                        />
+                        <PersonCard key={idx} person={person} />
                       ))}
                     </div>
                   </div>
@@ -153,28 +149,6 @@ export default function Home({ persons }: { persons: Person[] }) {
             </div>
           </div>
         </div>
-        {/* Put this part before </body> tag */}
-        {info && (
-          <>
-            <input type="checkbox" id="modal-about" className="modal-toggle" />
-            <label htmlFor="modal-about" className="modal cursor-pointer">
-              <label className="modal-box relative" htmlFor="">
-                <label
-                  htmlFor="modal-about"
-                  className="btn btn-sm btn-circle absolute right-2 top-2"
-                >
-                  x
-                </label>
-                <p className="py-4">
-                  <div
-                    className="cl-post-body"
-                    dangerouslySetInnerHTML={{ __html: info.html }}
-                  />
-                </p>
-              </label>
-            </label>
-          </>
-        )}
       </div>
     </>
   );

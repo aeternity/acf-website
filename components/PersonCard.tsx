@@ -4,17 +4,13 @@ import { assetUrl } from "../lib";
 
 interface PersonCard {
   person: Person;
-  onClick: (info: Markdown) => void;
 }
 
 export function PersonCard(props: PersonCard) {
-  const { person, onClick } = props;
+  const { person } = props;
   return (
     <>
-      <div
-        className="hexagon cursor-pointer"
-        onClick={() => onClick(person.body)}
-      >
+      <div className="hexagon cursor-pointer">
         {person.imageSrc ? (
           <Image
             src={assetUrl(person.imageSrc)}
@@ -24,13 +20,13 @@ export function PersonCard(props: PersonCard) {
             layout="intrinsic"
           />
         ) : null}
-        <label
-          htmlFor="modal-about"
-          className="absolute block w-[100%] h-[100%] z-10 cursor-pointer"
-        />
         <div className="imageText">
           <h2 className="mt-2">{person.name}</h2>
           <div className="position">{person.position}</div>
+          <div
+            className="info"
+            dangerouslySetInnerHTML={{ __html: person.body.html }}
+          />
         </div>
       </div>
     </>
