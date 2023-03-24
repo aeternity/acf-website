@@ -1,10 +1,10 @@
-import { allPeople, Person } from "contentlayer/generated";
+import { allPeople, Person, Markdown } from "contentlayer/generated";
 import { PersonCard } from "../components/PersonCard";
 import { updateTitleTag } from "./_app";
-import { Constellation } from "../components/constellation";
-import { SimpleContainer } from "../components/SimpleContainer";
+import { useState } from "react";
 import Link from "next/link";
-import React from "react";
+import { assetUrl } from "../lib";
+import Image from "next/image";
 
 export async function getStaticProps() {
   const persons = allPeople.sort((a, b) => a.index - b.index);
@@ -12,70 +12,144 @@ export async function getStaticProps() {
 }
 
 export default function Home({ persons }: { persons: Person[] }) {
+  const [info, setInfo] = useState<Markdown | null>(null);
+  const listStyles = {
+    li: "flex items-center m-4",
+    text: "ml-4 text-xl text-gray",
+  };
+
   return (
     <>
       {updateTitleTag("Who We Are")}
-      <SimpleContainer>
-        <>
-          <div className="font-serif">
-            <h1 className="text-3xl text-center mt-8 mb-4">Who We Are</h1>
-            <div className="text-xl">
-              <p>
-                The Æternity Crypto Foundation is a non-profit organization
-                established in the Principality of Liechtenstein. The Foundation
-                brings together all the necessary resources and infrastructure
-                to ensure a stable environment and thriving open source
-                ecosystem around the æternity blockchain.
-              </p>
-              <p>
-                The organization is committed to promoting technical excellence
-                and user-friendly applications as well as supporting projects
-                built on the æternity blockchain.
-              </p>
-              <h2 className="pt-3 text-2xl">
-                Core and Essentials Development Domains
-              </h2>
-              <p>
-                The 7 domains below are current areas of focus for the core open
-                source development effort, listed in order of approximate
-                funding priority. The order may be adjusted as development
-                progresses and priorities evolve.
-              </p>
-              <ul className="list-disc list-inside">
-                <li> Protocol Maintenance</li>
-                <li> Protocol Development</li>
-                <li> SDKs</li>
-                <li> Wallets and Interfaces</li>
-                <li> æpps and Integrations</li>
-                <li> Middleware Backend API - Dev-Tools</li>
-                <li> Dev-Tools</li>
-              </ul>
+      <div className="who-we-are flex relative justify-center items-center p-2 sm:p-5">
+        <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="clear-both">
+            <h1 className="text-5xl text-center text-primary mt-8 mb-8">
+              Who We Are
+            </h1>
+            <div className="bg-[rgba(255,255,255,0.9)] p-4">
+              <div className="text-xl">
+                <p>
+                  The Æternity Crypto Foundation is a non-profit organization
+                  established in the Principality of Liechtenstein. The
+                  Foundation brings together all the necessary resources and
+                  infrastructure to ensure a stable environment and thriving
+                  open source ecosystem around the æternity blockchain.
+                </p>
+                <p>
+                  The organization is committed to promoting technical
+                  excellence and user-friendly applications as well as
+                  supporting projects built on the æternity blockchain.
+                </p>
+                <h2 className="pt-4 pb-1 text-3xl font-normal">
+                  Core and Essentials Development Domains
+                </h2>
+                <p>
+                  The 7 domains below are current areas of focus for the core
+                  open source development effort, listed in order of approximate
+                  funding priority. The order may be adjusted as development
+                  progresses and priorities evolve.
+                </p>
+                <ul className="option-list list-disc list-inside mt-3">
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl("icons/protocol-svgrepo-com.svg")}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>
+                      Protocol Maintenance
+                    </span>
+                  </li>
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl(
+                        "icons/maintenance-documents-svgrepo-com.svg"
+                      )}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>
+                      Protocol Development
+                    </span>
+                  </li>
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl("icons/api-svgrepo-com.svg")}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>SDKs</span>
+                  </li>
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl("icons/wallet-svgrepo-com.svg")}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>
+                      Wallets and Interfaces
+                    </span>
+                  </li>
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl("icons/app-update-svgrepo-com.svg")}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>
+                      Æpps and Integrations
+                    </span>
+                  </li>
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl("icons/api-settings-svgrepo-com.svg")}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>
+                      Middleware Backend APIBackend API - Dev-Tools
+                    </span>
+                  </li>
+                  <li className={listStyles.li}>
+                    <Image
+                      src={assetUrl("icons/window-dev-tools-svgrepo-com.svg")}
+                      width={40}
+                      height={40}
+                    />
+                    <span className={listStyles.text}>Dev-Tools</span>
+                  </li>
+                </ul>
+                <p className="pt-2 text-xl">
+                  Read more about{" "}
+                  <Link href="/philosophy">
+                    <a className="link text-primary">our philosophy</a>
+                  </Link>{" "}
+                  and the{" "}
+                  <Link href="/grants">
+                    <a className="link text-primary">grants program</a>
+                  </Link>
+                  .
+                </p>
+              </div>
+            </div>
+            <div className="clear-both">
+              <div className="about relative">
+                <div className="mt-10 m-0">
+                  <div className="text-center">
+                    <h3 className="text-6xl text-primary">People</h3>
+                    <div className="container min-h-[50vh]">
+                      {persons.map((person, idx) => (
+                        <PersonCard key={idx} person={person} />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="my-6 pb-3">
-            <div className="relative text-center">
-              <h3 className="text-2xl">People</h3>
-            </div>
-          </div>
-          <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-6">
-            {persons.map((person, idx) => (
-              <PersonCard key={idx} {...person} />
-            ))}
-          </div>
-          <p className="pt-10 text-xl">
-            Read more about{" "}
-            <Link href="/philosophy">
-              <a className="link">our philosophy</a>
-            </Link>{" "}
-            and the{" "}
-            <Link href="/grants">
-              <a className="link">grants program</a>
-            </Link>
-            .
-          </p>
-        </>
-      </SimpleContainer>
-      <Constellation />
+        </div>
+      </div>
     </>
   );
 }

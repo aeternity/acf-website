@@ -16,7 +16,7 @@ export const NAVBAR_LINKS_DATA = [
   { href: "/philosophy", text: "Our Philosophy" },
   { href: "/grants", text: "Grant Program" },
   { href: "/donate", text: "Donate" },
-  { href: "/blog", text: "Blog" },
+  // { href: "/blog", text: "Blog" },
 ];
 
 export const NavBarLinks = () => (
