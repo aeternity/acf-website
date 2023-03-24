@@ -6,7 +6,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faDiscourse } from "@fortawesome/free-brands-svg-icons/faDiscourse";
-import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../lib";
 import Image from "next/image";
@@ -134,7 +134,15 @@ export function Footer() {
         </div>
         <div className="font-light text-2xs">
           <div>{`©  2019 - ${new Date().getFullYear()} Æternity Crypto Foundation`}</div>
-          <div>{"Made with <3 in Liechtenstein"}</div>
+          <div>
+            Made with{" "}
+            <FontAwesomeIcon
+              className="inline text-error"
+              icon={faHeart}
+              height={14}
+            />{" "}
+            in Liechtenstein
+          </div>
         </div>
       </div>
     </div>

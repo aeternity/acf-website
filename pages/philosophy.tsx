@@ -10,7 +10,7 @@ export default function Home() {
       <SVGAnimation
         data={assetUrl("/bg/philosophy.svg")}
         className={
-          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[35%] m-0 lg:mt-[8%] lg:mr-[4%]"
+          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] m-0 lg:mt-[5%] lg:mr-[4%]"
         }
       />
       <div className="flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">

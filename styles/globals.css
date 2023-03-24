@@ -15,6 +15,18 @@ h1,
 h2,
 h3 {
   @apply text-primary !important;
+  @apply font-normal  !important;
+}
+.privacy h2,
+.contact h2,
+.terms h2 {
+  @apply text-3xl !important;
+}
+
+.privacy h1,
+.contact h1,
+.terms h1 {
+  @apply text-5xl !important;
 }
 
 /*who-we-are about*/
