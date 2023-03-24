@@ -11,14 +11,16 @@ export const Nav = () => {
       <header className="fixed bg-white top-0 right-0 left-0 z-20">
         <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
           <Link href="/">
-            <Image
-              src={assetUrl("/logoAE.svg")}
-              height={60}
-              width={150}
-              alt="Aeternity Crypto Foundation Logo"
-              priority={true}
-              className="cursor-pointer"
-            />
+            <span>
+              <Image
+                src={assetUrl("/logoAE.svg")}
+                height={60}
+                width={150}
+                alt="Aeternity Crypto Foundation Logo"
+                priority={true}
+                className="cursor-pointer"
+              />
+            </span>
           </Link>
           <button
             className="text-gray hover:text-gray-200 focus:text-gray-200 lg:hidden pr-2"
