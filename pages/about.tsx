@@ -1,4 +1,4 @@
-import { allPeople, Person, Markdown } from "contentlayer/generated";
+import { allPeople, Markdown, Person } from "contentlayer/generated";
 import { PersonCard } from "../components/PersonCard";
 import { updateTitleTag } from "./_app";
 import { useState } from "react";
