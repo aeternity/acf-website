@@ -8,9 +8,9 @@ export function SimpleContainer({
   config?: { bg?: string };
 }) {
   return (
-    <div className="mt-5">
-      <div className="flex justify-center items-center p-2 sm:p-5 relative z-10">
-        <div className="max-w-7xl px-4 py-8 sm:px-6 lg:px-8 bg-white">
+    <div className="flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">
+      <div className="md:w-4/5 lg:w-3/5 z-0 pb-16">
+        <div className="prose text-xl bg-[rgba(255,255,255,0.9)]">
           <div className="clear-both">{children}</div>
         </div>
       </div>

@@ -1,11 +1,11 @@
 import {updateTitleTag} from "./_app";
+import {SimpleContainer} from "../components/SimpleContainer";
 
 <>
     {updateTitleTag('Contact us')}
 
-    <div className="contact flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">
-        <div className="md:w-4/5 lg:w-3/5 z-0 pb-16">
-            <div className="prose text-xl bg-[rgba(255,255,255,0.9)]">
+        <SimpleContainer>
+            <div>
 
                 # Contact us
                 ## We'd love to hear from you!
@@ -21,6 +21,5 @@ import {updateTitleTag} from "./_app";
                 the official <a className="link text-primary"
                                 href="https://forum.aeternity.com/">æternity forum</a>.
             </div>
-        </div>
-    </div>
+        </SimpleContainer>
 </>
