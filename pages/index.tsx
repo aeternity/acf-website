@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { SVGAnimation } from "../components/SVGAnimation";
 
-export default function Home({ posts }: { posts: BlogPost[] }) {
+export default function Home() {
   return (
     <>
       <SVGAnimation

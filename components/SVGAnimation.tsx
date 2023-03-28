@@ -6,6 +6,6 @@ export const SVGAnimation = ({
   className?: string;
 }) => (
   <div className="relative">
-    <object className={className} type="image/svg+xml" data={data}></object>
+    <object className={className} type="image/svg+xml" data={data} />
   </div>
 );

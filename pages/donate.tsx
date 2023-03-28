@@ -9,9 +9,7 @@ export default function Home() {
       {updateTitleTag("Donations")}
       <SVGAnimation
         data={assetUrl("/bg/donate.svg")}
-        className={
-          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] mt-[-20px]  lg:mr-[4%]"
-        }
+        className="svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] mt-[-20px]  lg:mr-[4%]"
       />
       <div className="flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">
         <div className="md:w-4/5 lg:w-3/5 z-0 pb-16">

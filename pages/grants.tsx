@@ -1,6 +1,5 @@
 import { updateTitleTag } from "./_app";
 import { assetUrl } from "../lib";
-import { BlogPost } from "contentlayer/generated";
 import React from "react";
 import { SVGAnimation } from "../components/SVGAnimation";
 
@@ -10,9 +9,7 @@ export default function Home() {
       {updateTitleTag("Ecosystem Grant Program")}
       <SVGAnimation
         data={assetUrl("/bg/3shapes.svg")}
-        className={
-          "svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] m-0 lg:mt-[8%] lg:mr-[4%]"
-        }
+        className="svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] m-0 lg:mt-[8%] lg:mr-[4%]"
       />
       <div className="flex mt-[8%] max-w-7xl mx-auto items-center justify-between px-8 ">
         <div className="md:w-4/5 lg:w-3/5 z-0 pb-16">
