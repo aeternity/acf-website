@@ -8,21 +8,22 @@ export const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="fixed top-0 right-0 left-0 z-20 pt-2 px-2 bg-white">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <header className="fixed bg-white top-0 right-0 left-0 z-20">
+        <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
           <Link href="/">
-            <a>
+            <span>
               <Image
-                src={assetUrl("/ACF-logo-white.svg")}
-                height={50}
+                src={assetUrl("/logoAE.svg")}
+                height={60}
                 width={150}
                 alt="Aeternity Crypto Foundation Logo"
                 priority={true}
+                className="cursor-pointer"
               />
-            </a>
+            </span>
           </Link>
           <button
-            className="text-gray hover:text-gray-200 focus:text-gray-200 lg:hidden"
+            className="text-gray hover:text-gray-200 focus:text-gray-200 lg:hidden pr-2"
             type="button"
             onClick={() => setOpen(true)}
           >
@@ -36,7 +37,7 @@ export const Nav = () => {
           {open && (
             <div>
               <div
-                className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm 0"
+                className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm"
                 aria-hidden="true"
                 onClick={() => setOpen(false)}
               />
@@ -74,9 +75,11 @@ export const Nav = () => {
                 <nav className="mt-6">
                   <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800">
                     {NAVBAR_LINKS_DATA.map((link) => (
-                      <li key={link.href}>
+                      <li key={link.href} onClick={() => setOpen(false)}>
                         <Link href={link.href}>
-                          <a className="block py-2">{link.text}</a>
+                          <span className="block cursor-pointer py-4 pl-4 w-[100%] h-[100%] hover:bg-accent/30">
+                            {link.text}
+                          </span>
                         </Link>
                       </li>
                     ))}
@@ -88,7 +91,7 @@ export const Nav = () => {
           <nav className="hidden lg:flex">
             {NAVBAR_LINKS_DATA.map((link) => (
               <Link href={link.href} key={link.href}>
-                <a className="text-gray hover:text-secondary px-3 py-2 rounded">
+                <a className="hover:text-secondary px-3 py-2 rounded text-lg">
                   {link.text}
                 </a>
               </Link>

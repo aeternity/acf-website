@@ -1,3 +1,4 @@
+import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
@@ -5,13 +6,13 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faDiscourse } from "@fortawesome/free-brands-svg-icons/faDiscourse";
-import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../lib";
 import Image from "next/image";
 import Link from "next/link";
 
-export function SocialMediaLink({
+function SocialMediaLink({
   href,
   icon,
 }: {
@@ -27,26 +28,33 @@ export function SocialMediaLink({
 
 export function Footer() {
   return (
-    <div
-      id="footer"
-      className="bg-white z-20 border-t border-accent-content/10"
-    >
+    <div>
+      <hr />
       <div
         id="footer"
-        className="footer mx-auto max-w-7xl px-4 lg:px-8 z-10 p-4 sm:p-8 "
+        className="footer max-w-7xl mx-auto z-10 pb-4 pl-8 pt-4 bg-white"
       >
         <div>
           <div className="columns-1 xl:columns-2">
             <div>
               <Link href="/terms-conditions">
-                <a className="link link-secondary link-hover">
+                <span className="link link-secondary link-hover">
                   Terms & Conditions
-                </a>
+                </span>
               </Link>
             </div>
             <div>
               <Link href="/privacy">
-                <a className="link link-secondary link-hover">Privacy policy</a>
+                <span className="link link-secondary link-hover">
+                  Privacy policy
+                </span>
+              </Link>
+            </div>
+            <div>
+              <Link href="/contact">
+                <span className="link link-secondary link-hover">
+                  Contact Us
+                </span>
               </Link>
             </div>
             <div>
@@ -60,10 +68,10 @@ export function Footer() {
                   src={assetUrl("/logo/aeternity-logo-small.svg")}
                   height={10}
                   width={20}
-                  alt="Aeternity blockchain"
+                  alt="Æternity blockchain"
                   priority={true}
-                />{" "}
-                æternity Blockchain
+                />
+                Æternity Blockchain
               </a>
             </div>
             <div>
@@ -71,15 +79,18 @@ export function Footer() {
                 href="https://forum.aeternity.com/t/howto-apply-for-a-grant-from-the-aeternity-crypto-foundation-liechtenstein/6880"
                 target="_blank"
                 rel="noreferrer"
-                className="link link-secondary  link-hover"
+                className="link link-secondary link-hover"
               >
                 Submit a Grant Proposal
               </a>
             </div>
             <div>
-              <Link href="/contact">
-                <a className="link link-secondary  link-hover">Contact Us</a>
-              </Link>
+              <a
+                className="link link-secondary link-hover"
+                href="https://blog.aeternity.com/"
+              >
+                Blog
+              </a>
             </div>
           </div>
         </div>
@@ -119,7 +130,15 @@ export function Footer() {
         </div>
         <div className="font-light text-2xs">
           <div>{`©  2019 - ${new Date().getFullYear()} Æternity Crypto Foundation`}</div>
-          <div>{"Made with <3 in Liechtenstein"}</div>
+          <div>
+            Made with{" "}
+            <FontAwesomeIcon
+              className="inline text-error"
+              icon={faHeart}
+              height={14}
+            />{" "}
+            in Liechtenstein
+          </div>
         </div>
       </div>
     </div>
