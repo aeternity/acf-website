@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Montserrat"],
+        sans: ["Roboto", "sans-serif"],
+        mono: ['"Roboto Mono"', "ui-monospace", "SFMono-Regular"],
       },
     },
   },
@@ -18,9 +19,9 @@ module.exports = {
       {
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
-          primary: "#AA67AB",
-          secondary: "#E02ACE",
-          accent: "#57C8DF",
+          primary: "#868686",
+          secondary: "#002366",
+          accent: "#F5274E",
           neutral: "#516B78",
           "base-100": "#FFFFFF",
           info: "#49BAEA",

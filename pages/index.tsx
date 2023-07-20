@@ -10,7 +10,7 @@ export default function Home() {
       <SVGAnimation data={assetUrl("/bg/hexagon.svg")} className="lg:w-[35%]" />
       <SimpleContainer>
         <>
-          <h2 className="text-5xl text-primary font-bold mb-5">
+          <h2 className="text-5xl text-primary font-bold mb-5 mt-[-50px]">
             Æternity
             <div className="font-normal text-xl sm:text-4xl leading-8">
               Crypto Foundation

@@ -9,11 +9,11 @@ export const Nav = () => {
   return (
     <>
       <header className="fixed bg-white top-0 right-0 left-0 z-20">
-        <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
+        <div className="max-w-7xl mx-auto flex items-center justify-between p-1 pl-5">
           <Link href="/">
             <span>
               <Image
-                src={assetUrl("/logoAE.svg")}
+                src={assetUrl("/ACF-logo.svg")}
                 height={60}
                 width={150}
                 alt="Aeternity Crypto Foundation Logo"
