@@ -19,24 +19,6 @@
     "type": "Person"
   },
   {
-    "index": 3,
-    "name": "Test Person",
-    "position": "Test Position",
-    "body": {
-      "raw": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n",
-      "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.</p>"
-    },
-    "_id": "persons/Test_Person.md",
-    "_raw": {
-      "sourceFilePath": "persons/Test_Person.md",
-      "sourceFileName": "Test_Person.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Test_Person"
-    },
-    "type": "Person"
-  },
-  {
     "index": 4,
     "name": "Test Person",
     "position": "Test Position",
@@ -73,31 +55,13 @@
     "type": "Person"
   },
   {
-    "index": 5,
-    "name": "Test Person 5",
-    "position": "Test Position",
-    "body": {
-      "raw": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n",
-      "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.</p>"
-    },
-    "_id": "persons/Test_Person4.md",
-    "_raw": {
-      "sourceFilePath": "persons/Test_Person4.md",
-      "sourceFileName": "Test_Person4.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Test_Person4"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 2,
+    "index": 6,
     "name": "Yanislav Malahov",
     "position": "Advisor",
     "imageSrc": "/portraits/Yanislav_Malahov.jpeg",
     "body": {
-      "raw": "\nHaving exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is a true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on blockchains. Now, with\næternity, a new version of his vision is becoming reality once more.\n",
-      "html": "<p>Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is a true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on blockchains. Now, with\næternity, a new version of his vision is becoming reality once more.</p>"
+      "raw": "\nHaving exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is\na true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on\nblockchains. Now, with\næternity, a new version of his vision is becoming reality once more.\n",
+      "html": "<p>Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is\na true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on\nblockchains. Now, with\næternity, a new version of his vision is becoming reality once more.</p>"
     },
     "_id": "persons/Yanislav_Malahov.md",
     "_raw": {
@@ -106,6 +70,44 @@
       "sourceFileDir": "persons",
       "contentType": "markdown",
       "flattenedPath": "persons/Yanislav_Malahov"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 2,
+    "name": "Sascha Valenta",
+    "position": "Member of the Board",
+    "imageSrc": "/portraits/Sascha_Valenta.jpeg",
+    "body": {
+      "raw": "\nSascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.\n",
+      "html": "<p>Sascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.</p>"
+    },
+    "_id": "persons/Sascha_Valenta.md",
+    "_raw": {
+      "sourceFilePath": "persons/Sascha_Valenta.md",
+      "sourceFileName": "Sascha_Valenta.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/Sascha_Valenta"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 3,
+    "name": "Lale Mahrt",
+    "position": "Accounting Manager",
+    "imageSrc": "/portraits/Lale_Mahrt.jpeg",
+    "body": {
+      "raw": "\nLale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.\n",
+      "html": "<p>Lale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.</p>"
+    },
+    "_id": "persons/Lale_Mahrt.md",
+    "_raw": {
+      "sourceFilePath": "persons/Lale_Mahrt.md",
+      "sourceFileName": "Lale_Mahrt.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/Lale_Mahrt"
     },
     "type": "Person"
   }

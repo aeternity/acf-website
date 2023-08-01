@@ -2,17 +2,18 @@
   "index": 3,
   "name": "Lale Mahrt",
   "position": "Accounting Manager",
+  "imageSrc": "/portraits/Lale_Mahrt.jpeg",
   "body": {
     "raw": "\nLale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.\n",
     "html": "<p>Lale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.</p>"
   },
-  "_id": "persons/Test_Person4.md",
+  "_id": "persons/Lale_Mahrt.md",
   "_raw": {
-    "sourceFilePath": "persons/Test_Person4.md",
-    "sourceFileName": "Test_Person4.md",
+    "sourceFilePath": "persons/Lale_Mahrt.md",
+    "sourceFileName": "Lale_Mahrt.md",
     "sourceFileDir": "persons",
     "contentType": "markdown",
-    "flattenedPath": "persons/Test_Person4"
+    "flattenedPath": "persons/Lale_Mahrt"
   },
   "type": "Person"
 }
