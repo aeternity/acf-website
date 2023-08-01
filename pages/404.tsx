@@ -7,12 +7,12 @@ export default function FourOhFour() {
     <>
       {updateTitleTag("Page not found")}
 
-      <div className="text-center pt-12 text-2xl">
+      <div className="text-center pt-12 text-2xl space-y-10">
         <h2>404 - Page Not Found</h2>
         <p>¯\_(ツ)_/¯</p>
         <p>
           Check that you typed the address correctly or go back to the{" "}
-          <Link href="/">home page</Link>
+          <Link href="/">home page</Link>.
         </p>
       </div>
       <Constellation />

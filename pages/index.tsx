@@ -10,13 +10,13 @@ export default function Home() {
       <SVGAnimation data={assetUrl("/bg/hexagon.svg")} className="lg:w-[35%]" />
       <SimpleContainer>
         <>
-          <h2 className="text-5xl text-primary font-bold mb-5 mt-[-50px]">
+          <h1 className="text-5xl text-primary font-bold mb-5 ">
             Æternity
             <div className="font-normal text-xl sm:text-4xl leading-8">
               Crypto Foundation
             </div>
-          </h2>
-          <div className="font-[500] font-sans opacity-70 mb-6 text-xl">
+          </h1>
+          <div className="font-[500] mb-6 text-xl">
             <p className="mb-2">
               The Æternity Crypto Foundation brings together all the necessary
               resources, expertise and infrastructure to ensure a stable

@@ -31,11 +31,7 @@ h3 {
 
 /*who-we-are about*/
 
-.who-we-are ul {
-  list-style-type: none !important;
-}
-
-.who-we-are .option-list img {
+.who-we-are.option-list img {
   filter: invert(0.6);
 }
 

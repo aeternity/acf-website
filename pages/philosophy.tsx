@@ -14,7 +14,7 @@ export default function Home() {
       />
       <SimpleContainer>
         <>
-          <h1 className="text-5xl font-normal">Our Philosophy</h1>
+          <h1 className="text-5xl">Our Philosophy</h1>
           <p>
             Empowering people, businesses &amp; open-source blockchain
             technology advancement.
@@ -64,8 +64,8 @@ export default function Home() {
           </ul>
           <p>
             <strong>
-              Foundation is dedicated to driving Web 3.0; a decentralized and
-              fair internet where users control their own data, identity and
+              The Foundation is dedicated to driving Web 3.0 - a decentralized
+              and fair internet where users control their own data, identity and
               destiny.
             </strong>
           </p>

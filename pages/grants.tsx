@@ -14,7 +14,7 @@ export default function Home() {
       />
       <SimpleContainer>
         <>
-          <h1 className="text-5xl font-normal">Ecosystem Grant Program</h1>
+          <h1 className="text-5xl">Ecosystem Grant Program</h1>
           <p>
             To succeed long term, the æternity Foundation is dedicated to enable
             community-driven innovation to benefit people around the world, and
@@ -31,7 +31,7 @@ export default function Home() {
             The main focus of support is <strong>technical advancement</strong>{" "}
             of the æternity open-source blockchain protocol.
           </p>
-          <p>Additionally, Foundation supports:</p>
+          <p>Further target areas are the promotion of æternity ecosystems.</p>
           <ul>
             <li>Open Source Development</li>
             <li>Research and Education Activities</li>
