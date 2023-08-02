@@ -40,7 +40,7 @@ export default function Home({ posts }: { posts: BlogPost[] }) {
       <SimpleContainer>
         <>
           <h1 className="mb-8 text-3xl font-bold">
-            Æternity crypto foundation Blog
+            æternity crypto foundation Blog
           </h1>
           {posts.map((post, idx) => (
             <PostCard key={idx} {...post} />

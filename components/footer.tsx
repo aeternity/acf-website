@@ -124,7 +124,7 @@ export function Footer() {
           </div>
         </div>
         <div className="font-light text-2xs text-primary">
-          <div>{`©  2019 - ${new Date().getFullYear()} Æternity Crypto Foundation`}</div>
+          <div>{`©  2019 - ${new Date().getFullYear()} æternity crypto foundation`}</div>
           <div>
             Made with{" "}
             <FontAwesomeIcon

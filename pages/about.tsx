@@ -26,7 +26,7 @@ export default function Home({ persons }: { persons: Person[] }) {
         <>
           <h1 className="text-5xl ">Who We Are</h1>
           <p>
-            The Æternity Crypto Foundation is a non-profit organization
+            The æternity Crypto Foundation is a non-profit organization
             established in the Principality of Liechtenstein. The Foundation
             brings together all the necessary resources and infrastructure to
             ensure a stable environment and thriving open source ecosystem
