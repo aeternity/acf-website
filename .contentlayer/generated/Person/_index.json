@@ -1,5 +1,24 @@
 [
   {
+    "index": 3,
+    "name": "Lale Mahrt",
+    "position": "Accounting Manager",
+    "imageSrc": "/portraits/Lale_Mahrt.jpeg",
+    "body": {
+      "raw": "\nLale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.\n",
+      "html": "<p>Lale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.</p>"
+    },
+    "_id": "persons/Lale_Mahrt.md",
+    "_raw": {
+      "sourceFilePath": "persons/Lale_Mahrt.md",
+      "sourceFileName": "Lale_Mahrt.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/Lale_Mahrt"
+    },
+    "type": "Person"
+  },
+  {
     "index": 1,
     "name": "Dr. Lydia Atanassova",
     "position": "Member of the Board",
@@ -15,6 +34,25 @@
       "sourceFileDir": "persons",
       "contentType": "markdown",
       "flattenedPath": "persons/Lydia_Atanassova"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 2,
+    "name": "Sascha Valenta",
+    "position": "Member of the Board",
+    "imageSrc": "/portraits/Sascha_Valenta.jpeg",
+    "body": {
+      "raw": "\nSascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.\n",
+      "html": "<p>Sascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.</p>"
+    },
+    "_id": "persons/Sascha_Valenta.md",
+    "_raw": {
+      "sourceFilePath": "persons/Sascha_Valenta.md",
+      "sourceFileName": "Sascha_Valenta.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/Sascha_Valenta"
     },
     "type": "Person"
   },
@@ -70,44 +108,6 @@
       "sourceFileDir": "persons",
       "contentType": "markdown",
       "flattenedPath": "persons/Yanislav_Malahov"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 2,
-    "name": "Sascha Valenta",
-    "position": "Member of the Board",
-    "imageSrc": "/portraits/Sascha_Valenta.jpeg",
-    "body": {
-      "raw": "\nSascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.\n",
-      "html": "<p>Sascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.</p>"
-    },
-    "_id": "persons/Sascha_Valenta.md",
-    "_raw": {
-      "sourceFilePath": "persons/Sascha_Valenta.md",
-      "sourceFileName": "Sascha_Valenta.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Sascha_Valenta"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 3,
-    "name": "Lale Mahrt",
-    "position": "Accounting Manager",
-    "imageSrc": "/portraits/Lale_Mahrt.jpeg",
-    "body": {
-      "raw": "\nLale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.\n",
-      "html": "<p>Lale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.</p>"
-    },
-    "_id": "persons/Lale_Mahrt.md",
-    "_raw": {
-      "sourceFilePath": "persons/Lale_Mahrt.md",
-      "sourceFileName": "Lale_Mahrt.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Lale_Mahrt"
     },
     "type": "Person"
   }
