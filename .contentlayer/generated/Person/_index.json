@@ -24,8 +24,8 @@
     "position": "Member of the Board",
     "imageSrc": "/portraits/Lydia_Atanassova.png",
     "body": {
-      "raw": "Lydia is a mathematician and a computer scientist. More than 20 Years she was working as a Architect, Project Owner,\nProject Leader and Developer. Lydia was designing and building reporting, accounting and billing Applications based on\nthe principles of a Service-Oriented Architecture and the JAVA technology. Lydia is inspired from the block change\ntechnology and looking forward to see the new challenging applications running on the aeternity platform.\n",
-      "html": "<p>Lydia is a mathematician and a computer scientist. More than 20 Years she was working as a Architect, Project Owner,\nProject Leader and Developer. Lydia was designing and building reporting, accounting and billing Applications based on\nthe principles of a Service-Oriented Architecture and the JAVA technology. Lydia is inspired from the block change\ntechnology and looking forward to see the new challenging applications running on the aeternity platform.</p>"
+      "raw": "\nLydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.\n",
+      "html": "<p>Lydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.</p>"
     },
     "_id": "persons/Lydia_Atanassova.md",
     "_raw": {
@@ -53,61 +53,6 @@
       "sourceFileDir": "persons",
       "contentType": "markdown",
       "flattenedPath": "persons/Sascha_Valenta"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 4,
-    "name": "Test Person",
-    "position": "Test Position",
-    "body": {
-      "raw": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n",
-      "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.</p>"
-    },
-    "_id": "persons/Test_Person2.md",
-    "_raw": {
-      "sourceFilePath": "persons/Test_Person2.md",
-      "sourceFileName": "Test_Person2.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Test_Person2"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 5,
-    "name": "Test Person 4",
-    "position": "Test Position",
-    "body": {
-      "raw": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n",
-      "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.</p>"
-    },
-    "_id": "persons/Test_Person3.md",
-    "_raw": {
-      "sourceFilePath": "persons/Test_Person3.md",
-      "sourceFileName": "Test_Person3.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Test_Person3"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 6,
-    "name": "Yanislav Malahov",
-    "position": "Advisor",
-    "imageSrc": "/portraits/Yanislav_Malahov.jpeg",
-    "body": {
-      "raw": "\nHaving exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is\na true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on\nblockchains. Now, with\næternity, a new version of his vision is becoming reality once more.\n",
-      "html": "<p>Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is\na true veteran of\nthe blockchain space. Back in 2013, the \"Godfather of Ethereum\" envisioned powerful algorithms on\nblockchains. Now, with\næternity, a new version of his vision is becoming reality once more.</p>"
-    },
-    "_id": "persons/Yanislav_Malahov.md",
-    "_raw": {
-      "sourceFilePath": "persons/Yanislav_Malahov.md",
-      "sourceFileName": "Yanislav_Malahov.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/Yanislav_Malahov"
     },
     "type": "Person"
   }
