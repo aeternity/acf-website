@@ -37,6 +37,11 @@ h3 {
 .icons-option-list svg {
   filter: invert(0.6);
 }
+.hexagon-option-list li {
+  list-style-type: "⬡";
+  padding-left: 20px;
+  margin-left: 2.65rem;
+}
 
 .about > div {
   display: flex;

@@ -43,7 +43,7 @@ export default function Home() {
             foundation, and thus we continue to fund development of many
             significant components of the æternity ecosystem, together with:
           </p>
-          <ul>
+          <ul className="hexagon-option-list">
             <li>
               Building æternity blockchain ecosystems through global, open
               source collaboration
