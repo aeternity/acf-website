@@ -3,8 +3,55 @@ import { assetUrl } from "../lib";
 import React from "react";
 import { SVGAnimation } from "../components/SVGAnimation";
 import { SimpleContainer } from "../components/SimpleContainer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCode,
+  faFlask,
+  faPaintBrush,
+  faShieldAlt,
+  faStar,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
+  const listItems = [
+    {
+      title: "Open Source Development",
+      icon: faCode,
+      description:
+        "Foster open source development is main funding focus of the æternity crypto foundation (ACF).",
+    },
+    {
+      title: "Research and Education Activities",
+      icon: faFlask,
+      description:
+        "The ACF supports research and education in the fields of blockchain technology, cryptography and mathematics.",
+    },
+    {
+      title: "Community Growth oriented activities",
+      icon: faUsers,
+      description:
+        "The ACF is interested in community driven initiatives. Examples are: The æmbassador program and aeknow.org.",
+    },
+    {
+      title: "Culture and Art",
+      icon: faPaintBrush,
+      description:
+        "Creative work is supported in various ways. One example is the YAIR art project yair.art.",
+    },
+    {
+      title: "Governance, DAO",
+      icon: faShieldAlt,
+      description:
+        "The ACF fosters decentralized decision-making models and supports DAO initiatives in the blockchain space.",
+    },
+    {
+      title: "NFT",
+      icon: faStar,
+      description:
+        "The ACF promotes NFT adoption and innovation, empowering creators and collectors in the digital ownership realm.",
+    },
+  ];
   return (
     <>
       {updateTitleTag("Ecosystem Grant Program")}
@@ -31,14 +78,23 @@ export default function Home() {
             The main focus of support is <strong>technical advancement</strong>{" "}
             of the æternity open-source blockchain protocol.
           </p>
-          <p>Further target areas are the promotion of æternity ecosystems.</p>
-          <ul>
-            <li>Open Source Development</li>
-            <li>Research and Education Activities</li>
-            <li>Community Growth oriented activities</li>
-            <li>Culture and Art</li>
-            <li>Governance, DAO</li>
-            <li>NFT</li>
+          <p>Further target areas are the promotion of æternity ecosystems:</p>
+          <ul className="icons-option-list list-none list-inside">
+            {listItems.map((item) => (
+              <li key={item.title} className="m-4">
+                <FontAwesomeIcon
+                  className="inline"
+                  icon={item.icon}
+                  width={30}
+                />
+                <span className="ml-4 pl-1 text-xl text-gray">
+                  {item.title}
+                </span>
+                {item.description && (
+                  <p className="ml-12 pl-1 text-sm mt-0">{item.description}</p>
+                )}
+              </li>
+            ))}
           </ul>
           <h2 className="text-3xl font-normal">Call for Proposals</h2>
           <h4>Who can apply?</h4>

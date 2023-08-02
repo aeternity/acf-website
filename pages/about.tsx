@@ -46,7 +46,7 @@ export default function Home({ persons }: { persons: Person[] }) {
             priority. The order may be adjusted as development progresses and
             priorities evolve.
           </p>
-          <ul className="who-we-are option-list list-disc list-inside mt-3">
+          <ul className="icons-option-list list-disc list-inside mt-3">
             <li className={listStyles.li}>
               <Image
                 src={assetUrl("icons/protocol-svgrepo-com.svg")}

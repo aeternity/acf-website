@@ -31,7 +31,10 @@ h3 {
 
 /*who-we-are about*/
 
-.who-we-are.option-list img {
+.icons-option-list img {
+  filter: invert(0.6);
+}
+.icons-option-list svg {
   filter: invert(0.6);
 }
 

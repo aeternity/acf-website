@@ -73,15 +73,6 @@ export default function Home() {
             Potential partners and grantees are welcome to contact the
             Foundation for proposals to take æternity leaps ahead.
           </p>
-          <h2 className="text-3xl font-normal">
-            Core and Essentials Development Domains
-          </h2>
-          <p>
-            The 7 domains below are current areas of focus for the core open
-            source development effort, listed in order of approximate funding
-            priority. The order may be adjusted as development progresses and
-            priorities evolve.
-          </p>
           <h4>Let’s build æternity together!</h4>
         </>
       </SimpleContainer>
