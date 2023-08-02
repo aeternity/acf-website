@@ -11,20 +11,20 @@ export default function Home() {
       <SimpleContainer>
         <>
           <h1 className="text-5xl text-primary font-bold mb-5 ">
-            Æternity
+            æternity
             <div className="font-normal text-xl sm:text-4xl leading-8">
               Crypto Foundation
             </div>
           </h1>
           <div className="font-[500] mb-6 text-xl">
             <p className="mb-2">
-              The Æternity Crypto Foundation brings together all the necessary
+              The æternity Crypto Foundation brings together all the necessary
               resources, expertise and infrastructure to ensure a stable
               environment and thriving open source ecosystem around the æternity
               blockchain.
             </p>
             <p className="mb-2">
-              Æternity is a scalable, decentralized platform that enables
+              æternity is a scalable, decentralized platform that enables
               efficient and secure communication and value transfer between
               participants.
             </p>

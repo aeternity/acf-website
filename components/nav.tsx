@@ -13,7 +13,7 @@ export const Nav = () => {
           <Link href="/">
             <span>
               <Image
-                src={assetUrl("/ACF-logo.svg")}
+                src={assetUrl("/logo/ACF-logo.svg")}
                 height={60}
                 width={150}
                 alt="Aeternity Crypto Foundation Logo"
