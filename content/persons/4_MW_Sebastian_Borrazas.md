@@ -2,7 +2,7 @@
 name: Sebastian Borrazas
 position: Middleware developer
 imageSrc: /portraits/Sebastian.jpeg
-index: 22
+index: 42
 ---
 
 Sebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they

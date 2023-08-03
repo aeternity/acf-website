@@ -2,7 +2,7 @@
 name: Peter Harpending
 position: Core / Tooling
 imageSrc: /portraits/ae_logo.png
-index: 16
+index: 26
 ---
 
 Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some

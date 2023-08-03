@@ -119,14 +119,14 @@ export default function Home({ persons }: { persons: Person[] }) {
           </p>
         </>
       </SimpleContainer>
-      <div className="clear-both pb-8 lg:pb-12 h-[1200px]">
+      <div className="clear-both pb-8 lg:pb-12 h-[1500px]">
         <div className="about relative">
           <div className="mt-10 m-0">
             <div className="text-center">
               <h3 className="text-6xl text-primary">People</h3>
               <div className="container">
-                {persons.map((person, idx) => (
-                  <PersonCard key={idx} person={person} />
+                {persons.map((person) => (
+                  <PersonCard key={person.name} person={person} />
                 ))}
               </div>
             </div>

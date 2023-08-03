@@ -1,6 +1,6 @@
 ---
 name: Gaith Hallak
-position: Sophia Compiler developer
+position: Core / Tooling
 imageSrc: /portraits/ae_logo.png
-index: 42
+index: 27
 ---

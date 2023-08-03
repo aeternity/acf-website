@@ -1,8 +1,8 @@
 ---
 name: Radosław Rowicki
-position: Core developer
+position: Core / Tooling
 imageSrc: /portraits/Radek.jpg
-index: 16
+index: 26
 ---
 
 Radek has been contributing to æternity since 2019, taking care of smart contract infrastructure of

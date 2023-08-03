@@ -1,0 +1,19 @@
+{
+  "index": 26,
+  "name": "Peter Harpending",
+  "position": "Core / Tooling",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "\nPeter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.\n",
+    "html": "<p>Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.</p>"
+  },
+  "_id": "persons/2_Core_Peter_Harpending.md",
+  "_raw": {
+    "sourceFilePath": "persons/2_Core_Peter_Harpending.md",
+    "sourceFileName": "2_Core_Peter_Harpending.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/2_Core_Peter_Harpending"
+  },
+  "type": "Person"
+}

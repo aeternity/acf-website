@@ -1,0 +1,19 @@
+{
+  "index": 21,
+  "name": "Hans Svensson",
+  "position": "Core / Tooling",
+  "imageSrc": "/portraits/Hans.jpeg",
+  "body": {
+    "raw": "\nAccording to ChatGPT, Hans Svensson, a dynamic member of the æternity team, brings his talents as a\nskilled developer to drive innovation and progress. With a deep understanding of technology and a\npassion for blockchain, Hans contributes his expertise to enhance æternity's ecosystem. His role in\nvarious projects, including the development of the æternity JavaScript SDK, reflects his dedication\nto providing developers with powerful tools to interact with the blockchain seamlessly. Through his\ncontributions, Hans plays a pivotal role in shaping the future of æternity, making blockchain\naccessible and impactful for a wider audience.\nThe bot doesn't know anything about Hans' work on the compiler, which is a shame.\n",
+    "html": "<p>According to ChatGPT, Hans Svensson, a dynamic member of the æternity team, brings his talents as a\nskilled developer to drive innovation and progress. With a deep understanding of technology and a\npassion for blockchain, Hans contributes his expertise to enhance æternity's ecosystem. His role in\nvarious projects, including the development of the æternity JavaScript SDK, reflects his dedication\nto providing developers with powerful tools to interact with the blockchain seamlessly. Through his\ncontributions, Hans plays a pivotal role in shaping the future of æternity, making blockchain\naccessible and impactful for a wider audience.\nThe bot doesn't know anything about Hans' work on the compiler, which is a shame.</p>"
+  },
+  "_id": "persons/2_Core_Hans_Svensson.md",
+  "_raw": {
+    "sourceFilePath": "persons/2_Core_Hans_Svensson.md",
+    "sourceFileName": "2_Core_Hans_Svensson.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/2_Core_Hans_Svensson"
+  },
+  "type": "Person"
+}

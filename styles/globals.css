@@ -138,64 +138,76 @@ h3 {
   /*clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);*/
 }
 
-.about .hexagon:first-child {
-  grid-row-start: 1;
-  grid-column: 2 / span 2;
-}
-.about .hexagon:nth-child(2) {
-  grid-row-start: 1;
-  grid-column: 4 / span 2;
-}
+.about .hexagon:first-child,
+.about .hexagon:nth-child(2),
 .about .hexagon:nth-child(3) {
   grid-row-start: 1;
-  grid-column: 6 / span 2;
 }
-.about .hexagon:nth-child(4) {
-  grid-row-start: 2;
-  grid-column: 1 / span 2;
-}
-.about .hexagon:nth-child(5) {
-  grid-row-start: 2;
-  grid-column: 3 / span 2;
-}
-.about .hexagon:nth-child(6) {
-  grid-row-start: 2;
-  grid-column: 5 / span 2;
-}
+.about .hexagon:nth-child(4),
+.about .hexagon:nth-child(5),
+.about .hexagon:nth-child(6),
 .about .hexagon:nth-child(7) {
   grid-row-start: 2;
-  grid-column: 7 / span 2;
 }
-.about .hexagon:nth-child(8) {
-  grid-row-start: 3;
-  grid-column: 2 / span 2;
-}
-
-.about .hexagon:nth-child(9) {
-  grid-row-start: 3;
-  grid-column: 4 / span 2;
-}
-
+.about .hexagon:nth-child(8),
+.about .hexagon:nth-child(9),
 .about .hexagon:nth-child(10) {
   grid-row-start: 3;
-  grid-column: 6 / span 2;
 }
-.about .hexagon:nth-child(11) {
-  grid-row-start: 4;
-  grid-column: 1 / span 2;
-}
-.about .hexagon:nth-child(12) {
-  grid-row-start: 4;
-  grid-column: 3 / span 2;
-}
-.about .hexagon:nth-child(13) {
-  grid-row-start: 4;
-  grid-column: 5 / span 2;
-}
+.about .hexagon:nth-child(11),
+.about .hexagon:nth-child(12),
+.about .hexagon:nth-child(13),
 .about .hexagon:nth-child(14) {
   grid-row-start: 4;
+}
+.about .hexagon:nth-child(15),
+.about .hexagon:nth-child(16),
+.about .hexagon:nth-child(17) {
+  grid-row-start: 5;
+}
+.about .hexagon:nth-child(18),
+.about .hexagon:nth-child(19),
+.about .hexagon:nth-child(20),
+.about .hexagon:nth-child(21) {
+  grid-row-start: 6;
+}
+
+.about .hexagon:first-child,
+.about .hexagon:nth-child(8),
+.about .hexagon:nth-child(15) {
+  grid-column: 2 / span 2;
+}
+.about .hexagon:nth-child(2),
+.about .hexagon:nth-child(9),
+.about .hexagon:nth-child(16) {
+  grid-column: 4 / span 2;
+}
+.about .hexagon:nth-child(3),
+.about .hexagon:nth-child(10),
+.about .hexagon:nth-child(17) {
+  grid-column: 6 / span 2;
+}
+.about .hexagon:nth-child(4),
+.about .hexagon:nth-child(11),
+.about .hexagon:nth-child(18) {
+  grid-column: 1 / span 2;
+}
+.about .hexagon:nth-child(5),
+.about .hexagon:nth-child(12),
+.about .hexagon:nth-child(19) {
+  grid-column: 3 / span 2;
+}
+.about .hexagon:nth-child(6),
+.about .hexagon:nth-child(13),
+.about .hexagon:nth-child(20) {
+  grid-column: 5 / span 2;
+}
+.about .hexagon:nth-child(7),
+.about .hexagon:nth-child(14),
+.about .hexagon:nth-child(121) {
   grid-column: 7 / span 2;
 }
+
 @media (max-width: 960px) {
   .about .container {
     display: block;

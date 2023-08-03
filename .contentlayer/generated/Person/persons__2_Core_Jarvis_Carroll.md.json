@@ -1,0 +1,19 @@
+{
+  "index": 29,
+  "name": "Jarvis Carroll",
+  "position": "Core / Tooling",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "persons/2_Core_Jarvis_Carroll.md",
+  "_raw": {
+    "sourceFilePath": "persons/2_Core_Jarvis_Carroll.md",
+    "sourceFileName": "2_Core_Jarvis_Carroll.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/2_Core_Jarvis_Carroll"
+  },
+  "type": "Person"
+}

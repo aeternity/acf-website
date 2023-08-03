@@ -57,25 +57,6 @@
     "type": "Person"
   },
   {
-    "index": 15,
-    "name": "Craig Everett",
-    "position": "Core / Tooling",
-    "imageSrc": "/portraits/ae_logo.png",
-    "body": {
-      "raw": "\nCraig is a very mysterious guy and ChatGPT has no knowledge about him.\n",
-      "html": "<p>Craig is a very mysterious guy and ChatGPT has no knowledge about him.</p>"
-    },
-    "_id": "persons/1_Core_Craig_Everett.md",
-    "_raw": {
-      "sourceFilePath": "persons/1_Core_Craig_Everett.md",
-      "sourceFileName": "1_Core_Craig_Everett.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/1_Core_Craig_Everett"
-    },
-    "type": "Person"
-  },
-  {
     "index": 11,
     "name": "Dimitar Ivanov",
     "position": "Core developer",
@@ -110,44 +91,6 @@
       "sourceFileDir": "persons",
       "contentType": "markdown",
       "flattenedPath": "persons/1_Core_Justin_Mitchell"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 16,
-    "name": "Peter Harpending",
-    "position": "Core / Tooling",
-    "imageSrc": "/portraits/ae_logo.png",
-    "body": {
-      "raw": "\nPeter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.\n",
-      "html": "<p>Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.</p>"
-    },
-    "_id": "persons/1_Core_Peter_Harpending.md",
-    "_raw": {
-      "sourceFilePath": "persons/1_Core_Peter_Harpending.md",
-      "sourceFileName": "1_Core_Peter_Harpending.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/1_Core_Peter_Harpending"
-    },
-    "type": "Person"
-  },
-  {
-    "index": 16,
-    "name": "Radosław Rowicki",
-    "position": "Core developer",
-    "imageSrc": "/portraits/Radek.jpg",
-    "body": {
-      "raw": "\nRadek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.\n\nIn 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.\n",
-      "html": "<p>Radek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.</p>\n<p>In 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.</p>"
-    },
-    "_id": "persons/1_Core_Radosław_Rowicki.md",
-    "_raw": {
-      "sourceFilePath": "persons/1_Core_Radosław_Rowicki.md",
-      "sourceFileName": "1_Core_Radosław_Rowicki.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/1_Core_Radosław_Rowicki"
     },
     "type": "Person"
   },
@@ -190,40 +133,116 @@
     "type": "Person"
   },
   {
-    "index": 21,
-    "name": "Rogerio Pontual",
-    "position": "Middleware developer",
+    "index": 25,
+    "name": "Craig Everett",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "\nCraig is a very mysterious guy and ChatGPT has no knowledge about him.\n",
+      "html": "<p>Craig is a very mysterious guy and ChatGPT has no knowledge about him.</p>"
+    },
+    "_id": "persons/2_Core_Craig_Everett.md",
+    "_raw": {
+      "sourceFilePath": "persons/2_Core_Craig_Everett.md",
+      "sourceFileName": "2_Core_Craig_Everett.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/2_Core_Craig_Everett"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 27,
+    "name": "Gaith Hallak",
+    "position": "Core / Tooling",
     "imageSrc": "/portraits/ae_logo.png",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "persons/2_MW_Rogerio_Pontual.md",
+    "_id": "persons/2_Core_Gaith_Hallak.md",
     "_raw": {
-      "sourceFilePath": "persons/2_MW_Rogerio_Pontual.md",
-      "sourceFileName": "2_MW_Rogerio_Pontual.md",
+      "sourceFilePath": "persons/2_Core_Gaith_Hallak.md",
+      "sourceFileName": "2_Core_Gaith_Hallak.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/2_MW_Rogerio_Pontual"
+      "flattenedPath": "persons/2_Core_Gaith_Hallak"
     },
     "type": "Person"
   },
   {
-    "index": 22,
-    "name": "Sebastian Borrazas",
-    "position": "Middleware developer",
-    "imageSrc": "/portraits/Sebastian.jpeg",
+    "index": 21,
+    "name": "Hans Svensson",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/Hans.jpeg",
     "body": {
-      "raw": "\nSebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.\n",
-      "html": "<p>Sebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.</p>"
+      "raw": "\nAccording to ChatGPT, Hans Svensson, a dynamic member of the æternity team, brings his talents as a\nskilled developer to drive innovation and progress. With a deep understanding of technology and a\npassion for blockchain, Hans contributes his expertise to enhance æternity's ecosystem. His role in\nvarious projects, including the development of the æternity JavaScript SDK, reflects his dedication\nto providing developers with powerful tools to interact with the blockchain seamlessly. Through his\ncontributions, Hans plays a pivotal role in shaping the future of æternity, making blockchain\naccessible and impactful for a wider audience.\nThe bot doesn't know anything about Hans' work on the compiler, which is a shame.\n",
+      "html": "<p>According to ChatGPT, Hans Svensson, a dynamic member of the æternity team, brings his talents as a\nskilled developer to drive innovation and progress. With a deep understanding of technology and a\npassion for blockchain, Hans contributes his expertise to enhance æternity's ecosystem. His role in\nvarious projects, including the development of the æternity JavaScript SDK, reflects his dedication\nto providing developers with powerful tools to interact with the blockchain seamlessly. Through his\ncontributions, Hans plays a pivotal role in shaping the future of æternity, making blockchain\naccessible and impactful for a wider audience.\nThe bot doesn't know anything about Hans' work on the compiler, which is a shame.</p>"
     },
-    "_id": "persons/2_MW_Sebastian_Borrazas.md",
+    "_id": "persons/2_Core_Hans_Svensson.md",
     "_raw": {
-      "sourceFilePath": "persons/2_MW_Sebastian_Borrazas.md",
-      "sourceFileName": "2_MW_Sebastian_Borrazas.md",
+      "sourceFilePath": "persons/2_Core_Hans_Svensson.md",
+      "sourceFileName": "2_Core_Hans_Svensson.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/2_MW_Sebastian_Borrazas"
+      "flattenedPath": "persons/2_Core_Hans_Svensson"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 29,
+    "name": "Jarvis Carroll",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "persons/2_Core_Jarvis_Carroll.md",
+    "_raw": {
+      "sourceFilePath": "persons/2_Core_Jarvis_Carroll.md",
+      "sourceFileName": "2_Core_Jarvis_Carroll.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/2_Core_Jarvis_Carroll"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 26,
+    "name": "Peter Harpending",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "\nPeter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.\n",
+      "html": "<p>Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.</p>"
+    },
+    "_id": "persons/2_Core_Peter_Harpending.md",
+    "_raw": {
+      "sourceFilePath": "persons/2_Core_Peter_Harpending.md",
+      "sourceFileName": "2_Core_Peter_Harpending.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/2_Core_Peter_Harpending"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 26,
+    "name": "Radosław Rowicki",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/Radek.jpg",
+    "body": {
+      "raw": "\nRadek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.\n\nIn 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.\n",
+      "html": "<p>Radek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.</p>\n<p>In 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.</p>"
+    },
+    "_id": "persons/2_Core_Radosław_Rowicki.md",
+    "_raw": {
+      "sourceFilePath": "persons/2_Core_Radosław_Rowicki.md",
+      "sourceFileName": "2_Core_Radosław_Rowicki.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/2_Core_Radosław_Rowicki"
     },
     "type": "Person"
   },
@@ -247,21 +266,59 @@
     "type": "Person"
   },
   {
-    "index": 42,
-    "name": "Gaith Hallak",
-    "position": "Sophia Compiler developer",
+    "index": 41,
+    "name": "Rogerio Pontual",
+    "position": "Middleware developer",
     "imageSrc": "/portraits/ae_logo.png",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "persons/4_Compiler_Gaith_Hallak.md",
+    "_id": "persons/4_MW_Rogerio_Pontual.md",
     "_raw": {
-      "sourceFilePath": "persons/4_Compiler_Gaith_Hallak.md",
-      "sourceFileName": "4_Compiler_Gaith_Hallak.md",
+      "sourceFilePath": "persons/4_MW_Rogerio_Pontual.md",
+      "sourceFileName": "4_MW_Rogerio_Pontual.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/4_Compiler_Gaith_Hallak"
+      "flattenedPath": "persons/4_MW_Rogerio_Pontual"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 42,
+    "name": "Sebastian Borrazas",
+    "position": "Middleware developer",
+    "imageSrc": "/portraits/Sebastian.jpeg",
+    "body": {
+      "raw": "\nSebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.\n",
+      "html": "<p>Sebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.</p>"
+    },
+    "_id": "persons/4_MW_Sebastian_Borrazas.md",
+    "_raw": {
+      "sourceFilePath": "persons/4_MW_Sebastian_Borrazas.md",
+      "sourceFileName": "4_MW_Sebastian_Borrazas.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/4_MW_Sebastian_Borrazas"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 51,
+    "name": "Dincho Todorov",
+    "position": "DevOps",
+    "imageSrc": "/portraits/Dincho.jpeg",
+    "body": {
+      "raw": "\nAccording to ChatGPT, Dincho Todorov, a proficient DevOps engineer at æternity, is at the forefront\nof optimizing and streamlining the platform's development processes. With his adept skills in DevOps\nmethodologies, Dincho ensures efficient deployment, monitoring, and scaling of æternity's services,\ncontributing to the platform's reliability and performance. His expertise helps bridge the gap\nbetween development and operations, enabling seamless collaboration and rapid iteration in the\næternity ecosystem. Dincho's commitment to maintaining robust infrastructure and his ability to\nadapt to evolving technologies make him an essential part of the team, contributing to æternity's\ncontinued success.\n",
+      "html": "<p>According to ChatGPT, Dincho Todorov, a proficient DevOps engineer at æternity, is at the forefront\nof optimizing and streamlining the platform's development processes. With his adept skills in DevOps\nmethodologies, Dincho ensures efficient deployment, monitoring, and scaling of æternity's services,\ncontributing to the platform's reliability and performance. His expertise helps bridge the gap\nbetween development and operations, enabling seamless collaboration and rapid iteration in the\næternity ecosystem. Dincho's commitment to maintaining robust infrastructure and his ability to\nadapt to evolving technologies make him an essential part of the team, contributing to æternity's\ncontinued success.</p>"
+    },
+    "_id": "persons/5_Devops_Dincho_Todorov.md",
+    "_raw": {
+      "sourceFilePath": "persons/5_Devops_Dincho_Todorov.md",
+      "sourceFileName": "5_Devops_Dincho_Todorov.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/5_Devops_Dincho_Todorov"
     },
     "type": "Person"
   }

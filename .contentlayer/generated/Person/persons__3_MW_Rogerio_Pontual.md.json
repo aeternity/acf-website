@@ -1,0 +1,19 @@
+{
+  "index": 21,
+  "name": "Rogerio Pontual",
+  "position": "Middleware developer",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "persons/3_MW_Rogerio_Pontual.md",
+  "_raw": {
+    "sourceFilePath": "persons/3_MW_Rogerio_Pontual.md",
+    "sourceFileName": "3_MW_Rogerio_Pontual.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/3_MW_Rogerio_Pontual"
+  },
+  "type": "Person"
+}

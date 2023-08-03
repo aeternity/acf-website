@@ -1,0 +1,19 @@
+{
+  "index": 27,
+  "name": "Gaith Hallak",
+  "position": "Core / Tooling",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "persons/2_Core_Gaith_Hallak.md",
+  "_raw": {
+    "sourceFilePath": "persons/2_Core_Gaith_Hallak.md",
+    "sourceFileName": "2_Core_Gaith_Hallak.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/2_Core_Gaith_Hallak"
+  },
+  "type": "Person"
+}
