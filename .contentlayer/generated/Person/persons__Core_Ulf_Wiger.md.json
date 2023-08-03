@@ -1,0 +1,19 @@
+{
+  "index": 13,
+  "name": "Ulf Wiger",
+  "position": "Core developer",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "\nSenior Specialist in the Architecture and Design of carrier-class systems. Have had the rare\nopportunity to influence a world-class product from conception through product release, several\nyears of feature upgrades and maintenance, and finally a significant technology shift. Previous\nexperience includes architecture and design of decision support technology for the US DOD and the\nAlaska Integrated Incident Management System. Have worked in both small startups and large\ncorporations. A special interest is trying to bridge the cultures of research, Open Source\ndevelopment, and industrial design.\n\nSpecialties: Software architecture and design, mainly in the areas of distributed soft real-time\nsystems. Very good knowledge of DBMS technology. Favourite programming language is Erlang.\n",
+    "html": "<p>Senior Specialist in the Architecture and Design of carrier-class systems. Have had the rare\nopportunity to influence a world-class product from conception through product release, several\nyears of feature upgrades and maintenance, and finally a significant technology shift. Previous\nexperience includes architecture and design of decision support technology for the US DOD and the\nAlaska Integrated Incident Management System. Have worked in both small startups and large\ncorporations. A special interest is trying to bridge the cultures of research, Open Source\ndevelopment, and industrial design.</p>\n<p>Specialties: Software architecture and design, mainly in the areas of distributed soft real-time\nsystems. Very good knowledge of DBMS technology. Favourite programming language is Erlang.</p>"
+  },
+  "_id": "persons/Core_Ulf_Wiger.md",
+  "_raw": {
+    "sourceFilePath": "persons/Core_Ulf_Wiger.md",
+    "sourceFileName": "Core_Ulf_Wiger.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/Core_Ulf_Wiger"
+  },
+  "type": "Person"
+}

@@ -1,0 +1,19 @@
+{
+  "index": 42,
+  "name": "Gaith Hallak",
+  "position": "Sophia Compiler developer",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "persons/4_Compiler_Gaith_Hallak.md",
+  "_raw": {
+    "sourceFilePath": "persons/4_Compiler_Gaith_Hallak.md",
+    "sourceFileName": "4_Compiler_Gaith_Hallak.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/4_Compiler_Gaith_Hallak"
+  },
+  "type": "Person"
+}

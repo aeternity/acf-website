@@ -1,0 +1,19 @@
+{
+  "index": 1,
+  "name": "Dr. Lydia Atanassova",
+  "position": "Member of the Board",
+  "imageSrc": "/portraits/Lydia_Atanassova.png",
+  "body": {
+    "raw": "\nLydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.\n",
+    "html": "<p>Lydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.</p>"
+  },
+  "_id": "persons/Admin_Lydia_Atanassova.md",
+  "_raw": {
+    "sourceFilePath": "persons/Admin_Lydia_Atanassova.md",
+    "sourceFileName": "Admin_Lydia_Atanassova.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/Admin_Lydia_Atanassova"
+  },
+  "type": "Person"
+}

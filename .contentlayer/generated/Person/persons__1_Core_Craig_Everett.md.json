@@ -1,0 +1,19 @@
+{
+  "index": 15,
+  "name": "Craig Everett",
+  "position": "Core / Tooling",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "\nCraig is a very mysterious guy and ChatGPT has no knowledge about him.\n",
+    "html": "<p>Craig is a very mysterious guy and ChatGPT has no knowledge about him.</p>"
+  },
+  "_id": "persons/1_Core_Craig_Everett.md",
+  "_raw": {
+    "sourceFilePath": "persons/1_Core_Craig_Everett.md",
+    "sourceFileName": "1_Core_Craig_Everett.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/1_Core_Craig_Everett"
+  },
+  "type": "Person"
+}

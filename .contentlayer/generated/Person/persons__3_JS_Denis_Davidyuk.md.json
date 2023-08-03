@@ -1,0 +1,19 @@
+{
+  "index": 30,
+  "name": "Denis Davidyuk",
+  "position": "JS SDK developer",
+  "imageSrc": "/portraits/Denis.jpeg",
+  "body": {
+    "raw": "\nAccording to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.\n",
+    "html": "<p>According to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.</p>"
+  },
+  "_id": "persons/3_JS_Denis_Davidyuk.md",
+  "_raw": {
+    "sourceFilePath": "persons/3_JS_Denis_Davidyuk.md",
+    "sourceFileName": "3_JS_Denis_Davidyuk.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/3_JS_Denis_Davidyuk"
+  },
+  "type": "Person"
+}

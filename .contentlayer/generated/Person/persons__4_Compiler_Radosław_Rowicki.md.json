@@ -1,0 +1,19 @@
+{
+  "index": 41,
+  "name": "Radosław Rowicki",
+  "position": "Sophia Compiler developer",
+  "imageSrc": "/portraits/Radek.jpg",
+  "body": {
+    "raw": "\nRadek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.\n\nIn 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.\n",
+    "html": "<p>Radek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.</p>\n<p>In 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.</p>"
+  },
+  "_id": "persons/4_Compiler_Radosław_Rowicki.md",
+  "_raw": {
+    "sourceFilePath": "persons/4_Compiler_Radosław_Rowicki.md",
+    "sourceFileName": "4_Compiler_Radosław_Rowicki.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/4_Compiler_Radosław_Rowicki"
+  },
+  "type": "Person"
+}

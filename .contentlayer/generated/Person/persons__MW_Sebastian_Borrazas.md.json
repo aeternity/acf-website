@@ -1,0 +1,19 @@
+{
+  "index": 22,
+  "name": "Sebastian Borrazas",
+  "position": "Middleware developer",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "persons/MW_Sebastian_Borrazas.md",
+  "_raw": {
+    "sourceFilePath": "persons/MW_Sebastian_Borrazas.md",
+    "sourceFileName": "MW_Sebastian_Borrazas.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/MW_Sebastian_Borrazas"
+  },
+  "type": "Person"
+}

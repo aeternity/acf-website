@@ -8,13 +8,13 @@
       "raw": "\nLale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.\n",
       "html": "<p>Lale joined the team with a high level of interest in supporting the Aeternity Crypto Foundation in\ntheir important role in pioneering blockchain technology and its surrounding systems. Working in the\nfield of accounting for a blockchain project creates interesting new tasks and challenges. With her\nbilateral experience, she is a great fit to support the mission. In August 2019 she finished her\nMarketing-Communications apprenticeship in a renowned, Berlin-based accounting company. Previously\nshe supported various start-ups as an online marketing- and accounting manager.</p>"
     },
-    "_id": "persons/Lale_Mahrt.md",
+    "_id": "persons/0_Admin_Lale_Mahrt.md",
     "_raw": {
-      "sourceFilePath": "persons/Lale_Mahrt.md",
-      "sourceFileName": "Lale_Mahrt.md",
+      "sourceFilePath": "persons/0_Admin_Lale_Mahrt.md",
+      "sourceFileName": "0_Admin_Lale_Mahrt.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/Lale_Mahrt"
+      "flattenedPath": "persons/0_Admin_Lale_Mahrt"
     },
     "type": "Person"
   },
@@ -27,13 +27,13 @@
       "raw": "\nLydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.\n",
       "html": "<p>Lydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.</p>"
     },
-    "_id": "persons/Lydia_Atanassova.md",
+    "_id": "persons/0_Admin_Lydia_Atanassova.md",
     "_raw": {
-      "sourceFilePath": "persons/Lydia_Atanassova.md",
-      "sourceFileName": "Lydia_Atanassova.md",
+      "sourceFilePath": "persons/0_Admin_Lydia_Atanassova.md",
+      "sourceFileName": "0_Admin_Lydia_Atanassova.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/Lydia_Atanassova"
+      "flattenedPath": "persons/0_Admin_Lydia_Atanassova"
     },
     "type": "Person"
   },
@@ -46,13 +46,222 @@
       "raw": "\nSascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.\n",
       "html": "<p>Sascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.</p>"
     },
-    "_id": "persons/Sascha_Valenta.md",
+    "_id": "persons/0_Admin_Sascha_Valenta.md",
     "_raw": {
-      "sourceFilePath": "persons/Sascha_Valenta.md",
-      "sourceFileName": "Sascha_Valenta.md",
+      "sourceFilePath": "persons/0_Admin_Sascha_Valenta.md",
+      "sourceFileName": "0_Admin_Sascha_Valenta.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/Sascha_Valenta"
+      "flattenedPath": "persons/0_Admin_Sascha_Valenta"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 15,
+    "name": "Craig Everett",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "\nCraig is a very mysterious guy and ChatGPT has no knowledge about him.\n",
+      "html": "<p>Craig is a very mysterious guy and ChatGPT has no knowledge about him.</p>"
+    },
+    "_id": "persons/1_Core_Craig_Everett.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Craig_Everett.md",
+      "sourceFileName": "1_Core_Craig_Everett.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Craig_Everett"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 11,
+    "name": "Dimitar Ivanov",
+    "position": "Core developer",
+    "imageSrc": "/portraits/Dimitar.jpeg",
+    "body": {
+      "raw": "\nDimitar is one ouf the core developers of æternity. He is a software engineer with more than 20\nyears of experience in the field with. Dimitar is passionate about functional programming and\ndistributed systems. \n",
+      "html": "<p>Dimitar is one ouf the core developers of æternity. He is a software engineer with more than 20\nyears of experience in the field with. Dimitar is passionate about functional programming and\ndistributed systems.</p>"
+    },
+    "_id": "persons/1_Core_Dimitar_Ivanov.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Dimitar_Ivanov.md",
+      "sourceFileName": "1_Core_Dimitar_Ivanov.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Dimitar_Ivanov"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 14,
+    "name": "Justin Mitchell",
+    "position": "Core developer",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "\nAccording to ChatGPT, Justin Mitchell, a recent addition to the æternity team, brings fresh insights\nand expertise to the forefront of the blockchain community. With a passion for technology and a\ndrive for innovation, Justin's presence signifies a new wave of energy and creativity within the\næternity ecosystem. As he embarks on this journey, his contributions are expected to play a pivotal\nrole in shaping the future development and growth of æternity, contributing to its ongoing success\nas a groundbreaking blockchain platform.\n",
+      "html": "<p>According to ChatGPT, Justin Mitchell, a recent addition to the æternity team, brings fresh insights\nand expertise to the forefront of the blockchain community. With a passion for technology and a\ndrive for innovation, Justin's presence signifies a new wave of energy and creativity within the\næternity ecosystem. As he embarks on this journey, his contributions are expected to play a pivotal\nrole in shaping the future development and growth of æternity, contributing to its ongoing success\nas a groundbreaking blockchain platform.</p>"
+    },
+    "_id": "persons/1_Core_Justin_Mitchell.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Justin_Mitchell.md",
+      "sourceFileName": "1_Core_Justin_Mitchell.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Justin_Mitchell"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 16,
+    "name": "Peter Harpending",
+    "position": "Core / Tooling",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "\nPeter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.\n",
+      "html": "<p>Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.</p>"
+    },
+    "_id": "persons/1_Core_Peter_Harpending.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Peter_Harpending.md",
+      "sourceFileName": "1_Core_Peter_Harpending.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Peter_Harpending"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 16,
+    "name": "Radosław Rowicki",
+    "position": "Core developer",
+    "imageSrc": "/portraits/Radek.jpg",
+    "body": {
+      "raw": "\nRadek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.\n\nIn 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.\n",
+      "html": "<p>Radek has been contributing to æternity since 2019, taking care of smart contract infrastructure of\nthe blockchain. He oversees development of the Sophia language, its compiler and low level tooling\nsuch as REPL and the debugger. He is also responsible for maintenance of the FATE virtual machine.</p>\n<p>In 2021, he defended his master's thesis about application of advanced type systems in Sophia.\nCurrently he is pursuing a PhD in software verification and distributed systems. He is passionate\nabout languages, type theory, logic and compiler construction.</p>"
+    },
+    "_id": "persons/1_Core_Radosław_Rowicki.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Radosław_Rowicki.md",
+      "sourceFileName": "1_Core_Radosław_Rowicki.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Radosław_Rowicki"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 12,
+    "name": "Sean Hinde",
+    "position": "Core developer",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "\nAccording to ChatGPT, Sean Hinde is a prominent figure in the æternity blockchain ecosystem,\ncontributing his expertise to drive innovation and growth. With a wealth of experience, Sean has\nplayed a key role in advancing blockchain technology, particularly in areas like smart contracts,\nscalability, and decentralized applications. His dedication and leadership have made a significant\nimpact on the evolution of the æternity platform, fostering a thriving community and pushing the\nboundaries of what's achievable in the blockchain space.\n",
+      "html": "<p>According to ChatGPT, Sean Hinde is a prominent figure in the æternity blockchain ecosystem,\ncontributing his expertise to drive innovation and growth. With a wealth of experience, Sean has\nplayed a key role in advancing blockchain technology, particularly in areas like smart contracts,\nscalability, and decentralized applications. His dedication and leadership have made a significant\nimpact on the evolution of the æternity platform, fostering a thriving community and pushing the\nboundaries of what's achievable in the blockchain space.</p>"
+    },
+    "_id": "persons/1_Core_Sean_Hinde.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Sean_Hinde.md",
+      "sourceFileName": "1_Core_Sean_Hinde.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Sean_Hinde"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 13,
+    "name": "Ulf Wiger",
+    "position": "Core developer",
+    "imageSrc": "/portraits/Ulf.png",
+    "body": {
+      "raw": "\nUlf Wiger has been using Erlang since 1992, bought the first-ever commercial license in 1993 and has\nbeen a full-time Erlang dev since 1996. While at Ericsson, he became something of an Erlang\nambassadeur, speaking about the AXD 301 ATM Switch/Media Gateway and about how Erlang works in large\nindustrial projects. After leaving Ericsson, Ulf joined Erlang Solutions as CTO. He then entered the\nConnected Device market first via the startup Feuerlabs, then as a freelance contractor to Jaguar\nLand Rover, and Lead Developer of GENIVI’s Remote Vehicle Interaction component. Ulf joined the\nAeternity Core Team in 2017 and is now busy exploring and developing blockchain technology. In the\nOpen Source arena, Ulf is perhaps best known for components like Gproc, Jobs, and Exometer. In his\nspare time, Ulf doubles as an opera singer and dabbles in politics.\n",
+      "html": "<p>Ulf Wiger has been using Erlang since 1992, bought the first-ever commercial license in 1993 and has\nbeen a full-time Erlang dev since 1996. While at Ericsson, he became something of an Erlang\nambassadeur, speaking about the AXD 301 ATM Switch/Media Gateway and about how Erlang works in large\nindustrial projects. After leaving Ericsson, Ulf joined Erlang Solutions as CTO. He then entered the\nConnected Device market first via the startup Feuerlabs, then as a freelance contractor to Jaguar\nLand Rover, and Lead Developer of GENIVI’s Remote Vehicle Interaction component. Ulf joined the\nAeternity Core Team in 2017 and is now busy exploring and developing blockchain technology. In the\nOpen Source arena, Ulf is perhaps best known for components like Gproc, Jobs, and Exometer. In his\nspare time, Ulf doubles as an opera singer and dabbles in politics.</p>"
+    },
+    "_id": "persons/1_Core_Ulf_Wiger.md",
+    "_raw": {
+      "sourceFilePath": "persons/1_Core_Ulf_Wiger.md",
+      "sourceFileName": "1_Core_Ulf_Wiger.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/1_Core_Ulf_Wiger"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 21,
+    "name": "Rogerio Pontual",
+    "position": "Middleware developer",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "persons/2_MW_Rogerio_Pontual.md",
+    "_raw": {
+      "sourceFilePath": "persons/2_MW_Rogerio_Pontual.md",
+      "sourceFileName": "2_MW_Rogerio_Pontual.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/2_MW_Rogerio_Pontual"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 22,
+    "name": "Sebastian Borrazas",
+    "position": "Middleware developer",
+    "imageSrc": "/portraits/Sebastian.jpeg",
+    "body": {
+      "raw": "\nSebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.\n",
+      "html": "<p>Sebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.</p>"
+    },
+    "_id": "persons/2_MW_Sebastian_Borrazas.md",
+    "_raw": {
+      "sourceFilePath": "persons/2_MW_Sebastian_Borrazas.md",
+      "sourceFileName": "2_MW_Sebastian_Borrazas.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/2_MW_Sebastian_Borrazas"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 30,
+    "name": "Denis Davidyuk",
+    "position": "JS SDK developer",
+    "imageSrc": "/portraits/Denis.jpeg",
+    "body": {
+      "raw": "\nAccording to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.\n",
+      "html": "<p>According to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.</p>"
+    },
+    "_id": "persons/3_JS_Denis_Davidyuk.md",
+    "_raw": {
+      "sourceFilePath": "persons/3_JS_Denis_Davidyuk.md",
+      "sourceFileName": "3_JS_Denis_Davidyuk.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/3_JS_Denis_Davidyuk"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 42,
+    "name": "Gaith Hallak",
+    "position": "Sophia Compiler developer",
+    "imageSrc": "/portraits/ae_logo.png",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "persons/4_Compiler_Gaith_Hallak.md",
+    "_raw": {
+      "sourceFilePath": "persons/4_Compiler_Gaith_Hallak.md",
+      "sourceFileName": "4_Compiler_Gaith_Hallak.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/4_Compiler_Gaith_Hallak"
     },
     "type": "Person"
   }

@@ -1,0 +1,19 @@
+{
+  "index": 8,
+  "name": "Sebastian Borrazas",
+  "position": "Middleware developer",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "persons/Rogerio_Pontual.md",
+  "_raw": {
+    "sourceFilePath": "persons/Rogerio_Pontual.md",
+    "sourceFileName": "Rogerio_Pontual.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/Rogerio_Pontual"
+  },
+  "type": "Person"
+}

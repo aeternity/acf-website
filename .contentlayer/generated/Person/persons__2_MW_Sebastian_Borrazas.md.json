@@ -1,0 +1,19 @@
+{
+  "index": 22,
+  "name": "Sebastian Borrazas",
+  "position": "Middleware developer",
+  "imageSrc": "/portraits/Sebastian.jpeg",
+  "body": {
+    "raw": "\nSebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.\n",
+    "html": "<p>Sebastián Borrazás has worked in a variety of roles in the tech industry since 2012. In 2012, they\nwere a Core Developer at Monthlys and a Developer at BenchPrep. In 2014, they were a Lead Software\nEngineer at Citrusbyte. From 2016 to 2017, they were a Professor of the Computer Science Department\nand a Computer Science Teaching Assistant at Universidad ORT Uruguay. In 2017, they were an Erlang\nEngineer at Fractal Industries, Inc. From 2019 to 2021, they were a Senior Software Engineer at\nActiveProspect and is currently a Senior Software Engineer at æternity blockchain, where they are in\ncharge of maintaining the AEternity Foundation \"Middleware\" project. Sebastián has worked with a\nvariety of technologies, including Erlang/Elixir, Mnesia, RocksDB, Phoenix, Erlang/OTP, Riak,\nDocker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible, Webpack, Vagrant, HTML,\nLESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.</p>"
+  },
+  "_id": "persons/2_MW_Sebastian_Borrazas.md",
+  "_raw": {
+    "sourceFilePath": "persons/2_MW_Sebastian_Borrazas.md",
+    "sourceFileName": "2_MW_Sebastian_Borrazas.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/2_MW_Sebastian_Borrazas"
+  },
+  "type": "Person"
+}

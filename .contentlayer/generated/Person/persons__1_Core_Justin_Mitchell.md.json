@@ -1,0 +1,19 @@
+{
+  "index": 14,
+  "name": "Justin Mitchell",
+  "position": "Core developer",
+  "imageSrc": "/portraits/ae_logo.png",
+  "body": {
+    "raw": "\nAccording to ChatGPT, Justin Mitchell, a recent addition to the æternity team, brings fresh insights\nand expertise to the forefront of the blockchain community. With a passion for technology and a\ndrive for innovation, Justin's presence signifies a new wave of energy and creativity within the\næternity ecosystem. As he embarks on this journey, his contributions are expected to play a pivotal\nrole in shaping the future development and growth of æternity, contributing to its ongoing success\nas a groundbreaking blockchain platform.\n",
+    "html": "<p>According to ChatGPT, Justin Mitchell, a recent addition to the æternity team, brings fresh insights\nand expertise to the forefront of the blockchain community. With a passion for technology and a\ndrive for innovation, Justin's presence signifies a new wave of energy and creativity within the\næternity ecosystem. As he embarks on this journey, his contributions are expected to play a pivotal\nrole in shaping the future development and growth of æternity, contributing to its ongoing success\nas a groundbreaking blockchain platform.</p>"
+  },
+  "_id": "persons/1_Core_Justin_Mitchell.md",
+  "_raw": {
+    "sourceFilePath": "persons/1_Core_Justin_Mitchell.md",
+    "sourceFileName": "1_Core_Justin_Mitchell.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/1_Core_Justin_Mitchell"
+  },
+  "type": "Person"
+}

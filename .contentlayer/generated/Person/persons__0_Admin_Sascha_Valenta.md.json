@@ -1,0 +1,19 @@
+{
+  "index": 2,
+  "name": "Sascha Valenta",
+  "position": "Member of the Board",
+  "imageSrc": "/portraits/Sascha_Valenta.jpeg",
+  "body": {
+    "raw": "\nSascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.\n",
+    "html": "<p>Sascha’s background is in wealth management, private equity investment, and cross-border wealth\nstructuring. His role in the æternity Crypto Foundation combines his wealth of experience, his\npassion for philanthropy and his advocacy for blockchain technology. Born and raised in\nLiechtenstein and educated in Switzerland, Sascha established a wide network of connections\nthroughout his career, and is thrilled to support æternity expand and spread its vision worldwide.</p>"
+  },
+  "_id": "persons/0_Admin_Sascha_Valenta.md",
+  "_raw": {
+    "sourceFilePath": "persons/0_Admin_Sascha_Valenta.md",
+    "sourceFileName": "0_Admin_Sascha_Valenta.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/0_Admin_Sascha_Valenta"
+  },
+  "type": "Person"
+}
