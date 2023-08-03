@@ -106,8 +106,9 @@ h3 {
 .about .hexagon:hover .info {
   display: block;
   font-size: 11px !important;
+  background: rgb(0, 0, 0);
+  padding: 10px;
   @apply text-left;
-  @apply m-4;
 }
 
 .about .imageTextContent {
