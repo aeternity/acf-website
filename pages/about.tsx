@@ -119,8 +119,8 @@ export default function Home({ persons }: { persons: Person[] }) {
           </p>
         </>
       </SimpleContainer>
-      <div className="clear-both pb-8 lg:pb-12 h-[1500px]">
-        <div className="about relative">
+      <div className="clear-both pb-8 pb-32  ">
+        <div className="about">
           <div className="mt-10 m-0">
             <div className="text-center">
               <h3 className="text-6xl text-primary">People</h3>
