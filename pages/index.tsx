@@ -7,7 +7,10 @@ import { SimpleContainer } from "../components/SimpleContainer";
 export default function Home() {
   return (
     <>
-      <SVGAnimation data={assetUrl("/bg/hexagon.svg")} className="lg:w-[35%]" />
+      <SVGAnimation
+        data={assetUrl("/bg/Home-011.svg")}
+        className="lg:w-[35%]"
+      />
       <SimpleContainer>
         <>
           <h1 className="text-5xl text-primary font-bold mb-5 ">

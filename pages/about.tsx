@@ -6,6 +6,7 @@ import Link from "next/link";
 import { assetUrl } from "../lib";
 import Image from "next/image";
 import { SimpleContainer } from "../components/SimpleContainer";
+import { SVGAnimation } from "../components/SVGAnimation";
 
 export async function getStaticProps() {
   const persons = allPeople.sort((a, b) => a.index - b.index);
@@ -24,6 +25,14 @@ export default function Home({ persons }: { persons: Person[] }) {
   return (
     <>
       {updateTitleTag("Who We Are")}
+      <SVGAnimation
+        data={assetUrl("/bg/about-us-01.svg")}
+        className="lg:w-[30%] m-0 lg:mt-[5%] lg:mr-[4%] hidden lg:block"
+      />
+      <SVGAnimation
+        data={assetUrl("/bg/about-us-horizontal.svg")}
+        className="lg:hidden m-0 "
+      />
       <SimpleContainer>
         <>
           <h1 className="text-5xl ">Who We Are</h1>
