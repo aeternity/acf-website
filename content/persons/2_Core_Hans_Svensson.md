@@ -12,4 +12,5 @@ various projects, including the development of the æternity JavaScript SDK, ref
 to providing developers with powerful tools to interact with the blockchain seamlessly. Through his
 contributions, Hans plays a pivotal role in shaping the future of æternity, making blockchain
 accessible and impactful for a wider audience.
-The bot doesn't know anything about Hans' work on the compiler, which is a shame.
+The bot doesn't know anything about Hans' work on the compiler and Generalized accounts, which is a
+shame.
