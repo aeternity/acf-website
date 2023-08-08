@@ -1,16 +1,19 @@
 ---
 name: Hans Svensson
 position: Core / Tooling
-imageSrc: /portraits/Hans.jpeg
+imageSrc: /portraits/Hans.jpg
 index: 21
 ---
 
-According to ChatGPT, Hans Svensson, a dynamic member of the æternity team, brings his talents as a
-skilled developer to drive innovation and progress. With a deep understanding of technology and a
-passion for blockchain, Hans contributes his expertise to enhance æternity's ecosystem. His role in
-various projects, including the development of the æternity JavaScript SDK, reflects his dedication
-to providing developers with powerful tools to interact with the blockchain seamlessly. Through his
-contributions, Hans plays a pivotal role in shaping the future of æternity, making blockchain
-accessible and impactful for a wider audience.
-The bot doesn't know anything about Hans' work on the compiler and Generalized accounts, which is a
-shame.
+Hans has been involved in aeternity since november 2017, having contributed to
+virtually all parts of the core node (consensus, proof-of-work, oracles, naming
+system, contract transactions, generalized accounts, cryptography, AEVM, FATE)
+as well as being deeply involved in the development of the smart contract
+language Sophia and its compiler.
+
+Hans has a PhD in Computer Science (topic - Testing and Verification of Erlang
+programs) from 2008 and has almost 20 years of experience developing software
+in Erlang.
+
+Hans posted the first ever transaction on the aeternity mainnet on November
+27th, 2018.
