@@ -5,14 +5,9 @@ imageSrc: /portraits/Sebastian.jpeg
 index: 42
 ---
 
-Sebastián Borrazás is a full stack engineer from Montevideo with experience in designing,
-architecting and building scalable applications.
-
-He loves functional programming, the web and Erlang.
-
-He is currently in charge of maintaining the Middleware project, which wraps the node's API to
-provide the user with aggregated data.
-
-Sebastián has worked with a variety of technologies, including Erlang/Elixir, Mnesia, RocksDB,
-Phoenix, Erlang/OTP, Riak, Docker, CockroachDB, AWS DynamoDB, SQS, Ruby, Nodejs, Reactjs, Ansible,
-Webpack, Vagrant, HTML, LESS, SQL, Sinatra, Rails, HAML, SASS, and Backbone.
+Based in Montevideo, Sebastian is a Full Stack Engineer maintaining the AEternity Middleware
+project. He holds a degree in computer theory and has also served as an instructor in functional
+programming, compilers, and formal proofs courses. In addition to his academic accomplishments,
+Sebastian has experience in creating scalable applications and software infrastructure, primarily
+employing Erlang and Elixir. He is involved in various stages of the development process, including
+design, architecture, team management and construction.
