@@ -56,7 +56,7 @@ export default function Home() {
     <>
       {updateTitleTag("Ecosystem Grant Program")}
       <SVGAnimation
-        data={assetUrl("/bg/3shapes.svg")}
+        data={assetUrl("/bg/Grant-012.svg")}
         className="svg-animated-bg relative lg:absolute top-0 right-0 overflow-hidden will-change-[transform, opacity, filter] z-0 w-auto lg:w-[30%] m-0 lg:mt-[8%] lg:mr-[4%]"
       />
       <SimpleContainer>
