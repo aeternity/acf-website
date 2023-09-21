@@ -1,6 +1,5 @@
 import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { faDiscourse } from "@fortawesome/free-brands-svg-icons/faDiscourse";
 import {
@@ -30,7 +29,7 @@ function SocialMediaLink({
 const SocialMediaLinks = [
   { "mailto:hello@aeternity-foundation.org": faEnvelope },
   { "https://github.com/aeternity": faGithub },
-  { "https://twitter.com/aeternityCF": faTwitter },
+  // { "https://twitter.com/aeternityCF": faTwitter },
   {
     "https://www.linkedin.com/company/æternity-crypto-foundation/": faLinkedin,
   },
