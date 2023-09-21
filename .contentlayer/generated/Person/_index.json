@@ -136,7 +136,7 @@
     "index": 25,
     "name": "Craig Everett",
     "position": "Core / Tooling",
-    "imageSrc": "/portraits/ae_logo.png",
+    "imageSrc": "/portraits/Craig_Everett.jpg",
     "body": {
       "raw": "\nCraig is a very mysterious guy and ChatGPT has no knowledge about him.\n",
       "html": "<p>Craig is a very mysterious guy and ChatGPT has no knowledge about him.</p>"
@@ -155,7 +155,7 @@
     "index": 27,
     "name": "Gaith Hallak",
     "position": "Core / Tooling",
-    "imageSrc": "/portraits/ae_logo.png",
+    "imageSrc": "/portraits/Gaith_Hallak.jpg",
     "body": {
       "raw": "",
       "html": ""
@@ -247,25 +247,6 @@
     "type": "Person"
   },
   {
-    "index": 30,
-    "name": "Denis Davidyuk",
-    "position": "JS SDK developer",
-    "imageSrc": "/portraits/Denis.jpeg",
-    "body": {
-      "raw": "\nAccording to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.\n",
-      "html": "<p>According to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.</p>"
-    },
-    "_id": "persons/3_JS_Denis_Davidyuk.md",
-    "_raw": {
-      "sourceFilePath": "persons/3_JS_Denis_Davidyuk.md",
-      "sourceFileName": "3_JS_Denis_Davidyuk.md",
-      "sourceFileDir": "persons",
-      "contentType": "markdown",
-      "flattenedPath": "persons/3_JS_Denis_Davidyuk"
-    },
-    "type": "Person"
-  },
-  {
     "index": 41,
     "name": "Rogerio Pontual",
     "position": "Middleware developer",
@@ -304,7 +285,64 @@
     "type": "Person"
   },
   {
-    "index": 51,
+    "index": 50,
+    "name": "Denis Davidyuk",
+    "position": "JS SDK developer",
+    "imageSrc": "/portraits/Denis.jpeg",
+    "body": {
+      "raw": "\nAccording to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.\n",
+      "html": "<p>According to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the\næternity ecosystem through his contributions to key projects. His expertise shines in the\ndevelopment of æternity's JavaScript SDK, which has empowered developers to seamlessly integrate\næternity blockchain functionality into their applications. Moreover, Denis's involvement in the\nsuperhero and base æpp projects has played a crucial role in enhancing user experiences and\nexpanding æternity's reach. His dedication to creating efficient and user-friendly solutions has\nmade him a valuable asset to the æternity community and its ongoing growth.</p>"
+    },
+    "_id": "persons/5_JS_Denis_Davidyuk.md",
+    "_raw": {
+      "sourceFilePath": "persons/5_JS_Denis_Davidyuk.md",
+      "sourceFileName": "5_JS_Denis_Davidyuk.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/5_JS_Denis_Davidyuk"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 50,
+    "name": "Metin Akat",
+    "position": "JS / UI / Tooling",
+    "imageSrc": "/portraits/Metin.jpeg",
+    "body": {
+      "raw": "\nMetin is an experienced software architect and full-stack developer who joined the team in 2022. He\nhas contributed to the development of various UIs and tools for the æternity ecosystem, including\nthe Hyperchains staking UI, and the Hyperchains starter kit.\n\nMetin has experience with all kinds of technologies and programming languages, incl. Rust,\nTypeScript/JavaScript, Erlang/Elixir, OCaml, Docker, Kubernetes. \n",
+      "html": "<p>Metin is an experienced software architect and full-stack developer who joined the team in 2022. He\nhas contributed to the development of various UIs and tools for the æternity ecosystem, including\nthe Hyperchains staking UI, and the Hyperchains starter kit.</p>\n<p>Metin has experience with all kinds of technologies and programming languages, incl. Rust,\nTypeScript/JavaScript, Erlang/Elixir, OCaml, Docker, Kubernetes.</p>"
+    },
+    "_id": "persons/5_JS_Metin_Akat.md",
+    "_raw": {
+      "sourceFilePath": "persons/5_JS_Metin_Akat.md",
+      "sourceFileName": "5_JS_Metin_Akat.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/5_JS_Metin_Akat"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 50,
+    "name": "Rumyana Akat",
+    "position": "JS / UI",
+    "imageSrc": "/portraits/Rumyana.jpeg",
+    "body": {
+      "raw": "\nRumyana joined the team in 2023 and started working on various projects, including the\nHyperchains UI and the Delegated signing UI.\n\nShe has a diverse background with roles such as team and project management,\ndocumentation development, and full-stack development across various technologies, and she just now\nstarts venturing into the realm of blockchain technology and smart contracts, embracing a new\nlearning journey.\n",
+      "html": "<p>Rumyana joined the team in 2023 and started working on various projects, including the\nHyperchains UI and the Delegated signing UI.</p>\n<p>She has a diverse background with roles such as team and project management,\ndocumentation development, and full-stack development across various technologies, and she just now\nstarts venturing into the realm of blockchain technology and smart contracts, embracing a new\nlearning journey.</p>"
+    },
+    "_id": "persons/5_JS_Rumyana_Akat.md",
+    "_raw": {
+      "sourceFilePath": "persons/5_JS_Rumyana_Akat.md",
+      "sourceFileName": "5_JS_Rumyana_Akat.md",
+      "sourceFileDir": "persons",
+      "contentType": "markdown",
+      "flattenedPath": "persons/5_JS_Rumyana_Akat"
+    },
+    "type": "Person"
+  },
+  {
+    "index": 71,
     "name": "Dincho Todorov",
     "position": "DevOps",
     "imageSrc": "/portraits/Dincho.jpeg",
@@ -312,13 +350,13 @@
       "raw": "\nAccording to ChatGPT, Dincho Todorov, a proficient DevOps engineer at æternity, is at the forefront\nof optimizing and streamlining the platform's development processes. With his adept skills in DevOps\nmethodologies, Dincho ensures efficient deployment, monitoring, and scaling of æternity's services,\ncontributing to the platform's reliability and performance. His expertise helps bridge the gap\nbetween development and operations, enabling seamless collaboration and rapid iteration in the\næternity ecosystem. Dincho's commitment to maintaining robust infrastructure and his ability to\nadapt to evolving technologies make him an essential part of the team, contributing to æternity's\ncontinued success.\n",
       "html": "<p>According to ChatGPT, Dincho Todorov, a proficient DevOps engineer at æternity, is at the forefront\nof optimizing and streamlining the platform's development processes. With his adept skills in DevOps\nmethodologies, Dincho ensures efficient deployment, monitoring, and scaling of æternity's services,\ncontributing to the platform's reliability and performance. His expertise helps bridge the gap\nbetween development and operations, enabling seamless collaboration and rapid iteration in the\næternity ecosystem. Dincho's commitment to maintaining robust infrastructure and his ability to\nadapt to evolving technologies make him an essential part of the team, contributing to æternity's\ncontinued success.</p>"
     },
-    "_id": "persons/5_Devops_Dincho_Todorov.md",
+    "_id": "persons/7_Devops_Dincho_Todorov.md",
     "_raw": {
-      "sourceFilePath": "persons/5_Devops_Dincho_Todorov.md",
-      "sourceFileName": "5_Devops_Dincho_Todorov.md",
+      "sourceFilePath": "persons/7_Devops_Dincho_Todorov.md",
+      "sourceFileName": "7_Devops_Dincho_Todorov.md",
       "sourceFileDir": "persons",
       "contentType": "markdown",
-      "flattenedPath": "persons/5_Devops_Dincho_Todorov"
+      "flattenedPath": "persons/7_Devops_Dincho_Todorov"
     },
     "type": "Person"
   }

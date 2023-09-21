@@ -2,7 +2,7 @@
 name: Denis Davidyuk
 position: JS SDK developer
 imageSrc: /portraits/Denis.jpeg
-index: 30
+index: 50
 ---
 
 According to ChatGPT Denis Davidyuk, a skilled JavaScript developer, has significantly impacted the

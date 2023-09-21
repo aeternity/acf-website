@@ -1,0 +1,19 @@
+{
+  "index": 50,
+  "name": "Rumyana Akat",
+  "position": "JS / UI",
+  "imageSrc": "/portraits/Rumyana.jpeg",
+  "body": {
+    "raw": "\nRumyana joined the team in 2023 and started working on various projects, including the\nHyperchains UI and the Delegated signing UI.\n\nShe has a diverse background with roles such as team and project management,\ndocumentation development, and full-stack development across various technologies, and she just now\nstarts venturing into the realm of blockchain technology and smart contracts, embracing a new\nlearning journey.\n",
+    "html": "<p>Rumyana joined the team in 2023 and started working on various projects, including the\nHyperchains UI and the Delegated signing UI.</p>\n<p>She has a diverse background with roles such as team and project management,\ndocumentation development, and full-stack development across various technologies, and she just now\nstarts venturing into the realm of blockchain technology and smart contracts, embracing a new\nlearning journey.</p>"
+  },
+  "_id": "persons/5_JS_Rumyana_Akat.md",
+  "_raw": {
+    "sourceFilePath": "persons/5_JS_Rumyana_Akat.md",
+    "sourceFileName": "5_JS_Rumyana_Akat.md",
+    "sourceFileDir": "persons",
+    "contentType": "markdown",
+    "flattenedPath": "persons/5_JS_Rumyana_Akat"
+  },
+  "type": "Person"
+}

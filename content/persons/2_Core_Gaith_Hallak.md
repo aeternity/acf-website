@@ -1,6 +1,6 @@
 ---
 name: Gaith Hallak
 position: Core / Tooling
-imageSrc: /portraits/ae_logo.png
+imageSrc: /portraits/Gaith_Hallak.jpg
 index: 27
 ---

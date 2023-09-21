@@ -2,7 +2,7 @@
 name: Dincho Todorov
 position: DevOps
 imageSrc: /portraits/Dincho.jpeg
-index: 51
+index: 71
 ---
 
 According to ChatGPT, Dincho Todorov, a proficient DevOps engineer at æternity, is at the forefront

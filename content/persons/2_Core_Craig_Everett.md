@@ -1,7 +1,7 @@
 ---
 name: Craig Everett
 position: Core / Tooling
-imageSrc: /portraits/ae_logo.png
+imageSrc: /portraits/Craig_Everett.jpg
 index: 25
 ---
 

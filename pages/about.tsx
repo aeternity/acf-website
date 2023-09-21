@@ -1,7 +1,6 @@
-import { allPeople, Markdown, Person } from "contentlayer/generated";
+import { allPeople, Person } from "contentlayer/generated";
 import { PersonCard } from "../components/PersonCard";
 import { updateTitleTag } from "./_app";
-import { useState } from "react";
 import Link from "next/link";
 import { assetUrl } from "../lib";
 import Image from "next/image";
@@ -13,14 +12,11 @@ export async function getStaticProps() {
   return { props: { persons } };
 }
 
-export default function Home({ persons }: { persons: Person[] }) {
-  const [info, setInfo] = useState<Markdown | null>(null);
+export default function About({ persons }: { persons: Person[] }) {
   const listStyles = {
     li: "flex items-center m-4",
     text: "ml-4 text-xl text-gray",
   };
-
-  const peopleHeight = Math.ceil(persons.length / 7) * 500 + 200;
 
   return (
     <>
@@ -63,6 +59,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/protocol-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="Protocol Maintenance"
               />
               <span className={listStyles.text}>Protocol Maintenance</span>
             </li>
@@ -71,6 +68,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/maintenance-documents-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="Protocol Development"
               />
               <span className={listStyles.text}>Protocol Development</span>
             </li>
@@ -79,6 +77,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/api-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="SDKs"
               />
               <span className={listStyles.text}>SDKs</span>
             </li>
@@ -87,6 +86,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/wallet-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="Wallets and Interfaces"
               />
               <span className={listStyles.text}>Wallets and Interfaces</span>
             </li>
@@ -95,6 +95,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/app-update-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="æpps and Integrations"
               />
               <span className={listStyles.text}>æpps and Integrations</span>
             </li>
@@ -103,6 +104,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/api-settings-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="Middleware Backend API"
               />
               <span className={listStyles.text}>Middleware Backend API</span>
             </li>
@@ -111,6 +113,7 @@ export default function Home({ persons }: { persons: Person[] }) {
                 src={assetUrl("icons/window-dev-tools-svgrepo-com.svg")}
                 width={40}
                 height={40}
+                alt="Dev-Tools"
               />
               <span className={listStyles.text}>Dev-Tools</span>
             </li>
@@ -128,7 +131,7 @@ export default function Home({ persons }: { persons: Person[] }) {
           </p>
         </>
       </SimpleContainer>
-      <div className="clear-both pb-8 pb-32  ">
+      <div className="clear-both pb-32">
         <div className="about">
           <div className="mt-10 m-0">
             <div className="text-center">
