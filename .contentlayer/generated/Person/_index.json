@@ -62,8 +62,8 @@
     "position": "Core developer",
     "imageSrc": "/portraits/Dimitar.jpeg",
     "body": {
-      "raw": "\nAccording to ChatGPT, Dimitar Ivanov is a notable member of the æternity core development team,\ncontributing his expertise to drive innovation and progress within the blockchain ecosystem. With a\nstrong background in technology and a deep understanding of blockchain systems, Dimitar plays a\ncrucial role in shaping the evolution of the æternity platform. His involvement in various technical\naspects, including protocol enhancements and smart contract functionality, reflects his dedication\nto advancing the capabilities and usability of the æternity blockchain. Through his contributions,\nDimitar Ivanov helps maintain the platform's robustness and continues to be an asset to the ongoing\ndevelopment and success of æternity.\n",
-      "html": "<p>According to ChatGPT, Dimitar Ivanov is a notable member of the æternity core development team,\ncontributing his expertise to drive innovation and progress within the blockchain ecosystem. With a\nstrong background in technology and a deep understanding of blockchain systems, Dimitar plays a\ncrucial role in shaping the evolution of the æternity platform. His involvement in various technical\naspects, including protocol enhancements and smart contract functionality, reflects his dedication\nto advancing the capabilities and usability of the æternity blockchain. Through his contributions,\nDimitar Ivanov helps maintain the platform's robustness and continues to be an asset to the ongoing\ndevelopment and success of æternity.</p>"
+      "raw": "\nDimitar has been involved in aeternity since September 2017. He has actively contributed to the\ndesign, development, and optimization of the Aeternity platform, playing a pivotal role in shaping\nits technological advancements and ensuring its stability and security. He comes with a\ncomprehensive understanding of decentralized systems, consensus algorithms, and cryptographic\nprinciples, combined with a passion for driving innovation in the blockchain space.\n",
+      "html": "<p>Dimitar has been involved in aeternity since September 2017. He has actively contributed to the\ndesign, development, and optimization of the Aeternity platform, playing a pivotal role in shaping\nits technological advancements and ensuring its stability and security. He comes with a\ncomprehensive understanding of decentralized systems, consensus algorithms, and cryptographic\nprinciples, combined with a passion for driving innovation in the blockchain space.</p>"
     },
     "_id": "persons/1_Core_Dimitar_Ivanov.md",
     "_raw": {
@@ -79,10 +79,10 @@
     "index": 14,
     "name": "Justin Mitchell",
     "position": "Core developer",
-    "imageSrc": "/portraits/ae_logo.png",
+    "imageSrc": "/portraits/Justin_Mitchell.png",
     "body": {
-      "raw": "\nAccording to ChatGPT, Justin Mitchell, a recent addition to the æternity team, brings fresh insights\nand expertise to the forefront of the blockchain community. With a passion for technology and a\ndrive for innovation, Justin's presence signifies a new wave of energy and creativity within the\næternity ecosystem. As he embarks on this journey, his contributions are expected to play a pivotal\nrole in shaping the future development and growth of æternity, contributing to its ongoing success\nas a groundbreaking blockchain platform.\n",
-      "html": "<p>According to ChatGPT, Justin Mitchell, a recent addition to the æternity team, brings fresh insights\nand expertise to the forefront of the blockchain community. With a passion for technology and a\ndrive for innovation, Justin's presence signifies a new wave of energy and creativity within the\næternity ecosystem. As he embarks on this journey, his contributions are expected to play a pivotal\nrole in shaping the future development and growth of æternity, contributing to its ongoing success\nas a groundbreaking blockchain platform.</p>"
+      "raw": "\nJustin Mitchell has worked in low latency systems in traditional finance for over 20 years, of\nwhich, the last 15 years has been in systems developed in Erlang.\nJustin has now switched to blockchain technology and is working in the core.\n",
+      "html": "<p>Justin Mitchell has worked in low latency systems in traditional finance for over 20 years, of\nwhich, the last 15 years has been in systems developed in Erlang.\nJustin has now switched to blockchain technology and is working in the core.</p>"
     },
     "_id": "persons/1_Core_Justin_Mitchell.md",
     "_raw": {
@@ -212,7 +212,7 @@
     "index": 26,
     "name": "Peter Harpending",
     "position": "Core / Tooling",
-    "imageSrc": "/portraits/ae_logo.png",
+    "imageSrc": "/portraits/Peter_Harpending.jpg",
     "body": {
       "raw": "\nPeter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.\n",
       "html": "<p>Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.</p>"

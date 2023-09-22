@@ -1,7 +1,7 @@
 ---
 name: Peter Harpending
 position: Core / Tooling
-imageSrc: /portraits/ae_logo.png
+imageSrc: /portraits/Peter_Harpending.jpg
 index: 26
 ---
 

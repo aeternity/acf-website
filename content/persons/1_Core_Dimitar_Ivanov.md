@@ -5,11 +5,8 @@ imageSrc: /portraits/Dimitar.jpeg
 index: 11
 ---
 
-According to ChatGPT, Dimitar Ivanov is a notable member of the æternity core development team,
-contributing his expertise to drive innovation and progress within the blockchain ecosystem. With a
-strong background in technology and a deep understanding of blockchain systems, Dimitar plays a
-crucial role in shaping the evolution of the æternity platform. His involvement in various technical
-aspects, including protocol enhancements and smart contract functionality, reflects his dedication
-to advancing the capabilities and usability of the æternity blockchain. Through his contributions,
-Dimitar Ivanov helps maintain the platform's robustness and continues to be an asset to the ongoing
-development and success of æternity.
+Dimitar has been involved in aeternity since September 2017. He has actively contributed to the
+design, development, and optimization of the Aeternity platform, playing a pivotal role in shaping
+its technological advancements and ensuring its stability and security. He comes with a
+comprehensive understanding of decentralized systems, consensus algorithms, and cryptographic
+principles, combined with a passion for driving innovation in the blockchain space.
