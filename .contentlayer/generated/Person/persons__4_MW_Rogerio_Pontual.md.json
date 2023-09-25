@@ -2,10 +2,10 @@
   "index": 41,
   "name": "Rogerio Pontual",
   "position": "Middleware developer",
-  "imageSrc": "/portraits/ae_logo.png",
+  "imageSrc": "/portraits/rogerio.jpeg",
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "\nWith over two decades in software engineering, Rogerio has honed his skills in developing scalable\nand fault-tolerant systems. He contributes to the Aeternity Middleware with this focus while\nextending the availability of aggregated data specially in regards to fungible and non fungible\ntokens.\n",
+    "html": "<p>With over two decades in software engineering, Rogerio has honed his skills in developing scalable\nand fault-tolerant systems. He contributes to the Aeternity Middleware with this focus while\nextending the availability of aggregated data specially in regards to fungible and non fungible\ntokens.</p>"
   },
   "_id": "persons/4_MW_Rogerio_Pontual.md",
   "_raw": {

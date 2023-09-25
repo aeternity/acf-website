@@ -22,7 +22,7 @@
     "index": 1,
     "name": "Dr. Lydia Atanassova",
     "position": "Member of the Board",
-    "imageSrc": "/portraits/Lydia_Atanassova.png",
+    "imageSrc": "/portraits/Lydia_Atanassova.jpeg",
     "body": {
       "raw": "\nLydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.\n",
       "html": "<p>Lydia is a mathematician and a computer scientist. More than 20 Years she was working as an\nArchitect, Project Owner, Project Leader and Developer. Lydia was designing and building reporting,\naccounting and billing applications based on the principles of a Service-Oriented Architecture and\nthe JAVA technology. Lydia is inspired by the block change technology and looking forward to see\nthe new challenging applications running on the æternity platform.</p>"
@@ -193,10 +193,10 @@
     "index": 29,
     "name": "Jarvis Carroll",
     "position": "Core / Tooling",
-    "imageSrc": "/portraits/ae_logo.png",
+    "imageSrc": "/portraits/Jarvis.jpg",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "\nJarvis has experience in high performance programming, including work with the real-time\nneuroscience hardware used by the Australian startup Cortical Labs. He also has education in pure\nmathematics and programming languages through his bachelor of science, including an original\nresearch project into novel paradigms in quantum computation for which he earned First Class\nHonours. Since 2023 he has started working with the Aeternity Crypto Foundation to contribute to\ntooling and automatic optimization for the Sophia smart contract language, so that contract\nprogrammers can further benefit from the performance of Aeternity's cutting edge FATE virtual\nmachine.\n",
+      "html": "<p>Jarvis has experience in high performance programming, including work with the real-time\nneuroscience hardware used by the Australian startup Cortical Labs. He also has education in pure\nmathematics and programming languages through his bachelor of science, including an original\nresearch project into novel paradigms in quantum computation for which he earned First Class\nHonours. Since 2023 he has started working with the Aeternity Crypto Foundation to contribute to\ntooling and automatic optimization for the Sophia smart contract language, so that contract\nprogrammers can further benefit from the performance of Aeternity's cutting edge FATE virtual\nmachine.</p>"
     },
     "_id": "persons/2_Core_Jarvis_Carroll.md",
     "_raw": {
@@ -250,10 +250,10 @@
     "index": 41,
     "name": "Rogerio Pontual",
     "position": "Middleware developer",
-    "imageSrc": "/portraits/ae_logo.png",
+    "imageSrc": "/portraits/rogerio.jpeg",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "\nWith over two decades in software engineering, Rogerio has honed his skills in developing scalable\nand fault-tolerant systems. He contributes to the Aeternity Middleware with this focus while\nextending the availability of aggregated data specially in regards to fungible and non fungible\ntokens.\n",
+      "html": "<p>With over two decades in software engineering, Rogerio has honed his skills in developing scalable\nand fault-tolerant systems. He contributes to the Aeternity Middleware with this focus while\nextending the availability of aggregated data specially in regards to fungible and non fungible\ntokens.</p>"
     },
     "_id": "persons/4_MW_Rogerio_Pontual.md",
     "_raw": {

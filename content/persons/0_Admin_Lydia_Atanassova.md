@@ -1,7 +1,7 @@
 ---
 name: Dr. Lydia Atanassova
 position: Member of the Board
-imageSrc: /portraits/Lydia_Atanassova.png
+imageSrc: /portraits/Lydia_Atanassova.jpeg
 index: 1
 ---
 
