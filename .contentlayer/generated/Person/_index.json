@@ -138,8 +138,8 @@
     "position": "Core / Tooling",
     "imageSrc": "/portraits/Craig_Everett.jpg",
     "body": {
-      "raw": "\nCraig is a very mysterious guy and ChatGPT has no knowledge about him.\n",
-      "html": "<p>Craig is a very mysterious guy and ChatGPT has no knowledge about him.</p>"
+      "raw": "\nCraig joined the team from Japan in 2020 and has been contributing to the Aeternity core, developed\ntooling and libraries for interfacing with the blockchain, and has also been working on commercial\nprojects that use Aeternity as a payment system. His professional history is quite varied, with\nexperience spanning US Army Special Forces, strategic intelligence and training services, as well as\nsoftware development in video games, streaming services, databases and business software.\n",
+      "html": "<p>Craig joined the team from Japan in 2020 and has been contributing to the Aeternity core, developed\ntooling and libraries for interfacing with the blockchain, and has also been working on commercial\nprojects that use Aeternity as a payment system. His professional history is quite varied, with\nexperience spanning US Army Special Forces, strategic intelligence and training services, as well as\nsoftware development in video games, streaming services, databases and business software.</p>"
     },
     "_id": "persons/2_Core_Craig_Everett.md",
     "_raw": {
