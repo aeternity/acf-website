@@ -4,8 +4,8 @@
   "position": "Core / Tooling",
   "imageSrc": "/portraits/Gaith_Hallak.jpg",
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "\nGaith is the driving force behind the Sophia compiler’s development and maintenance since the summer\nof 2021. His notable contribution includes introducing the Sophia debugger as part of the Sophia\nREPL. Gaith is passionate about documenting and rigorously testing open-source software, emphasizing\nhigh-quality, and easily understandable code.\n",
+    "html": "<p>Gaith is the driving force behind the Sophia compiler’s development and maintenance since the summer\nof 2021. His notable contribution includes introducing the Sophia debugger as part of the Sophia\nREPL. Gaith is passionate about documenting and rigorously testing open-source software, emphasizing\nhigh-quality, and easily understandable code.</p>"
   },
   "_id": "persons/2_Core_Gaith_Hallak.md",
   "_raw": {
