@@ -2,10 +2,10 @@
   "index": 12,
   "name": "Sean Hinde",
   "position": "Core developer",
-  "imageSrc": "/portraits/ae_logo.png",
+  "imageSrc": "/portraits/Sean_Hinde.jpg",
   "body": {
-    "raw": "\nAccording to ChatGPT, Sean Hinde is a prominent figure in the æternity blockchain ecosystem,\ncontributing his expertise to drive innovation and growth. With a wealth of experience, Sean has\nplayed a key role in advancing blockchain technology, particularly in areas like smart contracts,\nscalability, and decentralized applications. His dedication and leadership have made a significant\nimpact on the evolution of the æternity platform, fostering a thriving community and pushing the\nboundaries of what's achievable in the blockchain space.\n",
-    "html": "<p>According to ChatGPT, Sean Hinde is a prominent figure in the æternity blockchain ecosystem,\ncontributing his expertise to drive innovation and growth. With a wealth of experience, Sean has\nplayed a key role in advancing blockchain technology, particularly in areas like smart contracts,\nscalability, and decentralized applications. His dedication and leadership have made a significant\nimpact on the evolution of the æternity platform, fostering a thriving community and pushing the\nboundaries of what's achievable in the blockchain space.</p>"
+    "raw": "\nSean is an experienced developer with a background in telecom, banking and blockchain. He has worked\nwith Erlang for many years.\nHe was previously a founder and CTO of Teclo Networks, building high speed software networking\nstacks.\n\nSean joined the Aeternity core team in 2021 and has worked on a range of features including the\nRosetta API for exchange integration, and Hyperchains.\n",
+    "html": "<p>Sean is an experienced developer with a background in telecom, banking and blockchain. He has worked\nwith Erlang for many years.\nHe was previously a founder and CTO of Teclo Networks, building high speed software networking\nstacks.</p>\n<p>Sean joined the Aeternity core team in 2021 and has worked on a range of features including the\nRosetta API for exchange integration, and Hyperchains.</p>"
   },
   "_id": "persons/1_Core_Sean_Hinde.md",
   "_raw": {
