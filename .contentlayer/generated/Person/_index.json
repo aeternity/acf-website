@@ -214,8 +214,8 @@
     "position": "Core / Tooling",
     "imageSrc": "/portraits/Peter_Harpending.jpg",
     "body": {
-      "raw": "\nPeter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.\n",
-      "html": "<p>Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some\nbackground in mathematics and in functional programming. He works closely with Craig Everett on an\ne-commerce store with æternity as the payment backend.</p>"
+      "raw": "\nPeter first started using Aeternity in early 2022 as part of a commercial project. He came to\nbelieve that Aeternity is by far the easiest and most robust electronic payment solution for the\nmajority of commercial use cases. Peter now works on tooling, libraries, and documentation, with the\ngoal of improving the overall quality of life for both end-users and developers interacting with\nAeternity. Peter has a background in pure mathematics and functional programming.\n",
+      "html": "<p>Peter first started using Aeternity in early 2022 as part of a commercial project. He came to\nbelieve that Aeternity is by far the easiest and most robust electronic payment solution for the\nmajority of commercial use cases. Peter now works on tooling, libraries, and documentation, with the\ngoal of improving the overall quality of life for both end-users and developers interacting with\nAeternity. Peter has a background in pure mathematics and functional programming.</p>"
     },
     "_id": "persons/2_Core_Peter_Harpending.md",
     "_raw": {

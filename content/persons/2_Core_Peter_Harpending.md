@@ -5,6 +5,8 @@ imageSrc: /portraits/Peter_Harpending.jpg
 index: 26
 ---
 
-Peter is just as mysterious as Craig and ChatGPT has no knowledge about him either. He has some
-background in mathematics and in functional programming. He works closely with Craig Everett on an
-e-commerce store with æternity as the payment backend.
+Peter first started using Aeternity in early 2022 as part of a commercial project. He came to
+believe that Aeternity is by far the easiest and most robust electronic payment solution for the
+majority of commercial use cases. Peter now works on tooling, libraries, and documentation, with the
+goal of improving the overall quality of life for both end-users and developers interacting with
+Aeternity. Peter has a background in pure mathematics and functional programming.
